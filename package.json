@@ -13,7 +13,9 @@
     "@vigolium/piolium": "0.0.13",
     "pi-fabric": "0.44.6",
     "pi-simplify": "0.2.3",
-    "pi-web-access": "0.20.0"
+    "pi-web-access": "0.20.0",
+    "pi-effort": "0.0.5",
+    "pi-zentui": "0.18.1"
   },
   "bundledDependencies": [
     "@dietrichgebert/ponytail",
@@ -25,7 +27,9 @@
     "@vigolium/piolium",
     "pi-fabric",
     "pi-simplify",
-    "pi-web-access"
+    "pi-web-access",
+    "pi-effort",
+    "pi-zentui"
   ],
   "pi": {
     "extensions": [
@@ -38,7 +42,9 @@
       "node_modules/pi-simplify/dist/index.js",
       "node_modules/@ff-labs/pi-fff/src/index.ts",
       "node_modules/@narumitw/pi-goal/src/index.ts",
-      "node_modules/pi-fabric/dist/index.js"
+      "node_modules/pi-fabric/dist/index.js",
+      "node_modules/pi-effort/index.ts",
+      "node_modules/pi-zentui/extensions"
     ],
     "skills": [
       "./skills",
