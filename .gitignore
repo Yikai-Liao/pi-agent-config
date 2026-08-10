@@ -1,0 +1,8 @@
+auth.json
+trust.json
+models-store.json
+sessions/
+npm/
+git/
+node_modules/
+*.log
