@@ -1,19 +1,16 @@
 # Pi Agent Config
 
-Personal Pi package for sharing reusable skills and settings across machines.
+Personal Pi package for sharing Pi extensions and skills across machines.
 
 ## Install
 
 ```sh
-git clone git@github.com:Yikai-Liao/pi-agent-config.git ~/pi-agent-config
-cd ~/pi-agent-config
-./setup.sh
+pi install git:github.com/Yikai-Liao/pi-agent-config
 ```
 
 ## What is tracked
 
 - `skills/`
-- `settings.json`
 - Pi package metadata
 - npm dependencies for these Pi packages:
   - `@vigolium/piolium`
@@ -31,4 +28,5 @@ cd ~/pi-agent-config
 
 - `~/.pi/agent/auth.json`
 - `~/.pi/agent/trust.json`
+- `~/.pi/agent/settings.json`
 - sessions, package caches, runtime model state
