@@ -10,7 +10,6 @@
     "@juicesharp/rpiv-todo": "2.4.0",
     "@narumitw/pi-goal": "0.50.0",
     "@plannotator/pi-extension": "0.26.7",
-    "@quintinshaw/pi-dynamic-workflows": "3.5.1",
     "@vigolium/piolium": "0.0.13",
     "pi-fabric": "0.44.6",
     "pi-simplify": "0.2.3",
@@ -23,7 +22,6 @@
     "@juicesharp/rpiv-todo",
     "@narumitw/pi-goal",
     "@plannotator/pi-extension",
-    "@quintinshaw/pi-dynamic-workflows",
     "@vigolium/piolium",
     "pi-fabric",
     "pi-simplify",
@@ -39,7 +37,6 @@
       "node_modules/@plannotator/pi-extension",
       "node_modules/pi-simplify/dist/index.js",
       "node_modules/@ff-labs/pi-fff/src/index.ts",
-      "node_modules/@quintinshaw/pi-dynamic-workflows/extensions/workflow.ts",
       "node_modules/@narumitw/pi-goal/src/index.ts",
       "node_modules/pi-fabric/dist/index.js"
     ],
@@ -47,8 +44,6 @@
       "./skills",
       "node_modules/@vigolium/piolium/skills",
       "node_modules/@dietrichgebert/ponytail/skills",
-      "node_modules/@quintinshaw/pi-dynamic-workflows/skills/workflow-authoring",
-      "node_modules/@quintinshaw/pi-dynamic-workflows/skills/workflow-patterns",
       "node_modules/pi-fabric/skills"
     ],
     "prompts": [

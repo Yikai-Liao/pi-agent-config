@@ -24,7 +24,6 @@ cd ~/pi-agent-config
   - `@plannotator/pi-extension`
   - `pi-simplify`
   - `@ff-labs/pi-fff`
-  - `@quintinshaw/pi-dynamic-workflows`
   - `@narumitw/pi-goal`
   - `pi-fabric`
 
