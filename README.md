@@ -19,7 +19,6 @@ pi install git:github.com/Yikai-Liao/pi-agent-config
   - `@juicesharp/rpiv-todo`
   - `@dietrichgebert/ponytail`
   - `@plannotator/pi-extension`
-  - `pi-simplify`
   - `@ff-labs/pi-fff`
   - `@narumitw/pi-goal`
   - `pi-fabric`
