@@ -15,7 +15,8 @@
     "pi-fabric": "0.44.6",
     "pi-web-access": "0.20.0",
     "pi-effort": "0.0.5",
-    "pi-zentui": "0.18.1"
+    "pi-zentui": "0.18.1",
+    "pi-agent-browser-native": "0.3.0"
   },
   "bundledDependencies": [
     "@dietrichgebert/ponytail",
@@ -29,7 +30,8 @@
     "pi-fabric",
     "pi-web-access",
     "pi-effort",
-    "pi-zentui"
+    "pi-zentui",
+    "pi-agent-browser-native"
   ],
   "pi": {
     "extensions": [
@@ -44,7 +46,8 @@
       "node_modules/@narumitw/pi-goal/src/index.ts",
       "node_modules/pi-fabric/dist/index.js",
       "node_modules/pi-effort/index.ts",
-      "node_modules/pi-zentui/extensions"
+      "node_modules/pi-zentui/extensions",
+      "node_modules/pi-agent-browser-native/dist/extensions/agent-browser/index.js"
     ],
     "skills": [
       "./skills",
