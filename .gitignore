@@ -6,3 +6,4 @@ npm/
 git/
 node_modules/
 *.log
+.removed-cloudflare-skills-backup
