@@ -2,7 +2,9 @@
   "name": "pi-agent-config",
   "version": "0.1.0",
   "private": true,
-  "keywords": ["pi-package"],
+  "keywords": [
+    "pi-package"
+  ],
   "dependencies": {
     "@dietrichgebert/ponytail": "4.9.0",
     "@ff-labs/pi-fff": "0.10.3",
@@ -12,11 +14,11 @@
     "@narumitw/pi-goal": "0.50.0",
     "@plannotator/pi-extension": "0.26.7",
     "@vigolium/piolium": "0.0.13",
-    "pi-fabric": "0.44.6",
-    "pi-web-access": "0.20.0",
+    "pi-agent-browser-native": "0.3.0",
     "pi-effort": "0.0.5",
-    "pi-zentui": "0.18.1",
-    "pi-agent-browser-native": "0.3.0"
+    "pi-subagents": "0.45.2",
+    "pi-web-access": "0.20.0",
+    "pi-zentui": "0.18.1"
   },
   "bundledDependencies": [
     "@dietrichgebert/ponytail",
@@ -27,7 +29,7 @@
     "@narumitw/pi-goal",
     "@plannotator/pi-extension",
     "@vigolium/piolium",
-    "pi-fabric",
+    "pi-subagents",
     "pi-web-access",
     "pi-effort",
     "pi-zentui",
@@ -44,7 +46,7 @@
       "node_modules/@ff-labs/pi-fff/src/index.ts",
       "node_modules/@narumitw/pi-btw",
       "node_modules/@narumitw/pi-goal/src/index.ts",
-      "node_modules/pi-fabric/dist/index.js",
+      "node_modules/pi-subagents/index.ts",
       "node_modules/pi-effort/index.ts",
       "node_modules/pi-zentui/extensions",
       "node_modules/pi-agent-browser-native/dist/extensions/agent-browser/index.js"
@@ -53,7 +55,7 @@
       "./skills",
       "node_modules/@vigolium/piolium/skills",
       "node_modules/@dietrichgebert/ponytail/skills",
-      "node_modules/pi-fabric/skills"
+      "node_modules/pi-subagents/skills"
     ],
     "prompts": [
       "node_modules/@vigolium/piolium/prompts"

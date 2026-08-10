@@ -22,7 +22,7 @@ pi install git:github.com/Yikai-Liao/pi-agent-config
   - `@ff-labs/pi-fff`
   - `@narumitw/pi-btw`
   - `@narumitw/pi-goal`
-  - `pi-fabric`
+  - `pi-subagents`
   - `pi-agent-browser-native`
 
 ## What stays local
