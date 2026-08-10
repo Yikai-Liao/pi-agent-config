@@ -15,6 +15,18 @@ cd ~/pi-agent-config
 - `skills/`
 - `settings.json`
 - Pi package metadata
+- npm dependencies for these Pi packages:
+  - `@vigolium/piolium`
+  - `pi-web-access`
+  - `@juicesharp/rpiv-ask-user-question`
+  - `@juicesharp/rpiv-todo`
+  - `@dietrichgebert/ponytail`
+  - `@plannotator/pi-extension`
+  - `pi-simplify`
+  - `@ff-labs/pi-fff`
+  - `@quintinshaw/pi-dynamic-workflows`
+  - `@narumitw/pi-goal`
+  - `pi-fabric`
 
 ## What stays local
 

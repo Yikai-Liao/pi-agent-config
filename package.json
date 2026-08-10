@@ -1,8 +1,61 @@
 {
   "name": "pi-agent-config",
+  "version": "0.1.0",
   "private": true,
   "keywords": ["pi-package"],
+  "dependencies": {
+    "@dietrichgebert/ponytail": "4.9.0",
+    "@ff-labs/pi-fff": "0.10.3",
+    "@juicesharp/rpiv-ask-user-question": "2.4.0",
+    "@juicesharp/rpiv-todo": "2.4.0",
+    "@narumitw/pi-goal": "0.50.0",
+    "@plannotator/pi-extension": "0.26.7",
+    "@quintinshaw/pi-dynamic-workflows": "3.5.1",
+    "@vigolium/piolium": "0.0.13",
+    "pi-fabric": "0.44.6",
+    "pi-simplify": "0.2.3",
+    "pi-web-access": "0.20.0"
+  },
+  "bundledDependencies": [
+    "@dietrichgebert/ponytail",
+    "@ff-labs/pi-fff",
+    "@juicesharp/rpiv-ask-user-question",
+    "@juicesharp/rpiv-todo",
+    "@narumitw/pi-goal",
+    "@plannotator/pi-extension",
+    "@quintinshaw/pi-dynamic-workflows",
+    "@vigolium/piolium",
+    "pi-fabric",
+    "pi-simplify",
+    "pi-web-access"
+  ],
   "pi": {
-    "skills": ["./skills"]
+    "extensions": [
+      "node_modules/@vigolium/piolium/extensions/piolium/index.ts",
+      "node_modules/pi-web-access/index.ts",
+      "node_modules/@juicesharp/rpiv-ask-user-question/index.ts",
+      "node_modules/@juicesharp/rpiv-todo/index.ts",
+      "node_modules/@dietrichgebert/ponytail/pi-extension/index.js",
+      "node_modules/@plannotator/pi-extension",
+      "node_modules/pi-simplify/dist/index.js",
+      "node_modules/@ff-labs/pi-fff/src/index.ts",
+      "node_modules/@quintinshaw/pi-dynamic-workflows/extensions/workflow.ts",
+      "node_modules/@narumitw/pi-goal/src/index.ts",
+      "node_modules/pi-fabric/dist/index.js"
+    ],
+    "skills": [
+      "./skills",
+      "node_modules/@vigolium/piolium/skills",
+      "node_modules/@dietrichgebert/ponytail/skills",
+      "node_modules/@quintinshaw/pi-dynamic-workflows/skills/workflow-authoring",
+      "node_modules/@quintinshaw/pi-dynamic-workflows/skills/workflow-patterns",
+      "node_modules/pi-fabric/skills"
+    ],
+    "prompts": [
+      "node_modules/@vigolium/piolium/prompts"
+    ],
+    "themes": [
+      "node_modules/@vigolium/piolium/themes"
+    ]
   }
 }
