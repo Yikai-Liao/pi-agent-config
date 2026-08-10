@@ -20,6 +20,7 @@ pi install git:github.com/Yikai-Liao/pi-agent-config
   - `@dietrichgebert/ponytail`
   - `@plannotator/pi-extension`
   - `@ff-labs/pi-fff`
+  - `@narumitw/pi-btw`
   - `@narumitw/pi-goal`
   - `pi-fabric`
 
