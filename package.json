@@ -10,10 +10,10 @@
     "@ff-labs/pi-fff": "0.10.3",
     "@juicesharp/rpiv-ask-user-question": "2.4.0",
     "@juicesharp/rpiv-todo": "2.4.0",
-    "@narumitw/pi-btw": "0.50.0",
+    "@juicesharp/rpiv-btw": "2.4.0",
     "@narumitw/pi-goal": "0.50.0",
     "@plannotator/pi-extension": "0.26.7",
-    "@vigolium/piolium": "0.0.13",
+    "pi-observational-memory": "3.0.3",
     "pi-agent-browser-native": "0.3.0",
     "pi-effort": "0.0.5",
     "pi-subagents": "0.45.2",
@@ -25,10 +25,10 @@
     "@ff-labs/pi-fff",
     "@juicesharp/rpiv-ask-user-question",
     "@juicesharp/rpiv-todo",
-    "@narumitw/pi-btw",
+    "@juicesharp/rpiv-btw",
     "@narumitw/pi-goal",
     "@plannotator/pi-extension",
-    "@vigolium/piolium",
+    "pi-observational-memory",
     "pi-subagents",
     "pi-web-access",
     "pi-effort",
@@ -37,15 +37,15 @@
   ],
   "pi": {
     "extensions": [
-      "node_modules/@vigolium/piolium/extensions/piolium/index.ts",
       "node_modules/pi-web-access/index.ts",
       "node_modules/@juicesharp/rpiv-ask-user-question/index.ts",
       "node_modules/@juicesharp/rpiv-todo/index.ts",
       "node_modules/@dietrichgebert/ponytail/pi-extension/index.js",
       "node_modules/@plannotator/pi-extension",
       "node_modules/@ff-labs/pi-fff/src/index.ts",
-      "node_modules/@narumitw/pi-btw",
+      "node_modules/@juicesharp/rpiv-btw/index.ts",
       "node_modules/@narumitw/pi-goal/src/index.ts",
+      "node_modules/pi-observational-memory/src/index.ts",
       "node_modules/pi-subagents/index.ts",
       "node_modules/pi-effort/index.ts",
       "node_modules/pi-zentui/extensions",
@@ -53,15 +53,8 @@
     ],
     "skills": [
       "./skills",
-      "node_modules/@vigolium/piolium/skills",
       "node_modules/@dietrichgebert/ponytail/skills",
       "node_modules/pi-subagents/skills"
-    ],
-    "prompts": [
-      "node_modules/@vigolium/piolium/prompts"
-    ],
-    "themes": [
-      "node_modules/@vigolium/piolium/themes"
     ]
   }
 }

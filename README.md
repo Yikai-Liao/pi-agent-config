@@ -13,17 +13,17 @@ pi install git:github.com/Yikai-Liao/pi-agent-config
 - `skills/`
 - Pi package metadata
 - npm dependencies for these Pi packages:
-  - `@vigolium/piolium`
   - `pi-web-access`
   - `@juicesharp/rpiv-ask-user-question`
   - `@juicesharp/rpiv-todo`
   - `@dietrichgebert/ponytail`
   - `@plannotator/pi-extension`
   - `@ff-labs/pi-fff`
-  - `@narumitw/pi-btw`
+  - `@juicesharp/rpiv-btw`
   - `@narumitw/pi-goal`
   - `pi-subagents`
   - `pi-agent-browser-native`
+  - `pi-observational-memory`
 
 ## What stays local
 
