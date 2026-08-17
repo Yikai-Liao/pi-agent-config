@@ -1,0 +1,5 @@
+allowBuilds:
+  '@google/genai': true
+  koffi: true
+  node-pty: true
+  protobufjs: true
