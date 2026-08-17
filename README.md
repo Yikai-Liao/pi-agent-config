@@ -21,6 +21,7 @@ pi install git:github.com/Yikai-Liao/pi-agent-config
   - `@ff-labs/pi-fff`
   - `@juicesharp/rpiv-btw`
   - `@narumitw/pi-goal`
+  - `@narumitw/pi-usage`
   - `pi-subagents`
   - `pi-agent-browser-native`
   - `pi-observational-memory`

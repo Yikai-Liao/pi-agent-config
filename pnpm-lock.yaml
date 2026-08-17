@@ -26,6 +26,9 @@ importers:
       '@narumitw/pi-goal':
         specifier: 0.51.0
         version: 0.51.0(@earendil-works/pi-ai@0.84.2(ws@8.21.3)(zod@4.4.3))(@earendil-works/pi-coding-agent@0.84.2(ws@8.21.3)(zod@4.4.3))(@earendil-works/pi-tui@0.84.2)(typebox@1.3.12)
+      '@narumitw/pi-usage':
+        specifier: 0.52.0
+        version: 0.52.0(@earendil-works/pi-ai@0.84.2(ws@8.21.3)(zod@4.4.3))(@earendil-works/pi-coding-agent@0.84.2(ws@8.21.3)(zod@4.4.3))(@earendil-works/pi-tui@0.84.2)
       '@plannotator/pi-extension':
         specifier: 0.27.3
         version: 0.27.3(@earendil-works/pi-coding-agent@0.84.2(ws@8.21.3)(zod@4.4.3))(@shikijs/themes@4.4.3)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
@@ -438,6 +441,12 @@ packages:
     peerDependencies:
       '@earendil-works/pi-coding-agent': '*'
       '@earendil-works/pi-tui': '*'
+
+  '@narumitw/pi-usage@0.52.0':
+    resolution: {integrity: sha512-CpG/duKoKEQjxSlvlOfi4wVU10/BNRWPV5dAQWG7Cm3hYCKYk/RC4Veyn9ro4Aj7DbXBoGX+MuPcab8KpuWS1A==}
+    peerDependencies:
+      '@earendil-works/pi-ai': '*'
+      '@earendil-works/pi-coding-agent': '*'
 
   '@opentelemetry/api@1.9.0':
     resolution: {integrity: sha512-3giAOQvZiH5F9bMlMiv8+GSPMeqg0dbaeo58/0SlA9sxSqZhnUtxzX9/2FzyhS9sWQf5S0GJE0AKBrFqjpeYcg==}
@@ -2533,6 +2542,14 @@ snapshots:
       '@earendil-works/pi-tui': 0.84.2
       '@narumitw/pi-tui-kit': 0.49.3(@earendil-works/pi-coding-agent@0.84.2(ws@8.21.3)(zod@4.4.3))(@earendil-works/pi-tui@0.84.2)
       typebox: 1.3.12
+
+  '@narumitw/pi-usage@0.52.0(@earendil-works/pi-ai@0.84.2(ws@8.21.3)(zod@4.4.3))(@earendil-works/pi-coding-agent@0.84.2(ws@8.21.3)(zod@4.4.3))(@earendil-works/pi-tui@0.84.2)':
+    dependencies:
+      '@earendil-works/pi-ai': 0.84.2(ws@8.21.3)(zod@4.4.3)
+      '@earendil-works/pi-coding-agent': 0.84.2(ws@8.21.3)(zod@4.4.3)
+      '@narumitw/pi-tui-kit': 0.49.3(@earendil-works/pi-coding-agent@0.84.2(ws@8.21.3)(zod@4.4.3))(@earendil-works/pi-tui@0.84.2)
+    transitivePeerDependencies:
+      - '@earendil-works/pi-tui'
 
   '@narumitw/pi-tui-kit@0.49.3(@earendil-works/pi-coding-agent@0.84.2(ws@8.21.3)(zod@4.4.3))(@earendil-works/pi-tui@0.84.2)':
     dependencies:
