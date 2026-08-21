@@ -9,17 +9,17 @@
   "dependencies": {
     "@dietrichgebert/ponytail": "4.9.0",
     "@ff-labs/pi-fff": "0.10.5",
-    "@juicesharp/rpiv-ask-user-question": "2.6.1",
-    "@juicesharp/rpiv-todo": "2.6.1",
-    "@juicesharp/rpiv-btw": "2.6.1",
-    "@narumitw/pi-goal": "0.51.0",
+    "@juicesharp/rpiv-ask-user-question": "2.6.2",
+    "@juicesharp/rpiv-todo": "2.6.2",
+    "@juicesharp/rpiv-btw": "2.6.2",
+    "@narumitw/pi-goal": "0.52.1",
     "@narumitw/pi-usage": "0.52.0",
     "@plannotator/pi-extension": "0.27.4",
     "pi-observational-memory": "3.0.4",
     "pi-agent-browser-native": "0.3.0",
     "pi-effort": "0.0.8",
-    "pi-subagents": "0.50.0",
-    "pi-web-access": "0.23.0",
+    "pi-subagents": "0.51.0",
+    "pi-web-access": "0.24.0",
     "pi-zentui": "0.20.1"
   },
   "bundledDependencies": [
