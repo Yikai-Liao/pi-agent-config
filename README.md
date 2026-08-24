@@ -19,7 +19,7 @@ pi install git:github.com/Yikai-Liao/pi-agent-config
   - `@dietrichgebert/ponytail`
   - `@plannotator/pi-extension`
   - `@ff-labs/pi-fff`
-  - `@juicesharp/rpiv-btw`
+  - `@narumitw/pi-btw`
   - `@narumitw/pi-goal`
   - `@narumitw/pi-usage`
   - `pi-subagents`
