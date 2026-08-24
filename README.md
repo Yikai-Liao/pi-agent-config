@@ -25,6 +25,11 @@ pi install git:github.com/Yikai-Liao/pi-agent-config
   - `pi-subagents`
   - `pi-agent-browser-native`
   - `pi-observational-memory`
+  - `open-zk-kb`
+
+## open-zk-kb prerequisite
+
+The integrated knowledge tools require [Bun](https://bun.sh) >= 1.0 on `PATH` for the local SQLite server. Restart Pi after installing this package, then run `knowledge-health` to verify the integration.
 
 ## What stays local
 
