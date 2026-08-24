@@ -2,7 +2,5 @@ allowBuilds:
   '@google/genai': true
   koffi: true
   node-pty: true
-  # open-zk-kb runs embeddings through ONNX WASM under Bun; skip unused native downloads.
-  onnxruntime-node: false
   protobufjs: true
   sharp: false

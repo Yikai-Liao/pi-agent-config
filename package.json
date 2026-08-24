@@ -15,10 +15,9 @@
     "@narumitw/pi-goal": "0.52.1",
     "@narumitw/pi-usage": "0.52.0",
     "@plannotator/pi-extension": "0.27.4",
-    "open-zk-kb": "1.4.4",
     "pi-agent-browser-native": "0.3.0",
     "pi-effort": "0.0.8",
-    "pi-observational-memory": "3.0.4",
+    "pi-smart-compact": "9.4.0",
     "pi-subagents": "0.51.0",
     "pi-web-access": "0.24.0",
     "pi-zentui": "0.20.1"
@@ -32,8 +31,7 @@
     "@narumitw/pi-goal",
     "@narumitw/pi-usage",
     "@plannotator/pi-extension",
-    "open-zk-kb",
-    "pi-observational-memory",
+    "pi-smart-compact",
     "pi-subagents",
     "pi-web-access",
     "pi-effort",
@@ -51,18 +49,16 @@
       "node_modules/@narumitw/pi-btw/dist/index.ts",
       "node_modules/@narumitw/pi-goal/src/index.ts",
       "node_modules/@narumitw/pi-usage/src/index.ts",
-      "node_modules/pi-observational-memory/src/index.ts",
+      "node_modules/pi-smart-compact/dist/index.js",
       "node_modules/pi-subagents/index.ts",
       "node_modules/pi-effort/index.ts",
       "node_modules/pi-zentui/extensions",
-      "node_modules/pi-agent-browser-native/dist/extensions/agent-browser/index.js",
-      "node_modules/open-zk-kb/dist/pi/extension.js"
+      "node_modules/pi-agent-browser-native/dist/extensions/agent-browser/index.js"
     ],
     "skills": [
       "./skills",
       "node_modules/@dietrichgebert/ponytail/skills",
-      "node_modules/pi-subagents/skills",
-      "node_modules/open-zk-kb/skills"
+      "node_modules/pi-subagents/skills"
     ]
   }
 }
