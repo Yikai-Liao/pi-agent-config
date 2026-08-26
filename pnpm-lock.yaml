@@ -24,17 +24,17 @@ importers:
         specifier: 0.55.1
         version: 0.55.1(@earendil-works/pi-ai@0.84.2(ws@8.21.3))(@earendil-works/pi-coding-agent@0.84.2(ws@8.21.3))(@earendil-works/pi-tui@0.84.2)
       '@narumitw/pi-goal':
-        specifier: 0.53.0
-        version: 0.53.0(@earendil-works/pi-ai@0.84.2(ws@8.21.3))(@earendil-works/pi-coding-agent@0.84.2(ws@8.21.3))(@earendil-works/pi-tui@0.84.2)(typebox@1.3.18)
+        specifier: 0.53.1
+        version: 0.53.1(@earendil-works/pi-ai@0.84.2(ws@8.21.3))(@earendil-works/pi-coding-agent@0.84.2(ws@8.21.3))(@earendil-works/pi-tui@0.84.2)(typebox@1.3.19)
       '@narumitw/pi-usage':
         specifier: 0.52.1
         version: 0.52.1(@earendil-works/pi-ai@0.84.2(ws@8.21.3))(@earendil-works/pi-coding-agent@0.84.2(ws@8.21.3))(@earendil-works/pi-tui@0.84.2)
       '@plannotator/pi-extension':
-        specifier: 0.27.6
-        version: 0.27.6(@earendil-works/pi-coding-agent@0.84.2(ws@8.21.3))(@shikijs/themes@4.4.3)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
+        specifier: 0.27.7
+        version: 0.27.7(@earendil-works/pi-coding-agent@0.84.2(ws@8.21.3))(@shikijs/themes@4.4.3)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
       pi-agent-browser-native:
         specifier: 0.5.0
-        version: 0.5.0(@earendil-works/pi-ai@0.84.2(ws@8.21.3))(@earendil-works/pi-coding-agent@0.84.2(ws@8.21.3))(@earendil-works/pi-tui@0.84.2)(typebox@1.3.18)
+        version: 0.5.0(@earendil-works/pi-ai@0.84.2(ws@8.21.3))(@earendil-works/pi-coding-agent@0.84.2(ws@8.21.3))(@earendil-works/pi-tui@0.84.2)(typebox@1.3.19)
       pi-effort:
         specifier: 0.0.8
         version: 0.0.8(@earendil-works/pi-ai@0.84.2(ws@8.21.3))(@earendil-works/pi-coding-agent@0.84.2(ws@8.21.3))
@@ -42,11 +42,11 @@ importers:
         specifier: 3.0.4
         version: 3.0.4(@earendil-works/pi-agent-core@0.84.2(ws@8.21.3))(@earendil-works/pi-ai@0.84.2(ws@8.21.3))(@earendil-works/pi-coding-agent@0.84.2(ws@8.21.3))(@earendil-works/pi-tui@0.84.2)
       pi-subagents:
-        specifier: 0.54.0
-        version: 0.54.0(@earendil-works/pi-agent-core@0.84.2(ws@8.21.3))(@earendil-works/pi-ai@0.84.2(ws@8.21.3))(@earendil-works/pi-coding-agent@0.84.2(ws@8.21.3))(@earendil-works/pi-tui@0.84.2)
+        specifier: 0.56.0
+        version: 0.56.0(@earendil-works/pi-agent-core@0.84.2(ws@8.21.3))(@earendil-works/pi-ai@0.84.2(ws@8.21.3))(@earendil-works/pi-coding-agent@0.84.2(ws@8.21.3))(@earendil-works/pi-tui@0.84.2)
       pi-web-access:
-        specifier: 0.24.1
-        version: 0.24.1(@earendil-works/pi-ai@0.84.2(ws@8.21.3))(@earendil-works/pi-coding-agent@0.84.2(ws@8.21.3))(@earendil-works/pi-tui@0.84.2)
+        specifier: 0.24.2
+        version: 0.24.2(@earendil-works/pi-ai@0.84.2(ws@8.21.3))(@earendil-works/pi-coding-agent@0.84.2(ws@8.21.3))(@earendil-works/pi-tui@0.84.2)
       pi-zentui:
         specifier: 0.20.2
         version: 0.20.2(@earendil-works/pi-ai@0.84.2(ws@8.21.3))(@earendil-works/pi-coding-agent@0.84.2(ws@8.21.3))(@earendil-works/pi-tui@0.84.2)
@@ -382,8 +382,8 @@ packages:
       '@earendil-works/pi-coding-agent': '*'
       '@earendil-works/pi-tui': '*'
 
-  '@narumitw/pi-goal@0.53.0':
-    resolution: {integrity: sha512-cmWowqAzlkgRLKYp2hFnUZvEEs6G6aGjEOazBWNW88T7LB9cd/AzOFOGYvA1QxxsGtIdOuFRZJVhfAJDGsAcjw==}
+  '@narumitw/pi-goal@0.53.1':
+    resolution: {integrity: sha512-MklepbN/37vWYn8wJ6Bx3E6hbeGsGhYyIVY+acqKuCGjU26ybcGyZkFykaHqRLh4H9l1qN1+Gm09MGjyHTP2Ow==}
     peerDependencies:
       '@earendil-works/pi-ai': '*'
       '@earendil-works/pi-coding-agent': '*'
@@ -442,8 +442,8 @@ packages:
       shiki:
         optional: true
 
-  '@plannotator/pi-extension@0.27.6':
-    resolution: {integrity: sha512-1VfGGe0hIBOyCe1+TdXU9EH4OrLCtw4fagw7P2QpJ1JgKldNnhPxyix+aAIjIqA3b9W9EQu/S4dL/YYhjmLcEg==}
+  '@plannotator/pi-extension@0.27.7':
+    resolution: {integrity: sha512-RrUzdFKmhJgxHanJrlfj+FyA3sQAr5+mWMFgWN2lNfQ7IY4XpeO5UKcJSHqEQ0rF62Rakd158oh4ZUjTOO7SEA==}
     peerDependencies:
       '@earendil-works/pi-coding-agent': '>=0.79.1'
 
@@ -1300,8 +1300,8 @@ packages:
       '@earendil-works/pi-coding-agent': '*'
       '@earendil-works/pi-tui': '*'
 
-  pi-subagents@0.54.0:
-    resolution: {integrity: sha512-U0RYNQQjtjOKtsMuZXXX+tOxbz+FNdMim0c4HHgGzXgplQqQhTiXzd1EVYdPY98cWfowHGHvf2kQxMLwKcCtww==}
+  pi-subagents@0.56.0:
+    resolution: {integrity: sha512-XBmKqvrj4mCVQ6/uXiPqCmzHxGfBB+jjwmfNR3El+IfhnaJwZ+W6evXYRI3lQEXe6Nf56xfzUXQExIzE8cT5BQ==}
     hasBin: true
     peerDependencies:
       '@earendil-works/pi-agent-core': '*'
@@ -1318,8 +1318,8 @@ packages:
       '@earendil-works/pi-tui':
         optional: true
 
-  pi-web-access@0.24.1:
-    resolution: {integrity: sha512-kNYVqPT2wbWbDKD2mfMsrCie1DyVsE/KYNVgpp7yqq072sG2PciKAB28PG4h0+klSO3MtCFRoPWAyA+l0CS7/A==}
+  pi-web-access@0.24.2:
+    resolution: {integrity: sha512-wpw1XJLITrLY5epZCjiGxdF75HlKgZTrK1UM3TG/AVRzRrFqvNoc4bLYaCFFjYUG8QNEo6dIpYbCJyAUkLz/QA==}
     peerDependencies:
       '@earendil-works/pi-ai': '*'
       '@earendil-works/pi-coding-agent': '*'
@@ -1495,8 +1495,11 @@ packages:
   typebox@1.3.16:
     resolution: {integrity: sha512-Jac8dgnin+g2p1w1v9sk92Wvp49ZqsmSgNhrXDK+RqrovsjiORMZvYZ8t8id9b9XQp6LMfaAwnIRSHGsM+3FMw==}
 
-  typebox@1.3.18:
-    resolution: {integrity: sha512-/wYPoDqxWZSxV/XD8Eskzr3YluXC9CaWJOuUYMkj+lLVLkyeEIQKzHvMuS/IRc3OLTIBC32LAtHgXo/WFEOMHQ==}
+  typebox@1.3.17:
+    resolution: {integrity: sha512-20PsSaZV1pN7pIfM/YEUHZNTv8X21+1ilPo/HN+6GtFbhCaQhLrIoKCkAkcBwIva3nYI+Ao0MxM1iDj5H3SOhw==}
+
+  typebox@1.3.19:
+    resolution: {integrity: sha512-OGhGi3JkTMol9QW8Bc6tgSD4ghV8v5WubAi1XeYnlxdocHvgS7TQJ8FcFZrQhVhigQU0z7bRFAEsZ+wpkRdCfg==}
 
   typebox@1.3.7:
     resolution: {integrity: sha512-meKuifc33Pccx0O6PdIzYMq3Og8zvP4TIi/a+Bw3AEMZMxOD0+RHGQvpglEe6Zdy3wZ8nqn/j95h8LUZLk/6Hg==}
@@ -2076,13 +2079,13 @@ snapshots:
       '@earendil-works/pi-tui': 0.84.2
       '@narumitw/pi-tui-kit': 0.57.1(@earendil-works/pi-coding-agent@0.84.2(ws@8.21.3))(@earendil-works/pi-tui@0.84.2)
 
-  '@narumitw/pi-goal@0.53.0(@earendil-works/pi-ai@0.84.2(ws@8.21.3))(@earendil-works/pi-coding-agent@0.84.2(ws@8.21.3))(@earendil-works/pi-tui@0.84.2)(typebox@1.3.18)':
+  '@narumitw/pi-goal@0.53.1(@earendil-works/pi-ai@0.84.2(ws@8.21.3))(@earendil-works/pi-coding-agent@0.84.2(ws@8.21.3))(@earendil-works/pi-tui@0.84.2)(typebox@1.3.19)':
     dependencies:
       '@earendil-works/pi-ai': 0.84.2(ws@8.21.3)
       '@earendil-works/pi-coding-agent': 0.84.2(ws@8.21.3)
       '@earendil-works/pi-tui': 0.84.2
       '@narumitw/pi-tui-kit': 0.57.1(@earendil-works/pi-coding-agent@0.84.2(ws@8.21.3))(@earendil-works/pi-tui@0.84.2)
-      typebox: 1.3.18
+      typebox: 1.3.19
 
   '@narumitw/pi-tui-kit@0.49.3(@earendil-works/pi-coding-agent@0.84.2(ws@8.21.3))(@earendil-works/pi-tui@0.84.2)':
     dependencies:
@@ -2131,7 +2134,7 @@ snapshots:
       react-dom: 19.2.8(react@19.2.8)
       shiki: 4.4.3
 
-  '@plannotator/pi-extension@0.27.6(@earendil-works/pi-coding-agent@0.84.2(ws@8.21.3))(@shikijs/themes@4.4.3)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)':
+  '@plannotator/pi-extension@0.27.7(@earendil-works/pi-coding-agent@0.84.2(ws@8.21.3))(@shikijs/themes@4.4.3)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)':
     dependencies:
       '@earendil-works/pi-coding-agent': 0.84.2(ws@8.21.3)
       '@joplin/turndown-plugin-gfm': 1.0.67
@@ -3070,12 +3073,12 @@ snapshots:
       lru-cache: 11.5.2
       minipass: 7.1.3
 
-  pi-agent-browser-native@0.5.0(@earendil-works/pi-ai@0.84.2(ws@8.21.3))(@earendil-works/pi-coding-agent@0.84.2(ws@8.21.3))(@earendil-works/pi-tui@0.84.2)(typebox@1.3.18):
+  pi-agent-browser-native@0.5.0(@earendil-works/pi-ai@0.84.2(ws@8.21.3))(@earendil-works/pi-coding-agent@0.84.2(ws@8.21.3))(@earendil-works/pi-tui@0.84.2)(typebox@1.3.19):
     optionalDependencies:
       '@earendil-works/pi-ai': 0.84.2(ws@8.21.3)
       '@earendil-works/pi-coding-agent': 0.84.2(ws@8.21.3)
       '@earendil-works/pi-tui': 0.84.2
-      typebox: 1.3.18
+      typebox: 1.3.19
 
   pi-effort@0.0.8(@earendil-works/pi-ai@0.84.2(ws@8.21.3))(@earendil-works/pi-coding-agent@0.84.2(ws@8.21.3)):
     dependencies:
@@ -3089,7 +3092,7 @@ snapshots:
       '@earendil-works/pi-coding-agent': 0.84.2(ws@8.21.3)
       '@earendil-works/pi-tui': 0.84.2
 
-  pi-subagents@0.54.0(@earendil-works/pi-agent-core@0.84.2(ws@8.21.3))(@earendil-works/pi-ai@0.84.2(ws@8.21.3))(@earendil-works/pi-coding-agent@0.84.2(ws@8.21.3))(@earendil-works/pi-tui@0.84.2):
+  pi-subagents@0.56.0(@earendil-works/pi-agent-core@0.84.2(ws@8.21.3))(@earendil-works/pi-ai@0.84.2(ws@8.21.3))(@earendil-works/pi-coding-agent@0.84.2(ws@8.21.3))(@earendil-works/pi-tui@0.84.2):
     dependencies:
       acorn: 8.18.0
       jiti: 2.7.0
@@ -3101,7 +3104,7 @@ snapshots:
       '@earendil-works/pi-coding-agent': 0.84.2(ws@8.21.3)
       '@earendil-works/pi-tui': 0.84.2
 
-  pi-web-access@0.24.1(@earendil-works/pi-ai@0.84.2(ws@8.21.3))(@earendil-works/pi-coding-agent@0.84.2(ws@8.21.3))(@earendil-works/pi-tui@0.84.2):
+  pi-web-access@0.24.2(@earendil-works/pi-ai@0.84.2(ws@8.21.3))(@earendil-works/pi-coding-agent@0.84.2(ws@8.21.3))(@earendil-works/pi-tui@0.84.2):
     dependencies:
       '@earendil-works/pi-ai': 0.84.2(ws@8.21.3)
       '@earendil-works/pi-coding-agent': 0.84.2(ws@8.21.3)
@@ -3111,7 +3114,7 @@ snapshots:
       p-limit: 6.2.0
       promise.try: 2.0.1
       turndown: 7.2.4
-      typebox: 1.3.16
+      typebox: 1.3.17
       undici: 8.10.0
       unpdf: 1.8.1
     transitivePeerDependencies:
@@ -3342,7 +3345,9 @@ snapshots:
 
   typebox@1.3.16: {}
 
-  typebox@1.3.18: {}
+  typebox@1.3.17: {}
+
+  typebox@1.3.19: {}
 
   typebox@1.3.7: {}
 
