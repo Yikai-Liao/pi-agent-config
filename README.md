@@ -24,7 +24,6 @@ pi install git:github.com/Yikai-Liao/pi-agent-config
   - `@narumitw/pi-usage`
   - `pi-subagents`
   - `pi-agent-browser-native`
-  - `pi-observational-memory`
   - `open-zk-kb`
 
 ## open-zk-kb prerequisite

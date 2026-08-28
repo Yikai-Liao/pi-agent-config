@@ -41,9 +41,6 @@ importers:
       pi-effort:
         specifier: 0.0.8
         version: 0.0.8(@earendil-works/pi-ai@0.84.2(@modelcontextprotocol/sdk@1.30.0(zod@4.4.3))(ws@8.21.3)(zod@4.4.3))(@earendil-works/pi-coding-agent@0.84.2(@modelcontextprotocol/sdk@1.30.0(zod@4.4.3))(ws@8.21.3)(zod@4.4.3))
-      pi-observational-memory:
-        specifier: 3.0.4
-        version: 3.0.4(@earendil-works/pi-agent-core@0.84.2(@modelcontextprotocol/sdk@1.30.0(zod@4.4.3))(ws@8.21.3)(zod@4.4.3))(@earendil-works/pi-ai@0.84.2(@modelcontextprotocol/sdk@1.30.0(zod@4.4.3))(ws@8.21.3)(zod@4.4.3))(@earendil-works/pi-coding-agent@0.84.2(@modelcontextprotocol/sdk@1.30.0(zod@4.4.3))(ws@8.21.3)(zod@4.4.3))(@earendil-works/pi-tui@0.84.2)
       pi-subagents:
         specifier: 0.51.0
         version: 0.51.0(@earendil-works/pi-agent-core@0.84.2(@modelcontextprotocol/sdk@1.30.0(zod@4.4.3))(ws@8.21.3)(zod@4.4.3))(@earendil-works/pi-ai@0.84.2(@modelcontextprotocol/sdk@1.30.0(zod@4.4.3))(ws@8.21.3)(zod@4.4.3))(@earendil-works/pi-coding-agent@0.84.2(@modelcontextprotocol/sdk@1.30.0(zod@4.4.3))(ws@8.21.3)(zod@4.4.3))(@earendil-works/pi-tui@0.84.2)
@@ -1913,14 +1910,6 @@ packages:
     peerDependencies:
       '@earendil-works/pi-ai': '>=0.84.0 <1.0.0'
       '@earendil-works/pi-coding-agent': '>=0.84.0 <1.0.0'
-
-  pi-observational-memory@3.0.4:
-    resolution: {integrity: sha512-nxuhNbZf99YbGfhDX25Nl7BjPOY8H9Z2holhDsYZiI5jgsOgGSvwKssaTqNxwYZmR8c8l1g7/eNr9O96mbDpmg==}
-    peerDependencies:
-      '@earendil-works/pi-agent-core': '*'
-      '@earendil-works/pi-ai': '*'
-      '@earendil-works/pi-coding-agent': '*'
-      '@earendil-works/pi-tui': '*'
 
   pi-subagents@0.51.0:
     resolution: {integrity: sha512-qC9ndnMbuHefE6mGS2k69jP4htgbiQQG5jGnwCuKyK/pMcz5RFZ5nChrJ6JxPOBlpmVxsQzW27MCh0HDJCXxsA==}
@@ -4529,13 +4518,6 @@ snapshots:
     dependencies:
       '@earendil-works/pi-ai': 0.84.2(@modelcontextprotocol/sdk@1.30.0(zod@4.4.3))(ws@8.21.3)(zod@4.4.3)
       '@earendil-works/pi-coding-agent': 0.84.2(@modelcontextprotocol/sdk@1.30.0(zod@4.4.3))(ws@8.21.3)(zod@4.4.3)
-
-  pi-observational-memory@3.0.4(@earendil-works/pi-agent-core@0.84.2(@modelcontextprotocol/sdk@1.30.0(zod@4.4.3))(ws@8.21.3)(zod@4.4.3))(@earendil-works/pi-ai@0.84.2(@modelcontextprotocol/sdk@1.30.0(zod@4.4.3))(ws@8.21.3)(zod@4.4.3))(@earendil-works/pi-coding-agent@0.84.2(@modelcontextprotocol/sdk@1.30.0(zod@4.4.3))(ws@8.21.3)(zod@4.4.3))(@earendil-works/pi-tui@0.84.2):
-    dependencies:
-      '@earendil-works/pi-agent-core': 0.84.2(@modelcontextprotocol/sdk@1.30.0(zod@4.4.3))(ws@8.21.3)(zod@4.4.3)
-      '@earendil-works/pi-ai': 0.84.2(@modelcontextprotocol/sdk@1.30.0(zod@4.4.3))(ws@8.21.3)(zod@4.4.3)
-      '@earendil-works/pi-coding-agent': 0.84.2(@modelcontextprotocol/sdk@1.30.0(zod@4.4.3))(ws@8.21.3)(zod@4.4.3)
-      '@earendil-works/pi-tui': 0.84.2
 
   pi-subagents@0.51.0(@earendil-works/pi-agent-core@0.84.2(@modelcontextprotocol/sdk@1.30.0(zod@4.4.3))(ws@8.21.3)(zod@4.4.3))(@earendil-works/pi-ai@0.84.2(@modelcontextprotocol/sdk@1.30.0(zod@4.4.3))(ws@8.21.3)(zod@4.4.3))(@earendil-works/pi-coding-agent@0.84.2(@modelcontextprotocol/sdk@1.30.0(zod@4.4.3))(ws@8.21.3)(zod@4.4.3))(@earendil-works/pi-tui@0.84.2):
     dependencies:

@@ -18,7 +18,6 @@
     "open-zk-kb": "1.4.4",
     "pi-agent-browser-native": "0.3.0",
     "pi-effort": "0.0.8",
-    "pi-observational-memory": "3.0.4",
     "pi-subagents": "0.51.0",
     "pi-web-access": "0.24.0",
     "pi-zentui": "0.20.1"
@@ -33,7 +32,6 @@
     "@narumitw/pi-usage",
     "@plannotator/pi-extension",
     "open-zk-kb",
-    "pi-observational-memory",
     "pi-subagents",
     "pi-web-access",
     "pi-effort",
@@ -51,7 +49,6 @@
       "node_modules/@narumitw/pi-btw/dist/index.ts",
       "node_modules/@narumitw/pi-goal/src/index.ts",
       "node_modules/@narumitw/pi-usage/src/index.ts",
-      "node_modules/pi-observational-memory/src/index.ts",
       "node_modules/pi-subagents/index.ts",
       "node_modules/pi-effort/index.ts",
       "node_modules/pi-zentui/extensions",
