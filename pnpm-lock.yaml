@@ -19,34 +19,34 @@ importers:
         version: 2.7.1(@earendil-works/pi-coding-agent@0.84.2(ws@8.21.3))(@earendil-works/pi-tui@0.84.2)
       '@juicesharp/rpiv-todo':
         specifier: 2.7.1
-        version: 2.7.1(@earendil-works/pi-ai@0.84.2(ws@8.21.3))(@earendil-works/pi-coding-agent@0.84.2(ws@8.21.3))(@earendil-works/pi-tui@0.84.2)
+        version: 2.7.1(@earendil-works/pi-ai@0.84.3(ws@8.21.3))(@earendil-works/pi-coding-agent@0.84.2(ws@8.21.3))(@earendil-works/pi-tui@0.84.2)
       '@narumitw/pi-btw':
-        specifier: 0.55.1
-        version: 0.55.1(@earendil-works/pi-ai@0.84.2(ws@8.21.3))(@earendil-works/pi-coding-agent@0.84.2(ws@8.21.3))(@earendil-works/pi-tui@0.84.2)
+        specifier: 0.55.3
+        version: 0.55.3(@earendil-works/pi-ai@0.84.3(ws@8.21.3))(@earendil-works/pi-coding-agent@0.84.2(ws@8.21.3))(@earendil-works/pi-tui@0.84.2)
       '@narumitw/pi-goal':
-        specifier: 0.53.1
-        version: 0.53.1(@earendil-works/pi-ai@0.84.2(ws@8.21.3))(@earendil-works/pi-coding-agent@0.84.2(ws@8.21.3))(@earendil-works/pi-tui@0.84.2)(typebox@1.3.19)
+        specifier: 0.54.0
+        version: 0.54.0(@earendil-works/pi-ai@0.84.3(ws@8.21.3))(@earendil-works/pi-coding-agent@0.84.2(ws@8.21.3))(@earendil-works/pi-tui@0.84.2)(typebox@1.3.19)
       '@narumitw/pi-usage':
-        specifier: 0.52.1
-        version: 0.52.1(@earendil-works/pi-ai@0.84.2(ws@8.21.3))(@earendil-works/pi-coding-agent@0.84.2(ws@8.21.3))(@earendil-works/pi-tui@0.84.2)
+        specifier: 0.52.2
+        version: 0.52.2(@earendil-works/pi-ai@0.84.3(ws@8.21.3))(@earendil-works/pi-coding-agent@0.84.2(ws@8.21.3))(@earendil-works/pi-tui@0.84.2)
       '@plannotator/pi-extension':
         specifier: 0.27.8
         version: 0.27.8(@earendil-works/pi-coding-agent@0.84.2(ws@8.21.3))(@shikijs/themes@4.4.3)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
       pi-agent-browser-native:
         specifier: 0.5.0
-        version: 0.5.0(@earendil-works/pi-ai@0.84.2(ws@8.21.3))(@earendil-works/pi-coding-agent@0.84.2(ws@8.21.3))(@earendil-works/pi-tui@0.84.2)(typebox@1.3.19)
+        version: 0.5.0(@earendil-works/pi-ai@0.84.3(ws@8.21.3))(@earendil-works/pi-coding-agent@0.84.2(ws@8.21.3))(@earendil-works/pi-tui@0.84.2)(typebox@1.3.19)
       pi-effort:
         specifier: 0.0.8
-        version: 0.0.8(@earendil-works/pi-ai@0.84.2(ws@8.21.3))(@earendil-works/pi-coding-agent@0.84.2(ws@8.21.3))
+        version: 0.0.8(@earendil-works/pi-ai@0.84.3(ws@8.21.3))(@earendil-works/pi-coding-agent@0.84.2(ws@8.21.3))
       pi-subagents:
         specifier: 0.56.0
-        version: 0.56.0(@earendil-works/pi-agent-core@0.84.2(ws@8.21.3))(@earendil-works/pi-ai@0.84.2(ws@8.21.3))(@earendil-works/pi-coding-agent@0.84.2(ws@8.21.3))(@earendil-works/pi-tui@0.84.2)
+        version: 0.56.0(@earendil-works/pi-agent-core@0.84.3(ws@8.21.3))(@earendil-works/pi-ai@0.84.3(ws@8.21.3))(@earendil-works/pi-coding-agent@0.84.2(ws@8.21.3))(@earendil-works/pi-tui@0.84.2)
       pi-web-access:
         specifier: 0.24.2
-        version: 0.24.2(@earendil-works/pi-ai@0.84.2(ws@8.21.3))(@earendil-works/pi-coding-agent@0.84.2(ws@8.21.3))(@earendil-works/pi-tui@0.84.2)
+        version: 0.24.2(@earendil-works/pi-ai@0.84.3(ws@8.21.3))(@earendil-works/pi-coding-agent@0.84.2(ws@8.21.3))(@earendil-works/pi-tui@0.84.2)
       pi-zentui:
         specifier: 0.20.2
-        version: 0.20.2(@earendil-works/pi-ai@0.84.2(ws@8.21.3))(@earendil-works/pi-coding-agent@0.84.2(ws@8.21.3))(@earendil-works/pi-tui@0.84.2)
+        version: 0.20.2(@earendil-works/pi-ai@0.84.3(ws@8.21.3))(@earendil-works/pi-coding-agent@0.84.2(ws@8.21.3))(@earendil-works/pi-tui@0.84.2)
 
 packages:
 
@@ -163,12 +163,12 @@ packages:
   '@dietrichgebert/ponytail@4.9.0':
     resolution: {integrity: sha512-OSdybtBZ3uDd5m/+zyz4h8/+BVBR9nGFhqTDmQkQb1v7k4Vfc1qql78naY64UjocdBPqR94htZEkKu2wpKTJaw==}
 
-  '@earendil-works/pi-agent-core@0.84.2':
-    resolution: {integrity: sha512-8Pn3wSCxj0cfo5I6jxQYVB/3uuQRmHhAlEclyjqpOuMEdQMIODHizRogv56FLdbU+dTiGnybeHQ2N+sV1/L2YA==}
+  '@earendil-works/pi-agent-core@0.84.3':
+    resolution: {integrity: sha512-VURr+xBRl3RxYcw3kT9Pn3yfi6LbRoCJgHF7h1mAblMjtLNV/MfG/RyF0uJizBAM886AEakSiw3j9c/aSngppg==}
     engines: {node: '>=22.19.0'}
 
-  '@earendil-works/pi-ai@0.84.2':
-    resolution: {integrity: sha512-6MzsrYIYNVlE7SfpbL2yYb67Qo58p/7Q+xWG1RZvoX1P80aRCHSod2/13aFpxkow1lPO2LEh3c495J0Gwmyjig==}
+  '@earendil-works/pi-ai@0.84.3':
+    resolution: {integrity: sha512-M0YUV8vNO3y2WwWSyY8ijKJV5W4gkSUixuvk+Z00ZBjsyMfsdXfITsHEwP1UIf09YRWXT6oGn0GlCamt+P32XQ==}
     engines: {node: '>=22.19.0'}
     hasBin: true
 
@@ -372,15 +372,15 @@ packages:
     resolution: {integrity: sha512-juG5VWh4qAivzTAeMzvY9xs9HY5rAcr2E4I7tiSSCokRFi7XIZCAu92ZkSTsIj1OPceCifL3cpfteP3pDT9/QQ==}
     engines: {node: '>=14.0.0'}
 
-  '@narumitw/pi-btw@0.55.1':
-    resolution: {integrity: sha512-7xIr1f+q2uhvxTbEVzLKzbwt7x6NOPCWM8OQWo8GceqCOruGwjMLfNmznEbobXWAXQBn1IlTVVhewSDFYmiOYw==}
+  '@narumitw/pi-btw@0.55.3':
+    resolution: {integrity: sha512-+rqwFMS7ACuEdvPSsL1g9erfjfo2SV8dCudkKCGjgGFq7MtyQ9+2cl8iPBaMec1ydVG4Reesx0CnayNXJyjT0Q==}
     peerDependencies:
       '@earendil-works/pi-ai': '*'
       '@earendil-works/pi-coding-agent': '*'
       '@earendil-works/pi-tui': '*'
 
-  '@narumitw/pi-goal@0.53.1':
-    resolution: {integrity: sha512-MklepbN/37vWYn8wJ6Bx3E6hbeGsGhYyIVY+acqKuCGjU26ybcGyZkFykaHqRLh4H9l1qN1+Gm09MGjyHTP2Ow==}
+  '@narumitw/pi-goal@0.54.0':
+    resolution: {integrity: sha512-oAkU4OQ4yETA5vy/4cpYt5VHXFD9mGDdCdCXqQhZTfyzoU2xqfojthLMRG4s7QhKNFyN0cT4BpJjUdeR9LV2GQ==}
     peerDependencies:
       '@earendil-works/pi-ai': '*'
       '@earendil-works/pi-coding-agent': '*'
@@ -393,21 +393,17 @@ packages:
       '@earendil-works/pi-coding-agent': '*'
       '@earendil-works/pi-tui': '*'
 
-  '@narumitw/pi-tui-kit@0.57.1':
-    resolution: {integrity: sha512-nQAL9Gie3e6JslPk1o5bKoH/2EVthsbnhI666f4sD2lWbLKpAzoPg2ySw653IOiBWbSgk2joTQA8H1h/bamJew==}
+  '@narumitw/pi-tui-kit@0.58.1':
+    resolution: {integrity: sha512-2ufyiRV45ut3N8QzHdG0chTIwc6mPShjI15woDIBUGWrOXx25K8znC1+MSTDFmySK1pfysghvecS0ub5E32ywA==}
     peerDependencies:
       '@earendil-works/pi-coding-agent': '*'
       '@earendil-works/pi-tui': '*'
 
-  '@narumitw/pi-usage@0.52.1':
-    resolution: {integrity: sha512-l1wK6CHThRzJEPyVT6vbv6LGCz72O6VwaYJwpKOPUcZm34MWlyo+3o+s1MY1QhGJ70kPsywcsfhXm1BHuaqy9w==}
+  '@narumitw/pi-usage@0.52.2':
+    resolution: {integrity: sha512-AHWAg+xI+h/tVV6jaVFe1fCS9J+ExKcxdsXnn4zXQktbZw8tVr9hXCoA0Sq+S8laWpjE5tu216jtoIb50eaecw==}
     peerDependencies:
       '@earendil-works/pi-ai': '*'
       '@earendil-works/pi-coding-agent': '*'
-
-  '@opentelemetry/api@1.9.0':
-    resolution: {integrity: sha512-3giAOQvZiH5F9bMlMiv8+GSPMeqg0dbaeo58/0SlA9sxSqZhnUtxzX9/2FzyhS9sWQf5S0GJE0AKBrFqjpeYcg==}
-    engines: {node: '>=8.0.0'}
 
   '@pierre/diffs@1.3.2':
     resolution: {integrity: sha512-+aSaxN/fGwmegUF/UVkXOOA8Run+sYOqhqTc1JvlieoYXsW/9KykOIR88FvgXjesI0MGZJLsX8dthn3+x2kymA==}
@@ -939,10 +935,6 @@ packages:
   google-logging-utils@1.1.3:
     resolution: {integrity: sha512-eAmLkjDjAFCVXg7A1unxHsLf961m6y17QFqXqAXGj/gVkKFrEICfStRfwUlGNfeCEjNRa32JEWOUTlYXPyyKvA==}
     engines: {node: '>=14'}
-
-  google-logging-utils@1.2.0:
-    resolution: {integrity: sha512-WE9av4wKDZgRjBwgVUabocx8T6/7o3Ca1Fat46FXDhXVAFibzNadedcOXrdgd1Kzmk8tsk/9ZH89Wyf/SqeZ3A==}
-    engines: {node: '>=18'}
 
   gopd@1.2.0:
     resolution: {integrity: sha512-ZUKRh6/kUFoAiTAtTYPZJ3hw9wNxx+BIBOijnlG9PnrJsCcSjs1wyyD6vJpaYtgnzDrKYRSqf3OO6Rfa93xsRg==}
@@ -1660,7 +1652,7 @@ snapshots:
       '@aws-sdk/types': 3.974.5
       '@smithy/core': 3.33.3
       '@smithy/fetch-http-handler': 5.7.2
-      '@smithy/node-http-handler': 4.11.3
+      '@smithy/node-http-handler': 4.7.3
       '@smithy/types': 4.17.2
       tslib: 2.8.1
 
@@ -1839,9 +1831,9 @@ snapshots:
 
   '@dietrichgebert/ponytail@4.9.0': {}
 
-  '@earendil-works/pi-agent-core@0.84.2(ws@8.21.3)':
+  '@earendil-works/pi-agent-core@0.84.3(ws@8.21.3)':
     dependencies:
-      '@earendil-works/pi-ai': 0.84.2(ws@8.21.3)
+      '@earendil-works/pi-ai': 0.84.3(ws@8.21.3)
       '@earendil-works/pi-telemetry': 0.84.3
       diff: 8.0.4
       ignore: 7.0.5
@@ -1855,13 +1847,12 @@ snapshots:
       - ws
       - zod
 
-  '@earendil-works/pi-ai@0.84.2(ws@8.21.3)':
+  '@earendil-works/pi-ai@0.84.3(ws@8.21.3)':
     dependencies:
       '@anthropic-ai/sdk': 0.91.1
       '@aws-sdk/client-bedrock-runtime': 3.1048.0
       '@earendil-works/pi-telemetry': 0.84.3
       '@google/genai': 1.52.0
-      '@opentelemetry/api': 1.9.0
       '@smithy/node-http-handler': 4.7.3
       http-proxy-agent: 7.0.2
       https-proxy-agent: 7.0.6
@@ -1882,8 +1873,8 @@ snapshots:
 
   '@earendil-works/pi-coding-agent@0.84.2(ws@8.21.3)':
     dependencies:
-      '@earendil-works/pi-agent-core': 0.84.2(ws@8.21.3)
-      '@earendil-works/pi-ai': 0.84.2(ws@8.21.3)
+      '@earendil-works/pi-agent-core': 0.84.3(ws@8.21.3)
+      '@earendil-works/pi-ai': 0.84.3(ws@8.21.3)
       '@earendil-works/pi-client': 0.84.3
       '@earendil-works/pi-protocol': 0.84.3
       '@earendil-works/pi-tui': 0.84.2
@@ -2009,9 +2000,9 @@ snapshots:
     dependencies:
       typebox: 1.3.18
 
-  '@juicesharp/rpiv-todo@2.7.1(@earendil-works/pi-ai@0.84.2(ws@8.21.3))(@earendil-works/pi-coding-agent@0.84.2(ws@8.21.3))(@earendil-works/pi-tui@0.84.2)':
+  '@juicesharp/rpiv-todo@2.7.1(@earendil-works/pi-ai@0.84.3(ws@8.21.3))(@earendil-works/pi-coding-agent@0.84.2(ws@8.21.3))(@earendil-works/pi-tui@0.84.2)':
     dependencies:
-      '@earendil-works/pi-ai': 0.84.2(ws@8.21.3)
+      '@earendil-works/pi-ai': 0.84.3(ws@8.21.3)
       '@earendil-works/pi-coding-agent': 0.84.2(ws@8.21.3)
       '@earendil-works/pi-tui': 0.84.2
       '@juicesharp/rpiv-config': 2.7.1
@@ -2065,19 +2056,19 @@ snapshots:
 
   '@mozilla/readability@0.6.0': {}
 
-  '@narumitw/pi-btw@0.55.1(@earendil-works/pi-ai@0.84.2(ws@8.21.3))(@earendil-works/pi-coding-agent@0.84.2(ws@8.21.3))(@earendil-works/pi-tui@0.84.2)':
+  '@narumitw/pi-btw@0.55.3(@earendil-works/pi-ai@0.84.3(ws@8.21.3))(@earendil-works/pi-coding-agent@0.84.2(ws@8.21.3))(@earendil-works/pi-tui@0.84.2)':
     dependencies:
-      '@earendil-works/pi-ai': 0.84.2(ws@8.21.3)
+      '@earendil-works/pi-ai': 0.84.3(ws@8.21.3)
       '@earendil-works/pi-coding-agent': 0.84.2(ws@8.21.3)
       '@earendil-works/pi-tui': 0.84.2
-      '@narumitw/pi-tui-kit': 0.57.1(@earendil-works/pi-coding-agent@0.84.2(ws@8.21.3))(@earendil-works/pi-tui@0.84.2)
+      '@narumitw/pi-tui-kit': 0.58.1(@earendil-works/pi-coding-agent@0.84.2(ws@8.21.3))(@earendil-works/pi-tui@0.84.2)
 
-  '@narumitw/pi-goal@0.53.1(@earendil-works/pi-ai@0.84.2(ws@8.21.3))(@earendil-works/pi-coding-agent@0.84.2(ws@8.21.3))(@earendil-works/pi-tui@0.84.2)(typebox@1.3.19)':
+  '@narumitw/pi-goal@0.54.0(@earendil-works/pi-ai@0.84.3(ws@8.21.3))(@earendil-works/pi-coding-agent@0.84.2(ws@8.21.3))(@earendil-works/pi-tui@0.84.2)(typebox@1.3.19)':
     dependencies:
-      '@earendil-works/pi-ai': 0.84.2(ws@8.21.3)
+      '@earendil-works/pi-ai': 0.84.3(ws@8.21.3)
       '@earendil-works/pi-coding-agent': 0.84.2(ws@8.21.3)
       '@earendil-works/pi-tui': 0.84.2
-      '@narumitw/pi-tui-kit': 0.57.1(@earendil-works/pi-coding-agent@0.84.2(ws@8.21.3))(@earendil-works/pi-tui@0.84.2)
+      '@narumitw/pi-tui-kit': 0.58.1(@earendil-works/pi-coding-agent@0.84.2(ws@8.21.3))(@earendil-works/pi-tui@0.84.2)
       typebox: 1.3.19
 
   '@narumitw/pi-tui-kit@0.49.3(@earendil-works/pi-coding-agent@0.84.2(ws@8.21.3))(@earendil-works/pi-tui@0.84.2)':
@@ -2086,22 +2077,20 @@ snapshots:
       '@earendil-works/pi-tui': 0.84.2
       highlight.js: 11.11.1
 
-  '@narumitw/pi-tui-kit@0.57.1(@earendil-works/pi-coding-agent@0.84.2(ws@8.21.3))(@earendil-works/pi-tui@0.84.2)':
+  '@narumitw/pi-tui-kit@0.58.1(@earendil-works/pi-coding-agent@0.84.2(ws@8.21.3))(@earendil-works/pi-tui@0.84.2)':
     dependencies:
       '@earendil-works/pi-coding-agent': 0.84.2(ws@8.21.3)
       '@earendil-works/pi-tui': 0.84.2
       grok-mermaid: 0.2.3
       highlight.js: 11.12.0
 
-  '@narumitw/pi-usage@0.52.1(@earendil-works/pi-ai@0.84.2(ws@8.21.3))(@earendil-works/pi-coding-agent@0.84.2(ws@8.21.3))(@earendil-works/pi-tui@0.84.2)':
+  '@narumitw/pi-usage@0.52.2(@earendil-works/pi-ai@0.84.3(ws@8.21.3))(@earendil-works/pi-coding-agent@0.84.2(ws@8.21.3))(@earendil-works/pi-tui@0.84.2)':
     dependencies:
-      '@earendil-works/pi-ai': 0.84.2(ws@8.21.3)
+      '@earendil-works/pi-ai': 0.84.3(ws@8.21.3)
       '@earendil-works/pi-coding-agent': 0.84.2(ws@8.21.3)
       '@narumitw/pi-tui-kit': 0.49.3(@earendil-works/pi-coding-agent@0.84.2(ws@8.21.3))(@earendil-works/pi-tui@0.84.2)
     transitivePeerDependencies:
       - '@earendil-works/pi-tui'
-
-  '@opentelemetry/api@1.9.0': {}
 
   '@pierre/diffs@1.3.2(@shikijs/themes@4.4.3)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)':
     dependencies:
@@ -2663,7 +2652,7 @@ snapshots:
   gcp-metadata@8.1.2:
     dependencies:
       gaxios: 7.3.1
-      google-logging-utils: 1.2.0
+      google-logging-utils: 1.1.3
       json-bigint: 1.0.0
     transitivePeerDependencies:
       - supports-color
@@ -2719,8 +2708,6 @@ snapshots:
       - supports-color
 
   google-logging-utils@1.1.3: {}
-
-  google-logging-utils@1.2.0: {}
 
   gopd@1.2.0: {}
 
@@ -3068,33 +3055,33 @@ snapshots:
       lru-cache: 11.5.2
       minipass: 7.1.3
 
-  pi-agent-browser-native@0.5.0(@earendil-works/pi-ai@0.84.2(ws@8.21.3))(@earendil-works/pi-coding-agent@0.84.2(ws@8.21.3))(@earendil-works/pi-tui@0.84.2)(typebox@1.3.19):
+  pi-agent-browser-native@0.5.0(@earendil-works/pi-ai@0.84.3(ws@8.21.3))(@earendil-works/pi-coding-agent@0.84.2(ws@8.21.3))(@earendil-works/pi-tui@0.84.2)(typebox@1.3.19):
     optionalDependencies:
-      '@earendil-works/pi-ai': 0.84.2(ws@8.21.3)
+      '@earendil-works/pi-ai': 0.84.3(ws@8.21.3)
       '@earendil-works/pi-coding-agent': 0.84.2(ws@8.21.3)
       '@earendil-works/pi-tui': 0.84.2
       typebox: 1.3.19
 
-  pi-effort@0.0.8(@earendil-works/pi-ai@0.84.2(ws@8.21.3))(@earendil-works/pi-coding-agent@0.84.2(ws@8.21.3)):
+  pi-effort@0.0.8(@earendil-works/pi-ai@0.84.3(ws@8.21.3))(@earendil-works/pi-coding-agent@0.84.2(ws@8.21.3)):
     dependencies:
-      '@earendil-works/pi-ai': 0.84.2(ws@8.21.3)
+      '@earendil-works/pi-ai': 0.84.3(ws@8.21.3)
       '@earendil-works/pi-coding-agent': 0.84.2(ws@8.21.3)
 
-  pi-subagents@0.56.0(@earendil-works/pi-agent-core@0.84.2(ws@8.21.3))(@earendil-works/pi-ai@0.84.2(ws@8.21.3))(@earendil-works/pi-coding-agent@0.84.2(ws@8.21.3))(@earendil-works/pi-tui@0.84.2):
+  pi-subagents@0.56.0(@earendil-works/pi-agent-core@0.84.3(ws@8.21.3))(@earendil-works/pi-ai@0.84.3(ws@8.21.3))(@earendil-works/pi-coding-agent@0.84.2(ws@8.21.3))(@earendil-works/pi-tui@0.84.2):
     dependencies:
       acorn: 8.18.0
       jiti: 2.7.0
       typebox: 1.1.38
       yaml: 2.8.3
     optionalDependencies:
-      '@earendil-works/pi-agent-core': 0.84.2(ws@8.21.3)
-      '@earendil-works/pi-ai': 0.84.2(ws@8.21.3)
+      '@earendil-works/pi-agent-core': 0.84.3(ws@8.21.3)
+      '@earendil-works/pi-ai': 0.84.3(ws@8.21.3)
       '@earendil-works/pi-coding-agent': 0.84.2(ws@8.21.3)
       '@earendil-works/pi-tui': 0.84.2
 
-  pi-web-access@0.24.2(@earendil-works/pi-ai@0.84.2(ws@8.21.3))(@earendil-works/pi-coding-agent@0.84.2(ws@8.21.3))(@earendil-works/pi-tui@0.84.2):
+  pi-web-access@0.24.2(@earendil-works/pi-ai@0.84.3(ws@8.21.3))(@earendil-works/pi-coding-agent@0.84.2(ws@8.21.3))(@earendil-works/pi-tui@0.84.2):
     dependencies:
-      '@earendil-works/pi-ai': 0.84.2(ws@8.21.3)
+      '@earendil-works/pi-ai': 0.84.3(ws@8.21.3)
       '@earendil-works/pi-coding-agent': 0.84.2(ws@8.21.3)
       '@earendil-works/pi-tui': 0.84.2
       '@mozilla/readability': 0.6.0
@@ -3108,9 +3095,9 @@ snapshots:
     transitivePeerDependencies:
       - '@napi-rs/canvas'
 
-  pi-zentui@0.20.2(@earendil-works/pi-ai@0.84.2(ws@8.21.3))(@earendil-works/pi-coding-agent@0.84.2(ws@8.21.3))(@earendil-works/pi-tui@0.84.2):
+  pi-zentui@0.20.2(@earendil-works/pi-ai@0.84.3(ws@8.21.3))(@earendil-works/pi-coding-agent@0.84.2(ws@8.21.3))(@earendil-works/pi-tui@0.84.2):
     dependencies:
-      '@earendil-works/pi-ai': 0.84.2(ws@8.21.3)
+      '@earendil-works/pi-ai': 0.84.3(ws@8.21.3)
       '@earendil-works/pi-coding-agent': 0.84.2(ws@8.21.3)
       '@earendil-works/pi-tui': 0.84.2
 
