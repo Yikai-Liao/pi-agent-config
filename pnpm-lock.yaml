@@ -12,8 +12,8 @@ importers:
         specifier: 4.9.0
         version: 4.9.0
       '@ff-labs/pi-fff':
-        specifier: 0.10.5
-        version: 0.10.5(@earendil-works/pi-coding-agent@0.84.2(ws@8.21.3))(@earendil-works/pi-tui@0.84.2)(@sinclair/typebox@0.34.52)
+        specifier: 0.10.6
+        version: 0.10.6(@earendil-works/pi-coding-agent@0.84.2(ws@8.21.3))(@earendil-works/pi-tui@0.84.2)(@sinclair/typebox@0.34.52)
       '@juicesharp/rpiv-ask-user-question':
         specifier: 2.8.0
         version: 2.8.0(@earendil-works/pi-coding-agent@0.84.2(ws@8.21.3))(@earendil-works/pi-tui@0.84.2)
@@ -27,8 +27,8 @@ importers:
         specifier: 0.54.3
         version: 0.54.3(@earendil-works/pi-ai@0.84.4(ws@8.21.3))(@earendil-works/pi-coding-agent@0.84.2(ws@8.21.3))(@earendil-works/pi-tui@0.84.2)(typebox@1.3.23)
       '@narumitw/pi-usage':
-        specifier: 0.57.0
-        version: 0.57.0(@earendil-works/pi-ai@0.84.4(ws@8.21.3))(@earendil-works/pi-coding-agent@0.84.2(ws@8.21.3))(@earendil-works/pi-tui@0.84.2)
+        specifier: 0.58.0
+        version: 0.58.0(@earendil-works/pi-ai@0.84.4(ws@8.21.3))(@earendil-works/pi-coding-agent@0.84.2(ws@8.21.3))(@earendil-works/pi-tui@0.84.2)
       '@plannotator/pi-extension':
         specifier: 0.27.9
         version: 0.27.9(@earendil-works/pi-coding-agent@0.84.2(ws@8.21.3))(@shikijs/themes@4.4.3)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
@@ -39,8 +39,8 @@ importers:
         specifier: 0.0.8
         version: 0.0.8(@earendil-works/pi-ai@0.84.4(ws@8.21.3))(@earendil-works/pi-coding-agent@0.84.2(ws@8.21.3))
       pi-subagents:
-        specifier: 0.59.0
-        version: 0.59.0(@earendil-works/pi-agent-core@0.84.4(ws@8.21.3))(@earendil-works/pi-ai@0.84.4(ws@8.21.3))(@earendil-works/pi-coding-agent@0.84.2(ws@8.21.3))(@earendil-works/pi-tui@0.84.2)
+        specifier: 0.60.0
+        version: 0.60.0(@earendil-works/pi-agent-core@0.84.4(ws@8.21.3))(@earendil-works/pi-ai@0.84.4(ws@8.21.3))(@earendil-works/pi-coding-agent@0.84.2(ws@8.21.3))(@earendil-works/pi-tui@0.84.2)
       pi-web-access:
         specifier: 0.27.0
         version: 0.27.0(@earendil-works/pi-ai@0.84.4(ws@8.21.3))(@earendil-works/pi-coding-agent@0.84.2(ws@8.21.3))(@earendil-works/pi-tui@0.84.2)
@@ -193,69 +193,69 @@ packages:
     resolution: {integrity: sha512-ds2TLihOnM5sLJB3VpXV6y0uR5efVuHf4MN7yDpsty6hA2DUO/EDVzjp/0od0G2JslzVLMjT8T8zavtxVb+qbg==}
     engines: {node: '>=22.19.0'}
 
-  '@ff-labs/fff-bin-android-arm64@0.10.5':
-    resolution: {integrity: sha512-idn1m9ycwv0Dzz6ih4H8e/X1WpGF6kglUxqP78oYgoC2sgAdPtLxD6hIAZK13p8isK7H8EMwrMze/4lynEDcKQ==}
+  '@ff-labs/fff-bin-android-arm64@0.10.6':
+    resolution: {integrity: sha512-hGOo0wlxdhObNdK9lTNhNIrzOs99l352E0QqglD/3H1B6LsSVoVHxNeR09RmiSoIM1lOJ+FnkpXOJ5EZXSGl0w==}
     cpu: [arm64]
     os: [android]
 
-  '@ff-labs/fff-bin-darwin-arm64@0.10.5':
-    resolution: {integrity: sha512-tG0VSt6fs3C2/Y6NDp57YJVXGEnrJ4F/e5gDrFCbNeuwJe9LmcCKh6oHWUEZOaaymYT90kQmwuXZTvORP3G6Vw==}
+  '@ff-labs/fff-bin-darwin-arm64@0.10.6':
+    resolution: {integrity: sha512-Y0A1f9/UHYg0ej35rnt8Q2A2DMbBzRa4Fc9WpoBST/oVvWOQ7v5JF5ko7NAapOFM0N5oaB9oey1Hsshs6LIyYA==}
     cpu: [arm64]
     os: [darwin]
 
-  '@ff-labs/fff-bin-darwin-x64@0.10.5':
-    resolution: {integrity: sha512-pwdFJUB/oeO4S/SfmRDdE5ipbAMYoVtRMwTZ12Wn2H46PgNU5DWnSjHhUNTLuKmkQU/ZIJL5Sn9j/fzwuIzcoA==}
+  '@ff-labs/fff-bin-darwin-x64@0.10.6':
+    resolution: {integrity: sha512-qQnmQWnotuOne10vtVHoMKTxCSANaJ3a/cegBKvfN8cZCr4b4Vtg51APADh8U3AwsI/k61rJQgjy6BqdBYj3cw==}
     cpu: [x64]
     os: [darwin]
 
-  '@ff-labs/fff-bin-linux-arm64-gnu@0.10.5':
-    resolution: {integrity: sha512-prbY72gR+VPoSxl1InglwSwVHM0kErYMjUOpdvjQhS8eRdXYL3hTuYQv9L7fiB0mqaDzcwFa339uMr3p8ujDrw==}
+  '@ff-labs/fff-bin-linux-arm64-gnu@0.10.6':
+    resolution: {integrity: sha512-JwfgfwL4V0+tJCc1HW3In++1c+EZLix0ecV/k4b+8DyzSGh3GPZB1i7F4JXQFHVibs71mLeFEJO4owglullZNw==}
     cpu: [arm64]
     os: [linux]
     libc: [glibc]
 
-  '@ff-labs/fff-bin-linux-arm64-musl@0.10.5':
-    resolution: {integrity: sha512-MQN/CEKn4c4toooGCmZ6N8cP9mhgE4tnR6rr6a4k9JjH0xi05fYdG4+BabPkr+l/mDc01DsRpSKVNBmvoZ3IlQ==}
+  '@ff-labs/fff-bin-linux-arm64-musl@0.10.6':
+    resolution: {integrity: sha512-g0ggmohZiVkNQsNho1r6I06sk8jlKmb8gzmmgL8HeDcaxyiZnxQrqxHmvwROP7T0scEbZGSOle/gyyqfcBRvjg==}
     cpu: [arm64]
     os: [linux]
     libc: [musl]
 
-  '@ff-labs/fff-bin-linux-x64-gnu@0.10.5':
-    resolution: {integrity: sha512-8NzFGGyqrFaCtb+SPTFd0xQGUlHCJMf0KYGwuca46IP37nN4OtDT1wnyZ9oaPDZ+2qqyxox10hCnqGlmj3PJzQ==}
+  '@ff-labs/fff-bin-linux-x64-gnu@0.10.6':
+    resolution: {integrity: sha512-oC8Tlg/+aNbdfEkj4QtVCbrqYUEjQZkP/e1KLwv142+dwjgxHQKQGSIKB67IvP07DKazvUG/0I0YR91dP/ClLA==}
     cpu: [x64]
     os: [linux]
     libc: [glibc]
 
-  '@ff-labs/fff-bin-linux-x64-musl@0.10.5':
-    resolution: {integrity: sha512-mioRbn8aAW2Jmm4W0w3poePo65iSE+REfO+Jc0iqsjirImEy6pKt7dswj+7LSU6RPWwPsMb4POTMENwNLMlJww==}
+  '@ff-labs/fff-bin-linux-x64-musl@0.10.6':
+    resolution: {integrity: sha512-voj2gFq6knjzXKNy2k7EyqoXizv/VZbJ6bfq7enMI5T+tCM0cKlSEjwlBOMaVj+cxrh6fSb5vnnPjhBSuZcxmA==}
     cpu: [x64]
     os: [linux]
     libc: [musl]
 
-  '@ff-labs/fff-bin-win32-arm64@0.10.5':
-    resolution: {integrity: sha512-GIZiea0AhuUDtJtXO2mGWs3wil1OR6lpLKOqXMW8EhHVHs8SB+xwzOgZ3Hg7YLEJm+Ui/2tFW/NLbqRuxpmtrQ==}
+  '@ff-labs/fff-bin-win32-arm64@0.10.6':
+    resolution: {integrity: sha512-GFfA21vuxcyqZZ2pSq7V5ClAKIVrWLulK5h93wjUc308zyxApY2luJdyIBHtw93UTkJQ079mRMPIthkeCEEn9A==}
     cpu: [arm64]
     os: [win32]
 
-  '@ff-labs/fff-bin-win32-x64@0.10.5':
-    resolution: {integrity: sha512-EvCWb7wLrtCvkziksAnTVxcGa0roaWNC978t4nG3ESKEty/Mvrj8kaLAzqWfuA2Xk+gTW+qisJYxa4FqFnqR0Q==}
+  '@ff-labs/fff-bin-win32-x64@0.10.6':
+    resolution: {integrity: sha512-EjOHtxRNmZnjrNx2fahiAhP2wLDad6tlLL3cIk3snEzHpP30VygZMcuq3u8fNBZOeHgEPGRnqkfhILQDyblvJQ==}
     cpu: [x64]
     os: [win32]
 
-  '@ff-labs/fff-bun@0.10.5':
-    resolution: {integrity: sha512-n4t5e4mzbEAXO6SyPHx8ajECGvfTZ/y4TNCqvKSwROpcTqfobaq2T+MdsfsKyA+j+B11NmpCVLjVhCTel8iB8Q==}
+  '@ff-labs/fff-bun@0.10.6':
+    resolution: {integrity: sha512-ShRbXQ9kSIYom5IRpq6d0DE0RUWKIbXhtERPu3q5UN7387IO4gpSYNeBo85IEqD1yqgq86KyKeFJcAliY7RGNg==}
     engines: {bun: '>=1.0.0'}
     cpu: [x64, arm64]
     os: [darwin, linux, win32, android]
 
-  '@ff-labs/fff-node@0.10.5':
-    resolution: {integrity: sha512-O4KZoO9lZluTqdHUYgd23xpEX/u7G87qQTgUIgtJ4BFTh1x/p243/M6AU2HdSHYWK+vrMRAdDXDzeUW/9rjk3Q==}
+  '@ff-labs/fff-node@0.10.6':
+    resolution: {integrity: sha512-TYp7dgX7IIwwvYTCCHmPs+Ymt/z9w6+kKDfwZhFgU7pFBIHPkmQbLwuwQdUvngvZMgUuHyKTo7irzinjT8UWgQ==}
     engines: {node: '>=18.0.0'}
     cpu: [x64, arm64]
     os: [darwin, linux, win32, android]
 
-  '@ff-labs/pi-fff@0.10.5':
-    resolution: {integrity: sha512-0Uli9Nb5josAf0TsQlyJZvi/syVye/3TRQf/LEUuJaA5J8YnObko0BlN5BHSguuP+wQUEEm8jIFvOzKx5X5Yxw==}
+  '@ff-labs/pi-fff@0.10.6':
+    resolution: {integrity: sha512-qr9cxICHD95p+vqU2EpTdkAOKquKQa6Hz60xk+BEP41M2Ym6r56p1YcIgPpCiv3nTRBkJAD2TKDBo8t9QPe4Pg==}
     peerDependencies:
       '@earendil-works/pi-coding-agent': '*'
       '@earendil-works/pi-tui': '*'
@@ -399,8 +399,8 @@ packages:
       '@earendil-works/pi-coding-agent': '*'
       '@earendil-works/pi-tui': '*'
 
-  '@narumitw/pi-usage@0.57.0':
-    resolution: {integrity: sha512-QTmQ7ZVXkEEHLwAI6aN7PSAikdspjW/JzVzpeggz7LZm4cAAAcqdBd7uG45IokrE4j9Q0WRcnaTZI6uhPztABQ==}
+  '@narumitw/pi-usage@0.58.0':
+    resolution: {integrity: sha512-b0U+12KCtVVOpZeEmwyNUv0u6yY1Z9ay8QjQ1lMC6koV4KayQhRAOzomE6re7SOPHjz/539KLxGTDndHfWa49A==}
     peerDependencies:
       '@earendil-works/pi-ai': '*'
       '@earendil-works/pi-coding-agent': '*'
@@ -1353,8 +1353,8 @@ packages:
       '@earendil-works/pi-ai': '>=0.84.0 <1.0.0'
       '@earendil-works/pi-coding-agent': '>=0.84.0 <1.0.0'
 
-  pi-subagents@0.59.0:
-    resolution: {integrity: sha512-EOzArN0fU3AUQT+bjtq/8DfW8nSySTV43Qw97QFyChYBFX+GfmO3b7CgtelUfBqfg4gYmcq50B4MguAExIYM1g==}
+  pi-subagents@0.60.0:
+    resolution: {integrity: sha512-H3Xgfab3/CYxQeTKvpatvcUy0yChMAViCTEc9tqKaTpSv7dhyP5NM3Vi5+qZuV6UpOunkCpe9Vkww4DhT+SvBA==}
     hasBin: true
     peerDependencies:
       '@earendil-works/pi-agent-core': '*'
@@ -1987,65 +1987,65 @@ snapshots:
       get-east-asian-width: 1.6.0
       marked: 18.0.5
 
-  '@ff-labs/fff-bin-android-arm64@0.10.5':
+  '@ff-labs/fff-bin-android-arm64@0.10.6':
     optional: true
 
-  '@ff-labs/fff-bin-darwin-arm64@0.10.5':
+  '@ff-labs/fff-bin-darwin-arm64@0.10.6':
     optional: true
 
-  '@ff-labs/fff-bin-darwin-x64@0.10.5':
+  '@ff-labs/fff-bin-darwin-x64@0.10.6':
     optional: true
 
-  '@ff-labs/fff-bin-linux-arm64-gnu@0.10.5':
+  '@ff-labs/fff-bin-linux-arm64-gnu@0.10.6':
     optional: true
 
-  '@ff-labs/fff-bin-linux-arm64-musl@0.10.5':
+  '@ff-labs/fff-bin-linux-arm64-musl@0.10.6':
     optional: true
 
-  '@ff-labs/fff-bin-linux-x64-gnu@0.10.5':
+  '@ff-labs/fff-bin-linux-x64-gnu@0.10.6':
     optional: true
 
-  '@ff-labs/fff-bin-linux-x64-musl@0.10.5':
+  '@ff-labs/fff-bin-linux-x64-musl@0.10.6':
     optional: true
 
-  '@ff-labs/fff-bin-win32-arm64@0.10.5':
+  '@ff-labs/fff-bin-win32-arm64@0.10.6':
     optional: true
 
-  '@ff-labs/fff-bin-win32-x64@0.10.5':
+  '@ff-labs/fff-bin-win32-x64@0.10.6':
     optional: true
 
-  '@ff-labs/fff-bun@0.10.5':
+  '@ff-labs/fff-bun@0.10.6':
     optionalDependencies:
-      '@ff-labs/fff-bin-android-arm64': 0.10.5
-      '@ff-labs/fff-bin-darwin-arm64': 0.10.5
-      '@ff-labs/fff-bin-darwin-x64': 0.10.5
-      '@ff-labs/fff-bin-linux-arm64-gnu': 0.10.5
-      '@ff-labs/fff-bin-linux-arm64-musl': 0.10.5
-      '@ff-labs/fff-bin-linux-x64-gnu': 0.10.5
-      '@ff-labs/fff-bin-linux-x64-musl': 0.10.5
-      '@ff-labs/fff-bin-win32-arm64': 0.10.5
-      '@ff-labs/fff-bin-win32-x64': 0.10.5
+      '@ff-labs/fff-bin-android-arm64': 0.10.6
+      '@ff-labs/fff-bin-darwin-arm64': 0.10.6
+      '@ff-labs/fff-bin-darwin-x64': 0.10.6
+      '@ff-labs/fff-bin-linux-arm64-gnu': 0.10.6
+      '@ff-labs/fff-bin-linux-arm64-musl': 0.10.6
+      '@ff-labs/fff-bin-linux-x64-gnu': 0.10.6
+      '@ff-labs/fff-bin-linux-x64-musl': 0.10.6
+      '@ff-labs/fff-bin-win32-arm64': 0.10.6
+      '@ff-labs/fff-bin-win32-x64': 0.10.6
 
-  '@ff-labs/fff-node@0.10.5':
+  '@ff-labs/fff-node@0.10.6':
     dependencies:
       ffi-rs: 1.3.7
     optionalDependencies:
-      '@ff-labs/fff-bin-android-arm64': 0.10.5
-      '@ff-labs/fff-bin-darwin-arm64': 0.10.5
-      '@ff-labs/fff-bin-darwin-x64': 0.10.5
-      '@ff-labs/fff-bin-linux-arm64-gnu': 0.10.5
-      '@ff-labs/fff-bin-linux-arm64-musl': 0.10.5
-      '@ff-labs/fff-bin-linux-x64-gnu': 0.10.5
-      '@ff-labs/fff-bin-linux-x64-musl': 0.10.5
-      '@ff-labs/fff-bin-win32-arm64': 0.10.5
-      '@ff-labs/fff-bin-win32-x64': 0.10.5
+      '@ff-labs/fff-bin-android-arm64': 0.10.6
+      '@ff-labs/fff-bin-darwin-arm64': 0.10.6
+      '@ff-labs/fff-bin-darwin-x64': 0.10.6
+      '@ff-labs/fff-bin-linux-arm64-gnu': 0.10.6
+      '@ff-labs/fff-bin-linux-arm64-musl': 0.10.6
+      '@ff-labs/fff-bin-linux-x64-gnu': 0.10.6
+      '@ff-labs/fff-bin-linux-x64-musl': 0.10.6
+      '@ff-labs/fff-bin-win32-arm64': 0.10.6
+      '@ff-labs/fff-bin-win32-x64': 0.10.6
 
-  '@ff-labs/pi-fff@0.10.5(@earendil-works/pi-coding-agent@0.84.2(ws@8.21.3))(@earendil-works/pi-tui@0.84.2)(@sinclair/typebox@0.34.52)':
+  '@ff-labs/pi-fff@0.10.6(@earendil-works/pi-coding-agent@0.84.2(ws@8.21.3))(@earendil-works/pi-tui@0.84.2)(@sinclair/typebox@0.34.52)':
     dependencies:
       '@earendil-works/pi-coding-agent': 0.84.2(ws@8.21.3)
       '@earendil-works/pi-tui': 0.84.2
-      '@ff-labs/fff-bun': 0.10.5
-      '@ff-labs/fff-node': 0.10.5
+      '@ff-labs/fff-bun': 0.10.6
+      '@ff-labs/fff-node': 0.10.6
       '@sinclair/typebox': 0.34.52
 
   '@google/genai@1.52.0':
@@ -2070,7 +2070,7 @@ snapshots:
 
   '@juicesharp/rpiv-config@2.8.0':
     dependencies:
-      typebox: 1.3.23
+      typebox: 1.3.22
 
   '@juicesharp/rpiv-todo@2.8.0(@earendil-works/pi-ai@0.84.4(ws@8.21.3))(@earendil-works/pi-coding-agent@0.84.2(ws@8.21.3))(@earendil-works/pi-tui@0.84.2)':
     dependencies:
@@ -2156,7 +2156,7 @@ snapshots:
       grok-mermaid: 0.2.3
       highlight.js: 11.12.0
 
-  '@narumitw/pi-usage@0.57.0(@earendil-works/pi-ai@0.84.4(ws@8.21.3))(@earendil-works/pi-coding-agent@0.84.2(ws@8.21.3))(@earendil-works/pi-tui@0.84.2)':
+  '@narumitw/pi-usage@0.58.0(@earendil-works/pi-ai@0.84.4(ws@8.21.3))(@earendil-works/pi-coding-agent@0.84.2(ws@8.21.3))(@earendil-works/pi-tui@0.84.2)':
     dependencies:
       '@earendil-works/pi-ai': 0.84.4(ws@8.21.3)
       '@earendil-works/pi-coding-agent': 0.84.2(ws@8.21.3)
@@ -3224,7 +3224,7 @@ snapshots:
       '@earendil-works/pi-ai': 0.84.4(ws@8.21.3)
       '@earendil-works/pi-coding-agent': 0.84.2(ws@8.21.3)
 
-  pi-subagents@0.59.0(@earendil-works/pi-agent-core@0.84.4(ws@8.21.3))(@earendil-works/pi-ai@0.84.4(ws@8.21.3))(@earendil-works/pi-coding-agent@0.84.2(ws@8.21.3))(@earendil-works/pi-tui@0.84.2):
+  pi-subagents@0.60.0(@earendil-works/pi-agent-core@0.84.4(ws@8.21.3))(@earendil-works/pi-ai@0.84.4(ws@8.21.3))(@earendil-works/pi-coding-agent@0.84.2(ws@8.21.3))(@earendil-works/pi-tui@0.84.2):
     dependencies:
       acorn: 8.18.0
       jiti: 2.7.0
