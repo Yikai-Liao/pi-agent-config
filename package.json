@@ -9,12 +9,10 @@
   "dependencies": {
     "@ff-labs/pi-fff": "0.10.6",
     "@juicesharp/rpiv-ask-user-question": "2.9.0",
-    "@juicesharp/rpiv-todo": "2.9.0",
     "@narumitw/pi-btw": "0.56.0",
     "@narumitw/pi-goal": "0.54.4",
     "@narumitw/pi-usage": "0.60.1",
     "@plannotator/pi-extension": "0.27.11",
-    "pi-agent-browser-native": "0.5.0",
     "pi-draft-history": "0.1.2",
     "pi-effort": "0.0.8",
     "pi-segment-memory": "1.0.1",
@@ -25,7 +23,6 @@
   "bundledDependencies": [
     "@ff-labs/pi-fff",
     "@juicesharp/rpiv-ask-user-question",
-    "@juicesharp/rpiv-todo",
     "@narumitw/pi-btw",
     "@narumitw/pi-goal",
     "@narumitw/pi-usage",
@@ -35,14 +32,12 @@
     "pi-web-access",
     "pi-effort",
     "pi-segment-memory",
-    "pi-zentui",
-    "pi-agent-browser-native"
+    "pi-zentui"
   ],
   "pi": {
     "extensions": [
       "node_modules/pi-web-access/index.ts",
       "node_modules/@juicesharp/rpiv-ask-user-question/index.ts",
-      "node_modules/@juicesharp/rpiv-todo/index.ts",
       "node_modules/@plannotator/pi-extension",
       "node_modules/@ff-labs/pi-fff/src/index.ts",
       "node_modules/@narumitw/pi-btw/dist/index.ts",
@@ -52,8 +47,7 @@
       "node_modules/pi-subagents/index.ts",
       "node_modules/pi-effort/index.ts",
       "node_modules/pi-segment-memory/src/index.ts",
-      "node_modules/pi-zentui/extensions",
-      "node_modules/pi-agent-browser-native/dist/extensions/agent-browser/index.js"
+      "node_modules/pi-zentui/extensions"
     ],
     "skills": [
       "./skills",

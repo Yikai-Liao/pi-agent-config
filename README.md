@@ -15,14 +15,12 @@ pi install git:github.com/Yikai-Liao/pi-agent-config
 - npm dependencies for these Pi packages:
   - `pi-web-access`
   - `@juicesharp/rpiv-ask-user-question`
-  - `@juicesharp/rpiv-todo`
   - `@plannotator/pi-extension`
   - `@ff-labs/pi-fff`
   - `@narumitw/pi-btw`
   - `@narumitw/pi-goal`
   - `@narumitw/pi-usage`
   - `pi-subagents`
-  - `pi-agent-browser-native`
   - `pi-draft-history`
   - `pi-segment-memory`
 
