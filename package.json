@@ -7,7 +7,6 @@
     "pi-package"
   ],
   "dependencies": {
-    "@dietrichgebert/ponytail": "4.9.0",
     "@ff-labs/pi-fff": "0.10.6",
     "@juicesharp/rpiv-ask-user-question": "2.9.0",
     "@juicesharp/rpiv-todo": "2.9.0",
@@ -16,6 +15,7 @@
     "@narumitw/pi-usage": "0.60.1",
     "@plannotator/pi-extension": "0.27.11",
     "pi-agent-browser-native": "0.5.0",
+    "pi-draft-history": "0.1.2",
     "pi-effort": "0.0.8",
     "pi-segment-memory": "1.0.1",
     "pi-subagents": "0.62.0",
@@ -23,7 +23,6 @@
     "pi-zentui": "0.22.1"
   },
   "bundledDependencies": [
-    "@dietrichgebert/ponytail",
     "@ff-labs/pi-fff",
     "@juicesharp/rpiv-ask-user-question",
     "@juicesharp/rpiv-todo",
@@ -31,6 +30,7 @@
     "@narumitw/pi-goal",
     "@narumitw/pi-usage",
     "@plannotator/pi-extension",
+    "pi-draft-history",
     "pi-subagents",
     "pi-web-access",
     "pi-effort",
@@ -43,12 +43,12 @@
       "node_modules/pi-web-access/index.ts",
       "node_modules/@juicesharp/rpiv-ask-user-question/index.ts",
       "node_modules/@juicesharp/rpiv-todo/index.ts",
-      "node_modules/@dietrichgebert/ponytail/pi-extension/index.js",
       "node_modules/@plannotator/pi-extension",
       "node_modules/@ff-labs/pi-fff/src/index.ts",
       "node_modules/@narumitw/pi-btw/dist/index.ts",
       "node_modules/@narumitw/pi-goal/src/index.ts",
       "node_modules/@narumitw/pi-usage/src/index.ts",
+      "node_modules/pi-draft-history/src/index.ts",
       "node_modules/pi-subagents/index.ts",
       "node_modules/pi-effort/index.ts",
       "node_modules/pi-segment-memory/src/index.ts",
@@ -57,7 +57,6 @@
     ],
     "skills": [
       "./skills",
-      "node_modules/@dietrichgebert/ponytail/skills",
       "node_modules/pi-subagents/skills"
     ]
   }

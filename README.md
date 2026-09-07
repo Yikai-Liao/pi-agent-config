@@ -16,7 +16,6 @@ pi install git:github.com/Yikai-Liao/pi-agent-config
   - `pi-web-access`
   - `@juicesharp/rpiv-ask-user-question`
   - `@juicesharp/rpiv-todo`
-  - `@dietrichgebert/ponytail`
   - `@plannotator/pi-extension`
   - `@ff-labs/pi-fff`
   - `@narumitw/pi-btw`
@@ -24,6 +23,7 @@ pi install git:github.com/Yikai-Liao/pi-agent-config
   - `@narumitw/pi-usage`
   - `pi-subagents`
   - `pi-agent-browser-native`
+  - `pi-draft-history`
   - `pi-segment-memory`
 
 ## What stays local
