@@ -9,16 +9,16 @@
   "dependencies": {
     "@ff-labs/pi-fff": "0.10.6",
     "@juicesharp/rpiv-ask-user-question": "2.9.0",
-    "@narumitw/pi-btw": "0.56.0",
+    "@narumitw/pi-btw": "0.57.0",
     "@narumitw/pi-goal": "0.54.4",
-    "@narumitw/pi-usage": "0.60.1",
-    "@plannotator/pi-extension": "0.27.11",
+    "@narumitw/pi-usage": "0.60.3",
+    "@plannotator/pi-extension": "0.27.12",
     "pi-draft-history": "0.1.2",
     "pi-effort": "0.0.8",
     "pi-segment-memory": "1.0.1",
-    "pi-subagents": "0.62.0",
+    "pi-subagents": "0.65.0",
     "pi-web-access": "0.27.0",
-    "pi-zentui": "0.22.1"
+    "pi-zentui": "0.22.3"
   },
   "bundledDependencies": [
     "@ff-labs/pi-fff",
