@@ -17,6 +17,7 @@
     "@plannotator/pi-extension": "0.27.11",
     "pi-agent-browser-native": "0.5.0",
     "pi-effort": "0.0.8",
+    "pi-segment-memory": "1.0.1",
     "pi-subagents": "0.62.0",
     "pi-web-access": "0.27.0",
     "pi-zentui": "0.22.1"
@@ -33,6 +34,7 @@
     "pi-subagents",
     "pi-web-access",
     "pi-effort",
+    "pi-segment-memory",
     "pi-zentui",
     "pi-agent-browser-native"
   ],
@@ -49,6 +51,7 @@
       "node_modules/@narumitw/pi-usage/src/index.ts",
       "node_modules/pi-subagents/index.ts",
       "node_modules/pi-effort/index.ts",
+      "node_modules/pi-segment-memory/src/index.ts",
       "node_modules/pi-zentui/extensions",
       "node_modules/pi-agent-browser-native/dist/extensions/agent-browser/index.js"
     ],

@@ -4,3 +4,5 @@ allowBuilds:
   node-pty: true
   protobufjs: true
   sharp: false
+minimumReleaseAgeExclude:
+  - pi-segment-memory@1.0.1

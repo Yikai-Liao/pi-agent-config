@@ -24,6 +24,7 @@ pi install git:github.com/Yikai-Liao/pi-agent-config
   - `@narumitw/pi-usage`
   - `pi-subagents`
   - `pi-agent-browser-native`
+  - `pi-segment-memory`
 
 ## What stays local
 
