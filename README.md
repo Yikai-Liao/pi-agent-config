@@ -8,6 +8,10 @@ Personal Pi package for sharing Pi extensions and skills across machines.
 pi install git:github.com/Yikai-Liao/pi-agent-config
 ```
 
+Update Pi and the installed plugins with `pi update --all`.
+The pnpm configuration uses a hoisted dependency layout for Pi's TypeScript
+extension loader and explicitly allows required dependency build scripts.
+
 ## What is tracked
 
 - `skills/`

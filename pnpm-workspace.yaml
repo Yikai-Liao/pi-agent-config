@@ -1,5 +1,9 @@
+# Pi loads TypeScript entries through node_modules paths; use a flat layout
+# so their transitive dependencies resolve from those paths.
+nodeLinker: hoisted
 allowBuilds:
   '@google/genai': true
+  esbuild: true
   koffi: true
   node-pty: true
   protobufjs: true
