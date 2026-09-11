@@ -9,9 +9,9 @@
   "dependencies": {
     "@ff-labs/pi-fff": "0.10.6",
     "@juicesharp/rpiv-ask-user-question": "2.9.0",
-    "@narumitw/pi-btw": "0.57.0",
+    "@narumitw/pi-btw": "0.58.0",
     "@narumitw/pi-goal": "0.54.4",
-    "@narumitw/pi-usage": "0.60.3",
+    "@narumitw/pi-usage": "0.60.7",
     "@plannotator/pi-extension": "0.27.12",
     "pi-draft-history": "0.1.2",
     "pi-effort": "0.0.8",
