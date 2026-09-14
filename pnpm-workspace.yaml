@@ -8,5 +8,7 @@ allowBuilds:
   node-pty: true
   protobufjs: true
   sharp: false
-minimumReleaseAgeExclude:
-  - pi-segment-memory@1.0.1
+overrides:
+  '@earendil-works/pi-ai': 0.85.1
+  '@earendil-works/pi-coding-agent': 0.85.1
+  '@earendil-works/pi-tui': 0.85.1

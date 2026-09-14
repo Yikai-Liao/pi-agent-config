@@ -17,6 +17,7 @@ extension loader and explicitly allows required dependency build scripts.
 - `skills/`
 - Pi package metadata
 - npm dependencies for these Pi packages:
+  - `@howaboua/pi-codex-conversion`
   - `pi-web-access`
   - `@juicesharp/rpiv-ask-user-question`
   - `@plannotator/pi-extension`
@@ -26,7 +27,10 @@ extension loader and explicitly allows required dependency build scripts.
   - `@narumitw/pi-usage`
   - `pi-subagents`
   - `pi-draft-history`
-  - `pi-segment-memory`
+
+`pi-zentui` stays pinned to `0.22.3` because the npm mirror currently advertises
+`0.23.0` without a downloadable tarball, which makes a fresh install fail with
+`ERR_PNPM_FETCH_404`.
 
 ## What stays local
 
