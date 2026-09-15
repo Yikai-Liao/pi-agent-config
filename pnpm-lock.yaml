@@ -20,8 +20,8 @@ importers:
         specifier: 3.0.34
         version: 3.0.34(@aws-sdk/credential-provider-node@3.972.83)(@earendil-works/pi-ai@0.85.1(ws@8.21.3))(@earendil-works/pi-coding-agent@0.85.1(ws@8.21.3))(@earendil-works/pi-tui@0.85.1)(@smithy/signature-v4@5.7.3)(typebox@1.3.30)
       '@juicesharp/rpiv-ask-user-question':
-        specifier: 2.9.0
-        version: 2.9.0(@earendil-works/pi-coding-agent@0.85.1(ws@8.21.3))(@earendil-works/pi-tui@0.85.1)
+        specifier: 2.10.0
+        version: 2.10.0(@earendil-works/pi-coding-agent@0.85.1(ws@8.21.3))(@earendil-works/pi-tui@0.85.1)
       '@narumitw/pi-btw':
         specifier: 0.58.1
         version: 0.58.1(@earendil-works/pi-ai@0.85.1(ws@8.21.3))(@earendil-works/pi-coding-agent@0.85.1(ws@8.21.3))(@earendil-works/pi-tui@0.85.1)
@@ -29,8 +29,8 @@ importers:
         specifier: 0.54.4
         version: 0.54.4(@earendil-works/pi-ai@0.85.1(ws@8.21.3))(@earendil-works/pi-coding-agent@0.85.1(ws@8.21.3))(@earendil-works/pi-tui@0.85.1)(typebox@1.3.30)
       '@narumitw/pi-usage':
-        specifier: 0.60.7
-        version: 0.60.7(@earendil-works/pi-ai@0.85.1(ws@8.21.3))(@earendil-works/pi-coding-agent@0.85.1(ws@8.21.3))(@earendil-works/pi-tui@0.85.1)
+        specifier: 0.60.8
+        version: 0.60.8(@earendil-works/pi-ai@0.85.1(ws@8.21.3))(@earendil-works/pi-coding-agent@0.85.1(ws@8.21.3))(@earendil-works/pi-tui@0.85.1)
       '@plannotator/pi-extension':
         specifier: 0.27.14
         version: 0.27.14(@earendil-works/pi-coding-agent@0.85.1(ws@8.21.3))(@shikijs/themes@4.4.3)(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
@@ -441,8 +441,8 @@ packages:
   '@joplin/turndown-plugin-gfm@1.0.68':
     resolution: {integrity: sha512-m8DfAQNC/V7g0j5H6Jv60WhekBBjodD+zTPGrU+g2m+ux/z8ZX07KQIl6kaAmbKwfvsQhC04op52g63I78sVgg==}
 
-  '@juicesharp/rpiv-ask-user-question@2.9.0':
-    resolution: {integrity: sha512-/sqY7ysOgJ8snWyXLOS2zH+djfVuwFce6hU88BDP6tpoFPYq5gT+TaZpSIt9lYnJUVkgzTABIAtCNSUc/rovrA==}
+  '@juicesharp/rpiv-ask-user-question@2.10.0':
+    resolution: {integrity: sha512-D251f+ddyVtRYRhe/lgkhk5nZdDXB1+ahf+cjm6Ir3WyPtjr5L8xM3pCObyFrSCsglP1U24H1zSATJH7gLoErg==}
     peerDependencies:
       '@earendil-works/pi-coding-agent': 0.85.1
       '@earendil-works/pi-tui': 0.85.1
@@ -451,8 +451,8 @@ packages:
       '@juicesharp/rpiv-i18n':
         optional: true
 
-  '@juicesharp/rpiv-config@2.9.0':
-    resolution: {integrity: sha512-/7iFmG40bTsQaOwK5z44ZTAc0V0RI/X+Lr5N3f1rWjkdx1ZsiHBAzMcWO+5kMgjUuQAcyVbDkt19pmriIG2E7A==}
+  '@juicesharp/rpiv-config@2.10.0':
+    resolution: {integrity: sha512-iIa3QjwxQ3LOUxCoaLoHP8CVJOA5bZbgd1MsGVGCy4mVvNUq5P5qBEDzvkKpF/bXA++Eoili5eSixwQR96yEqQ==}
 
   '@mariozechner/clipboard-darwin-arm64@0.3.9':
     resolution: {integrity: sha512-BfgV7vCEWZwJwZJw03r6bP5+tf0iI/ANuQYCxi9RNn7FrWB3yzGuMKCrNLRl6V761vXRdL8+OqZ0wd4TqlsNOQ==}
@@ -556,8 +556,8 @@ packages:
       '@earendil-works/pi-coding-agent': 0.85.1
       '@earendil-works/pi-tui': 0.85.1
 
-  '@narumitw/pi-usage@0.60.7':
-    resolution: {integrity: sha512-TPZx0CXtnMT9IquPj0kvsorwx4td0p2pjixSzoAdVyKhjs7m95nsXtfXufFrG2m4tUYcJHo/feOmb6iovdnq4A==}
+  '@narumitw/pi-usage@0.60.8':
+    resolution: {integrity: sha512-xlawSIlAN1lbZXmR6jIwsVonvcI30PF/rB5x6Gc8P/rwlxmT1uYOtrjhPl4PkRXxYtSyGdaeo/szErN4ypUECg==}
     peerDependencies:
       '@earendil-works/pi-ai': 0.85.1
       '@earendil-works/pi-coding-agent': 0.85.1
@@ -1806,9 +1806,6 @@ packages:
   typebox@1.1.38:
     resolution: {integrity: sha512-pZ0aQPmMmXoUvSbeuWf/Hzsc+avNw/Zd6VeE8CFgkVGWyuHPJvqeJJDeJqLve+K70LvjYIoleGcoJHPT17cWoA==}
 
-  typebox@1.3.25:
-    resolution: {integrity: sha512-glTozrjba2L9Mqqy9Y9joPmrXGTW7aINuBPl8tdZJJIUIXprRWT1EU8riXUHhPOXSk4K3pDKL6OV5CkpoOKcbw==}
-
   typebox@1.3.30:
     resolution: {integrity: sha512-vRmBLzlaq9O9dvfGmI5CssLGvDC/R594kH6N/Q1uUU5VPO3PTgQMlWe/UVNdNVTr2EET+FX8BWZkFdYgxTglbQ==}
 
@@ -2434,16 +2431,16 @@ snapshots:
 
   '@joplin/turndown-plugin-gfm@1.0.68': {}
 
-  '@juicesharp/rpiv-ask-user-question@2.9.0(@earendil-works/pi-coding-agent@0.85.1(ws@8.21.3))(@earendil-works/pi-tui@0.85.1)':
+  '@juicesharp/rpiv-ask-user-question@2.10.0(@earendil-works/pi-coding-agent@0.85.1(ws@8.21.3))(@earendil-works/pi-tui@0.85.1)':
     dependencies:
       '@earendil-works/pi-coding-agent': 0.85.1(ws@8.21.3)
       '@earendil-works/pi-tui': 0.85.1
-      '@juicesharp/rpiv-config': 2.9.0
-      typebox: 1.3.25
+      '@juicesharp/rpiv-config': 2.10.0
+      typebox: 1.3.30
 
-  '@juicesharp/rpiv-config@2.9.0':
+  '@juicesharp/rpiv-config@2.10.0':
     dependencies:
-      typebox: 1.3.25
+      typebox: 1.3.30
 
   '@mariozechner/clipboard-darwin-arm64@0.3.9':
     optional: true
@@ -2522,7 +2519,7 @@ snapshots:
       grok-mermaid: 0.2.3
       highlight.js: 11.12.0
 
-  '@narumitw/pi-usage@0.60.7(@earendil-works/pi-ai@0.85.1(ws@8.21.3))(@earendil-works/pi-coding-agent@0.85.1(ws@8.21.3))(@earendil-works/pi-tui@0.85.1)':
+  '@narumitw/pi-usage@0.60.8(@earendil-works/pi-ai@0.85.1(ws@8.21.3))(@earendil-works/pi-coding-agent@0.85.1(ws@8.21.3))(@earendil-works/pi-tui@0.85.1)':
     dependencies:
       '@earendil-works/pi-ai': 0.85.1(ws@8.21.3)
       '@earendil-works/pi-coding-agent': 0.85.1(ws@8.21.3)
@@ -4017,8 +4014,6 @@ snapshots:
       '@mixmark-io/domino': 2.2.0
 
   typebox@1.1.38: {}
-
-  typebox@1.3.25: {}
 
   typebox@1.3.30: {}
 
