@@ -9,7 +9,7 @@
   "dependencies": {
     "@ff-labs/pi-fff": "0.10.6",
     "@howaboua/pi-codex-conversion": "3.0.34",
-    "@juicesharp/rpiv-ask-user-question": "2.10.0",
+    "@juicesharp/rpiv-ask-user-question": "2.10.1",
     "@narumitw/pi-btw": "0.58.1",
     "@narumitw/pi-goal": "0.54.4",
     "@narumitw/pi-usage": "0.60.8",
