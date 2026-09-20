@@ -28,9 +28,10 @@ extension loader and explicitly allows required dependency build scripts.
   - `pi-subagents`
   - `pi-draft-history`
 
-`pi-zentui` stays pinned to `0.22.3` because the npm mirror currently advertises
-`0.23.0` without a downloadable tarball, which makes a fresh install fail with
-`ERR_PNPM_FETCH_404`.
+The local pnpm registry must be the public npm registry rather than the
+npmmirror mirror. This is important for `pi-zentui`: the public registry
+provides the `0.24.0` tarball, while the mirror returned
+`ERR_PNPM_FETCH_404` for it.
 
 ## What stays local
 
