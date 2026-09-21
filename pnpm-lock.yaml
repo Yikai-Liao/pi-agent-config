@@ -13,22 +13,22 @@ importers:
         version: 0.10.6
       '@howaboua/pi-codex-conversion':
         specifier: 3.0.34
-        version: 3.0.34(typebox@1.3.31)
+        version: 3.0.34(typebox@1.3.30)
       '@juicesharp/rpiv-ask-user-question':
         specifier: 2.10.1
         version: 2.10.1
       '@narumitw/pi-btw':
-        specifier: 0.58.1
-        version: 0.58.1
+        specifier: 0.60.0
+        version: 0.60.0
       '@narumitw/pi-goal':
-        specifier: 0.54.5
-        version: 0.54.5(typebox@1.3.31)
+        specifier: 0.54.6
+        version: 0.54.6(typebox@1.3.30)
       '@narumitw/pi-usage':
         specifier: 0.60.8
         version: 0.60.8
       '@plannotator/pi-extension':
-        specifier: 0.27.15
-        version: 0.27.15(@shikijs/themes@4.4.3)
+        specifier: 0.27.16
+        version: 0.27.16(@shikijs/themes@4.4.3)
       pi-draft-history:
         specifier: 0.1.2
         version: 0.1.2
@@ -36,8 +36,8 @@ importers:
         specifier: 0.0.8
         version: 0.0.8
       pi-subagents:
-        specifier: 0.68.0
-        version: 0.68.0
+        specifier: 0.69.0
+        version: 0.69.0
       pi-web-access:
         specifier: 0.29.0
         version: 0.29.0
@@ -147,15 +147,15 @@ packages:
     resolution: {integrity: sha512-juG5VWh4qAivzTAeMzvY9xs9HY5rAcr2E4I7tiSSCokRFi7XIZCAu92ZkSTsIj1OPceCifL3cpfteP3pDT9/QQ==}
     engines: {node: '>=14.0.0'}
 
-  '@narumitw/pi-btw@0.58.1':
-    resolution: {integrity: sha512-hz8z759/VSLbzghJL4hFu5lKeoeWdvmMwixWhPWXBWvIg4C6ndU9mqYCkuuogKGUlKg5tQKe/GxTqdsSbrKtmw==}
+  '@narumitw/pi-btw@0.60.0':
+    resolution: {integrity: sha512-RWRSd4BwhVyI16SrZ28zggI3Rq9u2WfeSsQhzjLVzxNdGeXJGZkwu/8INJ3MWOty833EwT0tcV3uJxDj4nfRYA==}
     peerDependencies:
       '@earendil-works/pi-ai': '*'
       '@earendil-works/pi-coding-agent': '*'
       '@earendil-works/pi-tui': '*'
 
-  '@narumitw/pi-goal@0.54.5':
-    resolution: {integrity: sha512-9ydwEB4EMnXvZNPg1MWoGGNSu1USAGH5W+2VtsGT5gC7WcHPsZuPPp0+CQjxSu8AUQU3Kwaca3/RZ5JI+IjdEg==}
+  '@narumitw/pi-goal@0.54.6':
+    resolution: {integrity: sha512-sVynhouMXJod5zfka4u09UksatiTAdaE9SJCeH6cGRIQIOCRI4HkTLoz2QO5iurmwmLL2gkHG9GdBQMnOv8bRw==}
     peerDependencies:
       '@earendil-works/pi-ai': '*'
       '@earendil-works/pi-coding-agent': '*'
@@ -170,6 +170,12 @@ packages:
 
   '@narumitw/pi-tui-kit@0.61.0':
     resolution: {integrity: sha512-HrJLvAfcN7b9OG2DAWqbRjQ5g3ac1VyaQFUCupjzyUoRV/qI09CPLXGKHPBRW0ld1dNxy2y0KJtCZacfZnBnLQ==}
+    peerDependencies:
+      '@earendil-works/pi-coding-agent': '*'
+      '@earendil-works/pi-tui': '*'
+
+  '@narumitw/pi-tui-kit@0.64.0':
+    resolution: {integrity: sha512-VdFK3DyNzanfabeNP9DFX8Jj2LMKi6RV0q3Mf+xVwosG0bMWIIUwe6S9KDBYq5KfzEMzr4iFMSBweT95McwedQ==}
     peerDependencies:
       '@earendil-works/pi-coding-agent': '*'
       '@earendil-works/pi-tui': '*'
@@ -262,8 +268,8 @@ packages:
       shiki:
         optional: true
 
-  '@plannotator/pi-extension@0.27.15':
-    resolution: {integrity: sha512-KCGgolAoF/k7tvTSOMCSfw1c2TiJCBn+GETOTlUx62cmy7XI6iI8AehALoVGbsP+p0btId8zE3GvXIc51BSYLA==}
+  '@plannotator/pi-extension@0.27.16':
+    resolution: {integrity: sha512-LfS/EkMD4b+Dzu2kKp/2YORqH27dVbRXhaLYbzqQaK1AtMPexPvBPebZQs4xXBUveanTkYkBKTfp7uT8VeQ5jQ==}
     peerDependencies:
       '@earendil-works/pi-coding-agent': '>=0.79.1'
 
@@ -934,8 +940,8 @@ packages:
       '@earendil-works/pi-ai': '>=0.84.0 <1.0.0'
       '@earendil-works/pi-coding-agent': '>=0.84.0 <1.0.0'
 
-  pi-subagents@0.68.0:
-    resolution: {integrity: sha512-sfUKoSIegyCwnD0Y9dDE2sPm/kDmx3P85CQqRpuShv77iSWJXeEc3mDQUK1rZNbhHPnIdQSeFcK+G66hczQSgg==}
+  pi-subagents@0.69.0:
+    resolution: {integrity: sha512-MsgsSET//fPZKQOtX3BpPXm6VJ/5ZbrSLKdpWs4w79Rng6OprrtP/U+Fg04pVDQPi+voEBgUMoXv7X8Mfygxew==}
     hasBin: true
     peerDependencies:
       '@earendil-works/pi-agent-core': '*'
@@ -1117,9 +1123,6 @@ packages:
   typebox@1.3.30:
     resolution: {integrity: sha512-vRmBLzlaq9O9dvfGmI5CssLGvDC/R594kH6N/Q1uUU5VPO3PTgQMlWe/UVNdNVTr2EET+FX8BWZkFdYgxTglbQ==}
 
-  typebox@1.3.31:
-    resolution: {integrity: sha512-7++UxOb7lAJbJ8pbhN2Yl/ljadShbHZ6GQwst/YEUAlVh1nP8LqYpC2t+R1VysunFpmDffDzhZRsvGchx0PqUA==}
-
   typed-array-buffer@1.0.3:
     resolution: {integrity: sha512-nAYYwfY3qnzX30IkA6AQZjVbtK6duGontcQm1WSG1MD94YLqK0515GNApXkoxKOWMusVssAHWLh9SeaoefYFGw==}
     engines: {node: '>= 0.4'}
@@ -1284,14 +1287,14 @@ snapshots:
       '@ff-labs/fff-bun': 0.10.6
       '@ff-labs/fff-node': 0.10.6
 
-  '@howaboua/pi-codex-conversion@3.0.34(typebox@1.3.31)':
+  '@howaboua/pi-codex-conversion@3.0.34(typebox@1.3.30)':
     dependencies:
       openai: 7.10.0(undici@8.10.2)(ws@8.21.3)
       partial-json: 0.1.7
       proxy-from-env: 2.1.0
       selfsigned: 5.5.0
       smol-toml: 1.8.0
-      typebox: 1.3.31
+      typebox: 1.3.30
       undici: 8.10.2
       web-tree-sitter: 0.27.0
       ws: 8.21.3
@@ -1312,20 +1315,20 @@ snapshots:
 
   '@juicesharp/rpiv-config@2.10.1':
     dependencies:
-      typebox: 1.3.31
+      typebox: 1.3.30
 
   '@mixmark-io/domino@2.2.0': {}
 
   '@mozilla/readability@0.6.0': {}
 
-  '@narumitw/pi-btw@0.58.1':
+  '@narumitw/pi-btw@0.60.0':
     dependencies:
-      '@narumitw/pi-tui-kit': 0.59.0
+      '@narumitw/pi-tui-kit': 0.64.0
 
-  '@narumitw/pi-goal@0.54.5(typebox@1.3.31)':
+  '@narumitw/pi-goal@0.54.6(typebox@1.3.30)':
     dependencies:
       '@narumitw/pi-tui-kit': 0.59.0
-      typebox: 1.3.31
+      typebox: 1.3.30
 
   '@narumitw/pi-tui-kit@0.59.0':
     dependencies:
@@ -1334,6 +1337,12 @@ snapshots:
 
   '@narumitw/pi-tui-kit@0.61.0':
     dependencies:
+      grok-mermaid: 0.2.3
+      highlight.js: 11.12.0
+
+  '@narumitw/pi-tui-kit@0.64.0':
+    dependencies:
+      diff: 9.0.0
       grok-mermaid: 0.2.3
       highlight.js: 11.12.0
 
@@ -1457,7 +1466,7 @@ snapshots:
       '@shikijs/themes': 4.4.3
       shiki: 4.4.3
 
-  '@plannotator/pi-extension@0.27.15(@shikijs/themes@4.4.3)':
+  '@plannotator/pi-extension@0.27.16(@shikijs/themes@4.4.3)':
     dependencies:
       '@joplin/turndown-plugin-gfm': 1.0.68
       '@pierre/diffs': 1.3.6(@shikijs/themes@4.4.3)
@@ -2241,7 +2250,7 @@ snapshots:
 
   pi-effort@0.0.8: {}
 
-  pi-subagents@0.68.0:
+  pi-subagents@0.69.0:
     dependencies:
       acorn: 8.18.0
       jiti: 2.7.0
@@ -2472,8 +2481,6 @@ snapshots:
   typebox@1.1.38: {}
 
   typebox@1.3.30: {}
-
-  typebox@1.3.31: {}
 
   typed-array-buffer@1.0.3:
     dependencies:
