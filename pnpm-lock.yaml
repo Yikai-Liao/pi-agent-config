@@ -9,14 +9,14 @@ importers:
   .:
     dependencies:
       '@ff-labs/pi-fff':
-        specifier: 0.10.6
-        version: 0.10.6
+        specifier: 0.11.0
+        version: 0.11.0
       '@howaboua/pi-codex-conversion':
         specifier: 3.0.35
         version: 3.0.35(typebox@1.3.34)
       '@juicesharp/rpiv-ask-user-question':
-        specifier: 2.10.1
-        version: 2.10.1
+        specifier: 2.11.0
+        version: 2.11.0
       '@narumitw/pi-btw':
         specifier: 0.60.3
         version: 0.60.3
@@ -24,11 +24,11 @@ importers:
         specifier: 0.54.8
         version: 0.54.8(typebox@1.3.34)
       '@narumitw/pi-usage':
-        specifier: 0.60.10
-        version: 0.60.10
+        specifier: 0.60.11
+        version: 0.60.11
       '@plannotator/pi-extension':
-        specifier: 0.27.16
-        version: 0.27.16(@shikijs/themes@4.4.3)
+        specifier: 0.27.17
+        version: 0.27.17(@shikijs/themes@4.4.3)
       pi-draft-history:
         specifier: 0.1.2
         version: 0.1.2
@@ -36,8 +36,8 @@ importers:
         specifier: 0.0.8
         version: 0.0.8
       pi-subagents:
-        specifier: 0.70.0
-        version: 0.70.0
+        specifier: 0.70.1
+        version: 0.70.1
       pi-web-access:
         specifier: 0.30.0
         version: 0.30.0
@@ -47,69 +47,69 @@ importers:
 
 packages:
 
-  '@ff-labs/fff-bin-android-arm64@0.10.6':
-    resolution: {integrity: sha512-hGOo0wlxdhObNdK9lTNhNIrzOs99l352E0QqglD/3H1B6LsSVoVHxNeR09RmiSoIM1lOJ+FnkpXOJ5EZXSGl0w==}
+  '@ff-labs/fff-bin-android-arm64@0.11.0':
+    resolution: {integrity: sha512-7CmURAtJg1xCETKE8d46CUpeql9tpdsdbyoNCrNRkH+t608jMy+mLQxmyw7cBDOI0ljg5BaffxGZfOS2E6kasA==}
     cpu: [arm64]
     os: [android]
 
-  '@ff-labs/fff-bin-darwin-arm64@0.10.6':
-    resolution: {integrity: sha512-Y0A1f9/UHYg0ej35rnt8Q2A2DMbBzRa4Fc9WpoBST/oVvWOQ7v5JF5ko7NAapOFM0N5oaB9oey1Hsshs6LIyYA==}
+  '@ff-labs/fff-bin-darwin-arm64@0.11.0':
+    resolution: {integrity: sha512-C2VLBldxqNhTMtp1/NXULdEWpqfUKugP9E8BOMUDPw5qZH/YGC0tZQmeOlQUYOSScFQOiXZLJGXJMp3Uk+FGxg==}
     cpu: [arm64]
     os: [darwin]
 
-  '@ff-labs/fff-bin-darwin-x64@0.10.6':
-    resolution: {integrity: sha512-qQnmQWnotuOne10vtVHoMKTxCSANaJ3a/cegBKvfN8cZCr4b4Vtg51APADh8U3AwsI/k61rJQgjy6BqdBYj3cw==}
+  '@ff-labs/fff-bin-darwin-x64@0.11.0':
+    resolution: {integrity: sha512-DOnG46YoSOR8SxNVMMe+xhPS2JjFUigMS2r0M4oCGfHDaWVY2mnYK/g1YxrAeJS3cRGO5N8Aj4RP1zq5Z2f6jQ==}
     cpu: [x64]
     os: [darwin]
 
-  '@ff-labs/fff-bin-linux-arm64-gnu@0.10.6':
-    resolution: {integrity: sha512-JwfgfwL4V0+tJCc1HW3In++1c+EZLix0ecV/k4b+8DyzSGh3GPZB1i7F4JXQFHVibs71mLeFEJO4owglullZNw==}
+  '@ff-labs/fff-bin-linux-arm64-gnu@0.11.0':
+    resolution: {integrity: sha512-wOTyNzovqN1+Kg3kPqfKqZ2+A262Um4bHrEIeAwKU9R7YoyMXI9oo6DTbEl2ullF3G01FaBt/PPHOZYi1q8ubw==}
     cpu: [arm64]
     os: [linux]
     libc: [glibc]
 
-  '@ff-labs/fff-bin-linux-arm64-musl@0.10.6':
-    resolution: {integrity: sha512-g0ggmohZiVkNQsNho1r6I06sk8jlKmb8gzmmgL8HeDcaxyiZnxQrqxHmvwROP7T0scEbZGSOle/gyyqfcBRvjg==}
+  '@ff-labs/fff-bin-linux-arm64-musl@0.11.0':
+    resolution: {integrity: sha512-dtVOgT/mKN4VTqOh4i3AWjc3Kd9uDX9xz9YsiPs33lNXpEi/x68qynuaqb7JM7x/eD/nYrsJRsb5ivtH1D6nrQ==}
     cpu: [arm64]
     os: [linux]
     libc: [musl]
 
-  '@ff-labs/fff-bin-linux-x64-gnu@0.10.6':
-    resolution: {integrity: sha512-oC8Tlg/+aNbdfEkj4QtVCbrqYUEjQZkP/e1KLwv142+dwjgxHQKQGSIKB67IvP07DKazvUG/0I0YR91dP/ClLA==}
+  '@ff-labs/fff-bin-linux-x64-gnu@0.11.0':
+    resolution: {integrity: sha512-MJ1AJz9c5kxdTiIhmlEwA+hw57vBDoa+VQSr4F+1inaEiFDtem7EnXE1P8Bdhf4okGM557mCXgRrvCt4kM5pSg==}
     cpu: [x64]
     os: [linux]
     libc: [glibc]
 
-  '@ff-labs/fff-bin-linux-x64-musl@0.10.6':
-    resolution: {integrity: sha512-voj2gFq6knjzXKNy2k7EyqoXizv/VZbJ6bfq7enMI5T+tCM0cKlSEjwlBOMaVj+cxrh6fSb5vnnPjhBSuZcxmA==}
+  '@ff-labs/fff-bin-linux-x64-musl@0.11.0':
+    resolution: {integrity: sha512-UjqEBtZphjH6MTK18kTlA+5ccUAu3PBATerAKh9otEWbLCwqpFV0ke8LON2+UavaO5+VhBUCk7Zi97AOQhn/9Q==}
     cpu: [x64]
     os: [linux]
     libc: [musl]
 
-  '@ff-labs/fff-bin-win32-arm64@0.10.6':
-    resolution: {integrity: sha512-GFfA21vuxcyqZZ2pSq7V5ClAKIVrWLulK5h93wjUc308zyxApY2luJdyIBHtw93UTkJQ079mRMPIthkeCEEn9A==}
+  '@ff-labs/fff-bin-win32-arm64@0.11.0':
+    resolution: {integrity: sha512-IF54PgYYi+AsCGseNG5kYpMqkwTmp/9bB8zvndp6tXZp4xLQ4G6x/NgHgM4vyK85Sv3FWr6Sf4OZQhP4mSSipA==}
     cpu: [arm64]
     os: [win32]
 
-  '@ff-labs/fff-bin-win32-x64@0.10.6':
-    resolution: {integrity: sha512-EjOHtxRNmZnjrNx2fahiAhP2wLDad6tlLL3cIk3snEzHpP30VygZMcuq3u8fNBZOeHgEPGRnqkfhILQDyblvJQ==}
+  '@ff-labs/fff-bin-win32-x64@0.11.0':
+    resolution: {integrity: sha512-NFnFcueeRZ+QHvBg/k3KhduH20zFRCGqPHqjslk/3H0CHOMyP5AMTbscNwn5TZUhMutIRCfFzVI7mm+oU8jvCQ==}
     cpu: [x64]
     os: [win32]
 
-  '@ff-labs/fff-bun@0.10.6':
-    resolution: {integrity: sha512-ShRbXQ9kSIYom5IRpq6d0DE0RUWKIbXhtERPu3q5UN7387IO4gpSYNeBo85IEqD1yqgq86KyKeFJcAliY7RGNg==}
+  '@ff-labs/fff-bun@0.11.0':
+    resolution: {integrity: sha512-IWN7pKGcYYX/g0KxZkPp2fuLrLydbKstnFswb1RfRxr0lXaw7WBchefMKUFvpfbxCWOAi3sUXHIlbfDA/Vpo4Q==}
     engines: {bun: '>=1.0.0'}
     cpu: [x64, arm64]
     os: [darwin, linux, win32, android]
 
-  '@ff-labs/fff-node@0.10.6':
-    resolution: {integrity: sha512-TYp7dgX7IIwwvYTCCHmPs+Ymt/z9w6+kKDfwZhFgU7pFBIHPkmQbLwuwQdUvngvZMgUuHyKTo7irzinjT8UWgQ==}
+  '@ff-labs/fff-node@0.11.0':
+    resolution: {integrity: sha512-/7fX4kgy28pFZghxuXCAcIPQKb2+VqVirpFcDqMKgrFLTz56tVzHjOkFSdKGq7fa6wRb6eS5Dg9SaX1qyCcKxQ==}
     engines: {node: '>=18.0.0'}
     cpu: [x64, arm64]
     os: [darwin, linux, win32, android]
 
-  '@ff-labs/pi-fff@0.10.6':
-    resolution: {integrity: sha512-qr9cxICHD95p+vqU2EpTdkAOKquKQa6Hz60xk+BEP41M2Ym6r56p1YcIgPpCiv3nTRBkJAD2TKDBo8t9QPe4Pg==}
+  '@ff-labs/pi-fff@0.11.0':
+    resolution: {integrity: sha512-RNYBSnmRaGxYF9/R5KO4Uq0q1Prtbe6CmltK7i3efD0+JEwR2h69sL+p6UIXNDrVANSXEWM8ehagQefbskoGwg==}
     peerDependencies:
       '@earendil-works/pi-coding-agent': '*'
       '@earendil-works/pi-tui': '*'
@@ -127,8 +127,8 @@ packages:
   '@joplin/turndown-plugin-gfm@1.0.68':
     resolution: {integrity: sha512-m8DfAQNC/V7g0j5H6Jv60WhekBBjodD+zTPGrU+g2m+ux/z8ZX07KQIl6kaAmbKwfvsQhC04op52g63I78sVgg==}
 
-  '@juicesharp/rpiv-ask-user-question@2.10.1':
-    resolution: {integrity: sha512-7DBrnso9jv99OaK9cLfBIPv+qK0n4OrQ8I8gfi1tnYZcDLG8Kj/acuC7MLFlzcvc4F1PtAak342emSR9W/O5GQ==}
+  '@juicesharp/rpiv-ask-user-question@2.11.0':
+    resolution: {integrity: sha512-nSj0CfJ/cx1/I860eB8zbP/vfceriTah6yQR4fQm9gapmL02Vfy+CEuiLu3Sqcd1xhMv230ZCV/bhuZ1LFq1Pw==}
     peerDependencies:
       '@earendil-works/pi-coding-agent': '*'
       '@earendil-works/pi-tui': '*'
@@ -137,8 +137,8 @@ packages:
       '@juicesharp/rpiv-i18n':
         optional: true
 
-  '@juicesharp/rpiv-config@2.10.1':
-    resolution: {integrity: sha512-iqW1Vy/2alnzGDVldyOgDfqOE+yy7Ppb61AG9LKWBGdf1RmHsmLBF4GCESL/PmxrtsinskgEoX6nmN5EmVOnbA==}
+  '@juicesharp/rpiv-config@2.11.0':
+    resolution: {integrity: sha512-fjySBPar14qTPNMNPRYmH24YCaQ0r8xzW4P4jz8/Ph7JLFzIa+TM3ySzg9jRq0hh8wVqIAD4j4pcU66fdCkIag==}
 
   '@mixmark-io/domino@2.2.0':
     resolution: {integrity: sha512-Y28PR25bHXUg88kCV7nivXrP2Nj2RueZ3/l/jdx6J9f8J4nsEGcgX0Qe6lt7Pa+J79+kPiJU3LguR6O/6zrLOw==}
@@ -180,8 +180,8 @@ packages:
       '@earendil-works/pi-coding-agent': '*'
       '@earendil-works/pi-tui': '*'
 
-  '@narumitw/pi-usage@0.60.10':
-    resolution: {integrity: sha512-aVI/zCGewL5dL/tquOCUtwA9H9iG/1OK7F03jdKlSUKPR2iQthqqNp2f75VgW/wFeRCn3lrpOZgSUOshWGYr+g==}
+  '@narumitw/pi-usage@0.60.11':
+    resolution: {integrity: sha512-a9NdIRoKjGRC3wh39reMCnT36ahAAV69JY5+pM4Etscx4fohCmV4ObIZI8TZx0xLVyR/myKeK67bSfg/DSwZRw==}
     peerDependencies:
       '@earendil-works/pi-ai': '*'
       '@earendil-works/pi-coding-agent': '*'
@@ -268,8 +268,8 @@ packages:
       shiki:
         optional: true
 
-  '@plannotator/pi-extension@0.27.16':
-    resolution: {integrity: sha512-LfS/EkMD4b+Dzu2kKp/2YORqH27dVbRXhaLYbzqQaK1AtMPexPvBPebZQs4xXBUveanTkYkBKTfp7uT8VeQ5jQ==}
+  '@plannotator/pi-extension@0.27.17':
+    resolution: {integrity: sha512-w3EM9Yxe586nUuWmvRVSceu4ZPSnV7/GGW+mv0i2ge5L0Uf97r3p2xQbsWtBmh9sHEDlECys4LjC3sdNq7dH7g==}
     peerDependencies:
       '@earendil-works/pi-coding-agent': '>=0.79.1'
 
@@ -937,8 +937,8 @@ packages:
       '@earendil-works/pi-ai': '>=0.84.0 <1.0.0'
       '@earendil-works/pi-coding-agent': '>=0.84.0 <1.0.0'
 
-  pi-subagents@0.70.0:
-    resolution: {integrity: sha512-UkGCym5fFKc1VGRzzE8F2govFwez7zvCOHNV0o+LnNwI/y6QbZNo3U6kIeK9hdBHGAL3e5a+UGiROc4mZR/8lg==}
+  pi-subagents@0.70.1:
+    resolution: {integrity: sha512-cWNjguyrTfx6VmFzD+jCWIzJK3mBL5zjAhw5Z1E+5I3Iq5O2gCSmM0DphGDY6fh9w7eUewH1OR6Vsi/+Uje6oQ==}
     hasBin: true
     peerDependencies:
       '@earendil-works/pi-agent-core': '*'
@@ -1117,9 +1117,6 @@ packages:
   typebox@1.1.38:
     resolution: {integrity: sha512-pZ0aQPmMmXoUvSbeuWf/Hzsc+avNw/Zd6VeE8CFgkVGWyuHPJvqeJJDeJqLve+K70LvjYIoleGcoJHPT17cWoA==}
 
-  typebox@1.3.30:
-    resolution: {integrity: sha512-vRmBLzlaq9O9dvfGmI5CssLGvDC/R594kH6N/Q1uUU5VPO3PTgQMlWe/UVNdNVTr2EET+FX8BWZkFdYgxTglbQ==}
-
   typebox@1.3.34:
     resolution: {integrity: sha512-wbnzrXXDW8xEFHDZZs2jo1MkhaYlKAY4FRhpBc1+2LF1fZVBGCXGdLEhA/Z/NBbgzJMFfeM8m7elKPa/+KxaUQ==}
 
@@ -1229,63 +1226,63 @@ packages:
 
 snapshots:
 
-  '@ff-labs/fff-bin-android-arm64@0.10.6':
+  '@ff-labs/fff-bin-android-arm64@0.11.0':
     optional: true
 
-  '@ff-labs/fff-bin-darwin-arm64@0.10.6':
+  '@ff-labs/fff-bin-darwin-arm64@0.11.0':
     optional: true
 
-  '@ff-labs/fff-bin-darwin-x64@0.10.6':
+  '@ff-labs/fff-bin-darwin-x64@0.11.0':
     optional: true
 
-  '@ff-labs/fff-bin-linux-arm64-gnu@0.10.6':
+  '@ff-labs/fff-bin-linux-arm64-gnu@0.11.0':
     optional: true
 
-  '@ff-labs/fff-bin-linux-arm64-musl@0.10.6':
+  '@ff-labs/fff-bin-linux-arm64-musl@0.11.0':
     optional: true
 
-  '@ff-labs/fff-bin-linux-x64-gnu@0.10.6':
+  '@ff-labs/fff-bin-linux-x64-gnu@0.11.0':
     optional: true
 
-  '@ff-labs/fff-bin-linux-x64-musl@0.10.6':
+  '@ff-labs/fff-bin-linux-x64-musl@0.11.0':
     optional: true
 
-  '@ff-labs/fff-bin-win32-arm64@0.10.6':
+  '@ff-labs/fff-bin-win32-arm64@0.11.0':
     optional: true
 
-  '@ff-labs/fff-bin-win32-x64@0.10.6':
+  '@ff-labs/fff-bin-win32-x64@0.11.0':
     optional: true
 
-  '@ff-labs/fff-bun@0.10.6':
+  '@ff-labs/fff-bun@0.11.0':
     optionalDependencies:
-      '@ff-labs/fff-bin-android-arm64': 0.10.6
-      '@ff-labs/fff-bin-darwin-arm64': 0.10.6
-      '@ff-labs/fff-bin-darwin-x64': 0.10.6
-      '@ff-labs/fff-bin-linux-arm64-gnu': 0.10.6
-      '@ff-labs/fff-bin-linux-arm64-musl': 0.10.6
-      '@ff-labs/fff-bin-linux-x64-gnu': 0.10.6
-      '@ff-labs/fff-bin-linux-x64-musl': 0.10.6
-      '@ff-labs/fff-bin-win32-arm64': 0.10.6
-      '@ff-labs/fff-bin-win32-x64': 0.10.6
+      '@ff-labs/fff-bin-android-arm64': 0.11.0
+      '@ff-labs/fff-bin-darwin-arm64': 0.11.0
+      '@ff-labs/fff-bin-darwin-x64': 0.11.0
+      '@ff-labs/fff-bin-linux-arm64-gnu': 0.11.0
+      '@ff-labs/fff-bin-linux-arm64-musl': 0.11.0
+      '@ff-labs/fff-bin-linux-x64-gnu': 0.11.0
+      '@ff-labs/fff-bin-linux-x64-musl': 0.11.0
+      '@ff-labs/fff-bin-win32-arm64': 0.11.0
+      '@ff-labs/fff-bin-win32-x64': 0.11.0
 
-  '@ff-labs/fff-node@0.10.6':
+  '@ff-labs/fff-node@0.11.0':
     dependencies:
       ffi-rs: 1.3.7
     optionalDependencies:
-      '@ff-labs/fff-bin-android-arm64': 0.10.6
-      '@ff-labs/fff-bin-darwin-arm64': 0.10.6
-      '@ff-labs/fff-bin-darwin-x64': 0.10.6
-      '@ff-labs/fff-bin-linux-arm64-gnu': 0.10.6
-      '@ff-labs/fff-bin-linux-arm64-musl': 0.10.6
-      '@ff-labs/fff-bin-linux-x64-gnu': 0.10.6
-      '@ff-labs/fff-bin-linux-x64-musl': 0.10.6
-      '@ff-labs/fff-bin-win32-arm64': 0.10.6
-      '@ff-labs/fff-bin-win32-x64': 0.10.6
+      '@ff-labs/fff-bin-android-arm64': 0.11.0
+      '@ff-labs/fff-bin-darwin-arm64': 0.11.0
+      '@ff-labs/fff-bin-darwin-x64': 0.11.0
+      '@ff-labs/fff-bin-linux-arm64-gnu': 0.11.0
+      '@ff-labs/fff-bin-linux-arm64-musl': 0.11.0
+      '@ff-labs/fff-bin-linux-x64-gnu': 0.11.0
+      '@ff-labs/fff-bin-linux-x64-musl': 0.11.0
+      '@ff-labs/fff-bin-win32-arm64': 0.11.0
+      '@ff-labs/fff-bin-win32-x64': 0.11.0
 
-  '@ff-labs/pi-fff@0.10.6':
+  '@ff-labs/pi-fff@0.11.0':
     dependencies:
-      '@ff-labs/fff-bun': 0.10.6
-      '@ff-labs/fff-node': 0.10.6
+      '@ff-labs/fff-bun': 0.11.0
+      '@ff-labs/fff-node': 0.11.0
 
   '@howaboua/pi-codex-conversion@3.0.35(typebox@1.3.34)':
     dependencies:
@@ -1307,14 +1304,14 @@ snapshots:
 
   '@joplin/turndown-plugin-gfm@1.0.68': {}
 
-  '@juicesharp/rpiv-ask-user-question@2.10.1':
+  '@juicesharp/rpiv-ask-user-question@2.11.0':
     dependencies:
-      '@juicesharp/rpiv-config': 2.10.1
-      typebox: 1.3.30
+      '@juicesharp/rpiv-config': 2.11.0
+      typebox: 1.3.34
 
-  '@juicesharp/rpiv-config@2.10.1':
+  '@juicesharp/rpiv-config@2.11.0':
     dependencies:
-      typebox: 1.3.30
+      typebox: 1.3.34
 
   '@mixmark-io/domino@2.2.0': {}
 
@@ -1345,7 +1342,7 @@ snapshots:
       grok-mermaid: 0.2.3
       highlight.js: 11.12.0
 
-  '@narumitw/pi-usage@0.60.10':
+  '@narumitw/pi-usage@0.60.11':
     dependencies:
       '@narumitw/pi-tui-kit': 0.61.0
 
@@ -1465,7 +1462,7 @@ snapshots:
       '@shikijs/themes': 4.4.3
       shiki: 4.4.3
 
-  '@plannotator/pi-extension@0.27.16(@shikijs/themes@4.4.3)':
+  '@plannotator/pi-extension@0.27.17(@shikijs/themes@4.4.3)':
     dependencies:
       '@joplin/turndown-plugin-gfm': 1.0.68
       '@pierre/diffs': 1.3.6(@shikijs/themes@4.4.3)
@@ -2247,7 +2244,7 @@ snapshots:
 
   pi-effort@0.0.8: {}
 
-  pi-subagents@0.70.0:
+  pi-subagents@0.70.1:
     dependencies:
       acorn: 8.18.0
       jiti: 2.7.0
@@ -2476,8 +2473,6 @@ snapshots:
       '@mixmark-io/domino': 2.2.0
 
   typebox@1.1.38: {}
-
-  typebox@1.3.30: {}
 
   typebox@1.3.34: {}
 
