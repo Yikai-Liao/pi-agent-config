@@ -8,9 +8,9 @@
   ],
   "dependencies": {
     "@ff-labs/pi-fff": "0.11.0",
-    "@howaboua/pi-codex-conversion": "3.0.35",
+    "@howaboua/pi-codex-conversion": "3.0.37",
     "@juicesharp/rpiv-ask-user-question": "2.11.0",
-    "@narumitw/pi-btw": "0.60.3",
+    "@narumitw/pi-btw": "0.61.0",
     "@narumitw/pi-goal": "0.54.8",
     "@narumitw/pi-usage": "0.60.11",
     "@plannotator/pi-extension": "0.27.17",
