@@ -45,7 +45,7 @@
       "node_modules/@narumitw/pi-goal/src/index.ts",
       "node_modules/@narumitw/pi-usage/src/index.ts",
       "node_modules/pi-draft-history/src/index.ts",
-      "node_modules/pi-subagents/index.ts",
+      "node_modules/pi-subagents/index.js",
       "node_modules/pi-effort/index.ts",
       "node_modules/pi-zentui/extensions"
     ],
