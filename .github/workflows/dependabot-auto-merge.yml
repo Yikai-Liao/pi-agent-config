@@ -1,7 +1,9 @@
-name: Dependabot auto-merge
+name: Pi package CI
 
 on:
   pull_request:
+  push:
+    branches: [main]
   workflow_dispatch:
 
 permissions:
@@ -9,8 +11,23 @@ permissions:
   pull-requests: write
 
 jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: pnpm/action-setup@v4
+        with:
+          version: 11.4.0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+          cache: pnpm
+      - run: pnpm install --frozen-lockfile
+      - run: python3 scripts/check-pi-package.py
+
   auto-merge:
-    if: github.event_name == 'workflow_dispatch' || github.actor == 'dependabot[bot]'
+    needs: verify
+    if: github.event_name == 'workflow_dispatch' || (github.event_name == 'pull_request' && github.actor == 'dependabot[bot]')
     runs-on: ubuntu-latest
     steps:
       - name: Verify auto-merge is enabled
