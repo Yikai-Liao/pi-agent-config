@@ -13,11 +13,11 @@
     "@narumitw/pi-btw": "0.61.1",
     "@narumitw/pi-goal": "0.54.8",
     "@narumitw/pi-usage": "0.61.1",
-    "@plannotator/pi-extension": "0.27.20",
+    "@plannotator/pi-extension": "0.27.21",
     "pi-draft-history": "0.1.2",
     "pi-effort": "0.0.8",
-    "pi-subagents": "0.71.0",
-    "pi-web-access": "0.31.0",
+    "pi-subagents": "0.73.1",
+    "pi-web-access": "0.32.0",
     "pi-zentui": "0.26.0"
   },
   "bundledDependencies": [
