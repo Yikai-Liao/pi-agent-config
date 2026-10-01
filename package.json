@@ -17,8 +17,8 @@
     "pi-draft-history": "0.1.2",
     "pi-effort": "0.0.8",
     "pi-subagents": "0.73.1",
-    "pi-web-access": "0.32.0",
-    "pi-zentui": "0.26.0"
+    "pi-web-access": "0.33.0",
+    "pi-zentui": "0.27.0"
   },
   "bundledDependencies": [
     "@ff-labs/pi-fff",
