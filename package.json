@@ -8,17 +8,17 @@
   ],
   "dependencies": {
     "@ff-labs/pi-fff": "0.11.0",
-    "@howaboua/pi-codex-conversion": "3.0.39",
-    "@juicesharp/rpiv-ask-user-question": "2.11.0",
+    "@howaboua/pi-codex-conversion": "3.0.43",
+    "@juicesharp/rpiv-ask-user-question": "2.12.0",
     "@narumitw/pi-btw": "0.61.1",
     "@narumitw/pi-goal": "0.54.8",
-    "@narumitw/pi-usage": "0.61.1",
-    "@plannotator/pi-extension": "0.27.22",
+    "@narumitw/pi-usage": "0.61.2",
+    "@plannotator/pi-extension": "0.27.25",
     "pi-draft-history": "0.1.2",
     "pi-effort": "0.0.8",
-    "pi-subagents": "0.73.1",
-    "pi-web-access": "0.33.0",
-    "pi-zentui": "0.27.1"
+    "pi-subagents": "0.75.0",
+    "pi-web-access": "0.35.0",
+    "pi-zentui": "0.28.0"
   },
   "bundledDependencies": [
     "@ff-labs/pi-fff",
