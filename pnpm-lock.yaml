@@ -12,8 +12,8 @@ importers:
         specifier: 0.11.0
         version: 0.11.0
       '@howaboua/pi-codex-conversion':
-        specifier: 3.0.43
-        version: 3.0.43(zod@4.6.5)
+        specifier: 3.0.45
+        version: 3.0.45(zod@4.6.5)
       '@juicesharp/rpiv-ask-user-question':
         specifier: 2.12.0
         version: 2.12.0
@@ -42,8 +42,8 @@ importers:
         specifier: 0.35.0
         version: 0.35.0
       pi-zentui:
-        specifier: 0.29.0
-        version: 0.29.0
+        specifier: 0.29.1
+        version: 0.29.1
 
 packages:
 
@@ -121,8 +121,8 @@ packages:
     peerDependencies:
       hono: ^4
 
-  '@howaboua/pi-codex-conversion@3.0.43':
-    resolution: {integrity: sha512-FwgIG6orZTKvP7pLIsNp3TlCOCYjIEDojWL2xU1tgiIsqEjgv+gyArV1+YUGqvv+pRQ6OsUs9z1AqwDqRFettg==}
+  '@howaboua/pi-codex-conversion@3.0.45':
+    resolution: {integrity: sha512-K2X9doOMvzyoB08fjY9tuNkKmGRNutZTcVIsMoVdz/JkzRRUpTuKskXFR5MigSBYgMXRmCsy3V4EXL2pIMr5LQ==}
     engines: {node: '>=22.19.0'}
     peerDependencies:
       '@earendil-works/pi-ai': '>=1.0.0'
@@ -1176,8 +1176,8 @@ packages:
       '@earendil-works/pi-tui': '*'
       typebox: '*'
 
-  pi-zentui@0.29.0:
-    resolution: {integrity: sha512-dAF51TYlluM6bvPnV1j4t/GtV/ofYLimHnf5zSP98F7orOBGrcScGy3XNyzIZarwD9T3e34oz3J+mSUWdjIy0g==}
+  pi-zentui@0.29.1:
+    resolution: {integrity: sha512-7Lt78/RboiXJA+PqsRULEtl8sHGvH4+of1Mb25dSZkcyiv/tok9tRPha7LlAdDFpm8p1iQWGR7GxL+3pqk85uw==}
     peerDependencies:
       '@earendil-works/pi-ai': '>=0.85.0'
       '@earendil-works/pi-coding-agent': '>=0.85.0'
@@ -1598,7 +1598,7 @@ snapshots:
     dependencies:
       hono: 4.13.12
 
-  '@howaboua/pi-codex-conversion@3.0.43(zod@4.6.5)':
+  '@howaboua/pi-codex-conversion@3.0.45(zod@4.6.5)':
     dependencies:
       openai: 7.10.0(undici@8.10.2)(ws@8.22.0)(zod@4.6.5)
       proxy-from-env: 2.1.0
@@ -2795,7 +2795,7 @@ snapshots:
       - canvas
       - supports-color
 
-  pi-zentui@0.29.0: {}
+  pi-zentui@0.29.1: {}
 
   pkce-challenge@5.0.1: {}
 
