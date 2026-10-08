@@ -12,13 +12,13 @@
     "@juicesharp/rpiv-ask-user-question": "2.12.0",
     "@narumitw/pi-btw": "0.61.1",
     "@narumitw/pi-goal": "0.54.8",
-    "@narumitw/pi-usage": "0.61.2",
-    "@plannotator/pi-extension": "0.27.25",
+    "@narumitw/pi-usage": "0.62.0",
+    "@plannotator/pi-extension": "0.28.4",
     "pi-draft-history": "0.1.2",
     "pi-effort": "0.0.8",
-    "pi-subagents": "0.75.0",
-    "pi-web-access": "0.35.0",
-    "pi-zentui": "0.29.1"
+    "pi-subagents": "0.76.0",
+    "pi-web-access": "0.36.0",
+    "pi-zentui": "0.29.3"
   },
   "bundledDependencies": [
     "@ff-labs/pi-fff",
