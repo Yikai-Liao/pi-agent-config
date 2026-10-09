@@ -12,8 +12,8 @@ importers:
         specifier: 0.11.0
         version: 0.11.0
       '@howaboua/pi-codex-conversion':
-        specifier: 3.0.45
-        version: 3.0.45(zod@4.6.5)
+        specifier: 3.0.46
+        version: 3.0.46(zod@4.6.5)
       '@juicesharp/rpiv-ask-user-question':
         specifier: 2.12.0
         version: 2.12.0
@@ -21,14 +21,14 @@ importers:
         specifier: 0.61.1
         version: 0.61.1
       '@narumitw/pi-goal':
-        specifier: 0.54.8
-        version: 0.54.8
+        specifier: 0.54.9
+        version: 0.54.9
       '@narumitw/pi-usage':
-        specifier: 0.62.0
-        version: 0.62.0
+        specifier: 0.63.0
+        version: 0.63.0
       '@plannotator/pi-extension':
-        specifier: 0.28.4
-        version: 0.28.4(@shikijs/themes@4.5.0)
+        specifier: 0.28.6
+        version: 0.28.6(@shikijs/themes@4.5.0)
       pi-draft-history:
         specifier: 0.1.2
         version: 0.1.2
@@ -36,11 +36,11 @@ importers:
         specifier: 0.0.8
         version: 0.0.8
       pi-subagents:
-        specifier: 0.76.0
-        version: 0.76.0
+        specifier: 0.76.1
+        version: 0.76.1
       pi-web-access:
-        specifier: 0.36.0
-        version: 0.36.0
+        specifier: 0.37.0
+        version: 0.37.0
       pi-zentui:
         specifier: 0.29.3
         version: 0.29.3
@@ -121,8 +121,8 @@ packages:
     peerDependencies:
       hono: ^4
 
-  '@howaboua/pi-codex-conversion@3.0.45':
-    resolution: {integrity: sha512-K2X9doOMvzyoB08fjY9tuNkKmGRNutZTcVIsMoVdz/JkzRRUpTuKskXFR5MigSBYgMXRmCsy3V4EXL2pIMr5LQ==}
+  '@howaboua/pi-codex-conversion@3.0.46':
+    resolution: {integrity: sha512-eMMl+EUgdGpux17toWjZy3QN+ciWzdFkCHupmrCVtXF6+O3bnacv/SB1fa+7YTjM0tlyA9IP7YDGOMBEo9qbBg==}
     engines: {node: '>=22.19.0'}
     peerDependencies:
       '@earendil-works/pi-ai': '>=1.0.0'
@@ -176,8 +176,8 @@ packages:
       '@earendil-works/pi-coding-agent': '*'
       '@earendil-works/pi-tui': '*'
 
-  '@narumitw/pi-goal@0.54.8':
-    resolution: {integrity: sha512-ba165WkOdBEQNYgjTa2MHgRtOh/hTLveObPzdoE29FOrfktymcBlayEHoXd9Jjw44VQ8bX7cq6V57zp0rJLVgQ==}
+  '@narumitw/pi-goal@0.54.9':
+    resolution: {integrity: sha512-KTWbybHbG8thZHnSSrWBD6PDTKbRQgMLCAH+4h0DNp3MBtPb2vMVo51SZV+PVDsAMllhgWhXWqYhICeaGy+ebw==}
     peerDependencies:
       '@earendil-works/pi-ai': '*'
       '@earendil-works/pi-coding-agent': '*'
@@ -202,8 +202,8 @@ packages:
       '@earendil-works/pi-coding-agent': '*'
       '@earendil-works/pi-tui': '*'
 
-  '@narumitw/pi-usage@0.62.0':
-    resolution: {integrity: sha512-tGkGngatykXhBL7O3H4izGCA39ZzyW7ACnff0yF7ODVQT9fSG43NMbRHESZdJN7L7B8B+B+BQ7KgRtNl1Z1o8A==}
+  '@narumitw/pi-usage@0.63.0':
+    resolution: {integrity: sha512-YS3xY7bbMkWhDXhx3/dMYQ7ra51u9mvChZ5uz7/+LtcIQdoaSqPkE4Jv9onAlTx7KHzLDwpaUXoe6B1oMnG6yw==}
     peerDependencies:
       '@earendil-works/pi-ai': '*'
       '@earendil-works/pi-coding-agent': '*'
@@ -290,8 +290,8 @@ packages:
       shiki:
         optional: true
 
-  '@plannotator/pi-extension@0.28.4':
-    resolution: {integrity: sha512-VzhxUgxCPoN4weEDKVP5nLXGYobNKmlhoJyadZ80AOYjVcmo+IHcYbGGlw9JWSn/d+07z8Re4AwjXns89cc5Ug==}
+  '@plannotator/pi-extension@0.28.6':
+    resolution: {integrity: sha512-vHN98zVni//7e0yYtUFQMra/GJib0zQJ7ufGkraPnqR1emP0nXR7RP4gwQDoPhBrso1eMP8cFVYHVSTFW4IeSg==}
     peerDependencies:
       '@earendil-works/pi-coding-agent': '>=0.79.1'
 
@@ -729,8 +729,8 @@ packages:
     resolution: {integrity: sha512-CRT1WTyuQoD771GW56XEZFQ/ZoSfWid1alKGDYMmkt2yl8UXrVR4pspqWNEcqKvVIzg6PAltWjxcSSPrboA4iA==}
     engines: {node: '>=18.0.0'}
 
-  express-rate-limit@8.7.0:
-    resolution: {integrity: sha512-hOwV7WOxXfjRpAM1DSJWZDXx3GhplwD8IfwuwvogD8i1Qnkgosw/H45s4ZnFAUHDAhPjlY9hLBvJhKmGMyY26g==}
+  express-rate-limit@8.7.1:
+    resolution: {integrity: sha512-2FXbqkygil3mZiXzEtM0IjE/UBmBNot0J1GEVrJT4JbrvwOSoEtqtO+wHbiMQELWe1eNvHoYRg2dkjOid+6JkA==}
     engines: {node: '>= 16'}
     peerDependencies:
       express: '>= 4.11'
@@ -1154,8 +1154,8 @@ packages:
       '@earendil-works/pi-ai': '>=0.84.0 <1.0.0'
       '@earendil-works/pi-coding-agent': '>=0.84.0 <1.0.0'
 
-  pi-subagents@0.76.0:
-    resolution: {integrity: sha512-r1uoi43ysqbi2MJOGAnJWMbF3o2xBwaWI7/pwJHgGaenv/JqGEmtt5YHYWoq8JRvlhVCquTnrtFeB7e0apLlOQ==}
+  pi-subagents@0.76.1:
+    resolution: {integrity: sha512-DTHVUUyLx5KfwikpSQF4sWIKaazbxanAoKd8v4ZGt9OqLM2xNQ79BrPHjaqOARipoUb0kZIKyEYwTPItPqYq1g==}
     hasBin: true
     peerDependencies:
       '@earendil-works/pi-agent-core': '*'
@@ -1175,8 +1175,8 @@ packages:
       typebox:
         optional: true
 
-  pi-web-access@0.36.0:
-    resolution: {integrity: sha512-7o863phmEIi85GQ2xig8Gn9MJWBG/cVfCGsa3T+5xjTagq3fqaPxjTQ4GgsT2ENQmIleveDaBbFL0dOTd2Ay7g==}
+  pi-web-access@0.37.0:
+    resolution: {integrity: sha512-Je7D5ghQi9dpN0KhpFMuHYwKy0oBvpNrNR7zuTzSyCRsIJDC5in8yGz/3yItxvWYHF1W+q2Sq190nyaLkoWhgg==}
     engines: {node: '>=22.19.0'}
     hasBin: true
     peerDependencies:
@@ -1614,7 +1614,7 @@ snapshots:
     dependencies:
       hono: 4.13.13
 
-  '@howaboua/pi-codex-conversion@3.0.45(zod@4.6.5)':
+  '@howaboua/pi-codex-conversion@3.0.46(zod@4.6.5)':
     dependencies:
       openai: 7.10.0(undici@8.10.2)(ws@8.22.0)(zod@4.6.5)
       proxy-from-env: 2.1.0
@@ -1656,7 +1656,7 @@ snapshots:
       eventsource: 3.0.7
       eventsource-parser: 3.1.1
       express: 5.2.1
-      express-rate-limit: 8.7.0(express@5.2.1)
+      express-rate-limit: 8.7.1(express@5.2.1)
       hono: 4.13.13
       jose: 6.2.12
       json-schema-typed: 8.0.2
@@ -1673,7 +1673,7 @@ snapshots:
     dependencies:
       '@narumitw/pi-tui-kit': 0.64.0
 
-  '@narumitw/pi-goal@0.54.8':
+  '@narumitw/pi-goal@0.54.9':
     dependencies:
       '@narumitw/pi-tui-kit': 0.59.0
 
@@ -1693,7 +1693,7 @@ snapshots:
       grok-mermaid: 0.2.3
       highlight.js: 11.12.0
 
-  '@narumitw/pi-usage@0.62.0':
+  '@narumitw/pi-usage@0.63.0':
     dependencies:
       '@narumitw/pi-tui-kit': 0.61.0
 
@@ -1813,7 +1813,7 @@ snapshots:
       '@shikijs/themes': 4.5.0
       shiki: 4.5.0
 
-  '@plannotator/pi-extension@0.28.4(@shikijs/themes@4.5.0)':
+  '@plannotator/pi-extension@0.28.6(@shikijs/themes@4.5.0)':
     dependencies:
       '@joplin/turndown-plugin-gfm': 1.0.68
       '@pierre/diffs': 1.3.6(@shikijs/themes@4.5.0)
@@ -2313,7 +2313,7 @@ snapshots:
     dependencies:
       eventsource-parser: 3.1.1
 
-  express-rate-limit@8.7.0(express@5.2.1):
+  express-rate-limit@8.7.1(express@5.2.1):
     dependencies:
       debug: 4.4.3
       express: 5.2.1
@@ -2793,7 +2793,7 @@ snapshots:
 
   pi-effort@0.0.8: {}
 
-  pi-subagents@0.76.0:
+  pi-subagents@0.76.1:
     dependencies:
       '@js-temporal/polyfill': 0.5.1
       acorn: 8.18.0
@@ -2801,7 +2801,7 @@ snapshots:
       undici: 8.10.2
       yaml: 2.8.3
 
-  pi-web-access@0.36.0:
+  pi-web-access@0.37.0:
     dependencies:
       '@modelcontextprotocol/sdk': 1.27.1
       '@mozilla/readability': 0.6.0
