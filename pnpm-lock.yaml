@@ -12,11 +12,11 @@ importers:
         specifier: 0.11.0
         version: 0.11.0
       '@howaboua/pi-codex-conversion':
-        specifier: 3.0.49
-        version: 3.0.49(zod@4.6.5)
+        specifier: 3.0.50
+        version: 3.0.50(zod@4.6.5)
       '@juicesharp/rpiv-ask-user-question':
-        specifier: 2.12.0
-        version: 2.12.0
+        specifier: 2.13.4
+        version: 2.13.4
       '@narumitw/pi-btw':
         specifier: 0.61.1
         version: 0.61.1
@@ -24,11 +24,11 @@ importers:
         specifier: 0.54.11
         version: 0.54.11
       '@narumitw/pi-usage':
-        specifier: 0.64.3
-        version: 0.64.3
+        specifier: 0.65.0
+        version: 0.65.0
       '@plannotator/pi-extension':
-        specifier: 0.28.12
-        version: 0.28.12(@shikijs/themes@4.5.0)
+        specifier: 0.28.15
+        version: 0.28.15(@shikijs/themes@4.5.0)
       pi-draft-history:
         specifier: 0.1.2
         version: 0.1.2
@@ -121,8 +121,8 @@ packages:
     peerDependencies:
       hono: ^4 || ^5.0.0-0
 
-  '@howaboua/pi-codex-conversion@3.0.49':
-    resolution: {integrity: sha512-5dJ01M1j5FhZ/JM9/GoDjeHPkqurKJOG+6uTaT8EFf+7/1ihvxDbK7fn377dqFPKK8WjmocyACjY7B85334MmQ==}
+  '@howaboua/pi-codex-conversion@3.0.50':
+    resolution: {integrity: sha512-7UDLiG4HMzAETrtwEj0CZJSioRX/dGhtApWC3+VxqHMRMpAIxMkHQpiNXoH0pT7li6eK373UythCJ0GASkQWYw==}
     engines: {node: '>=22.19.0'}
     peerDependencies:
       '@earendil-works/pi-ai': '>=1.0.0'
@@ -137,8 +137,8 @@ packages:
     resolution: {integrity: sha512-hloP58zRVCRSpgDxmqCWJNlizAlUgJFqG2ypq79DCvyv9tHjRYMDOcPFjzfl/A1/YxDvRCZz8wvZvmapQnKwFQ==}
     engines: {node: '>=12'}
 
-  '@juicesharp/rpiv-ask-user-question@2.12.0':
-    resolution: {integrity: sha512-DilWc7u25SwnK6ytuAWOTerP0AmOEfK4HXpgS1oEzkgv9d5g5T+PbLG+zcLn18M3B/J3poMG14iydG5O6iBsnw==}
+  '@juicesharp/rpiv-ask-user-question@2.13.4':
+    resolution: {integrity: sha512-JtLLtCWFBH6n+DFxchu9IpgdLzfgq7iGV3EqukX3FAWXiu16MRoJX26YpiXxJTuM02afhfPEsNKLjoxSFk1dVw==}
     peerDependencies:
       '@earendil-works/pi-coding-agent': '*'
       '@earendil-works/pi-tui': '*'
@@ -148,8 +148,8 @@ packages:
       '@juicesharp/rpiv-i18n':
         optional: true
 
-  '@juicesharp/rpiv-config@2.12.0':
-    resolution: {integrity: sha512-eGjoCDCKz2JtKIUIpZ2y8CAVjxZYXCKa2D64ByozhkAWVblXsgyFLrQMk5k5Bv5RXRrA3GY66XNG5ExtEuGASA==}
+  '@juicesharp/rpiv-config@2.13.4':
+    resolution: {integrity: sha512-soa3KSV5pg0anSXSzIpGbaAKcyh8AVaGJBQxrCozWjPwOC/46Rj47Cu3E+BVsrsZXU5T2B6C+3MCHHKzxEGgVg==}
     peerDependencies:
       typebox: '*'
 
@@ -202,8 +202,8 @@ packages:
       '@earendil-works/pi-coding-agent': '*'
       '@earendil-works/pi-tui': '*'
 
-  '@narumitw/pi-usage@0.64.3':
-    resolution: {integrity: sha512-iBq44tlRKMHvk8vWfdhQt86K4jpBk/JXSsPlu1DXS9MEhhfZa/dffBY+bqbJjUib7PkqzHPDYj/NZAl/VtRKIA==}
+  '@narumitw/pi-usage@0.65.0':
+    resolution: {integrity: sha512-TYd20bbFMhnRdzcqWqN0myGDx4FENfRD/Z96DIbr4dETGb4/ZS6NbWTrVOgpdEOOVYcp4MKUbSKCwMxePiJsrw==}
     peerDependencies:
       '@earendil-works/pi-ai': '*'
       '@earendil-works/pi-coding-agent': '*'
@@ -290,8 +290,8 @@ packages:
       shiki:
         optional: true
 
-  '@plannotator/pi-extension@0.28.12':
-    resolution: {integrity: sha512-aH4tQ1wQoj+uCCz80u3HwYuAdn9uWjGnFyw7wq8V2w/EQkO+ycoP49Y6dFzp6GaandQ1rxRho6yxVCso+SzXzA==}
+  '@plannotator/pi-extension@0.28.15':
+    resolution: {integrity: sha512-+S3JP/zn+CRavAQJZgXGX7wmvAwyS8Syi7x8wA4eonqj5Nays+EagBlYtNhMztUNwUEgKVCJO6nRbpaJxpPNOw==}
     peerDependencies:
       '@earendil-works/pi-coding-agent': '>=0.79.1'
 
@@ -1614,7 +1614,7 @@ snapshots:
     dependencies:
       hono: 4.13.13
 
-  '@howaboua/pi-codex-conversion@3.0.49(zod@4.6.5)':
+  '@howaboua/pi-codex-conversion@3.0.50(zod@4.6.5)':
     dependencies:
       openai: 7.10.0(undici@8.10.2)(ws@8.22.0)(zod@4.6.5)
       proxy-from-env: 2.1.0
@@ -1637,11 +1637,11 @@ snapshots:
     dependencies:
       jsbi: 4.3.2
 
-  '@juicesharp/rpiv-ask-user-question@2.12.0':
+  '@juicesharp/rpiv-ask-user-question@2.13.4':
     dependencies:
-      '@juicesharp/rpiv-config': 2.12.0
+      '@juicesharp/rpiv-config': 2.13.4
 
-  '@juicesharp/rpiv-config@2.12.0': {}
+  '@juicesharp/rpiv-config@2.13.4': {}
 
   '@mixmark-io/domino@2.2.0': {}
 
@@ -1693,7 +1693,7 @@ snapshots:
       grok-mermaid: 0.2.3
       highlight.js: 11.12.0
 
-  '@narumitw/pi-usage@0.64.3':
+  '@narumitw/pi-usage@0.65.0':
     dependencies:
       '@narumitw/pi-tui-kit': 0.61.0
 
@@ -1813,7 +1813,7 @@ snapshots:
       '@shikijs/themes': 4.5.0
       shiki: 4.5.0
 
-  '@plannotator/pi-extension@0.28.12(@shikijs/themes@4.5.0)':
+  '@plannotator/pi-extension@0.28.15(@shikijs/themes@4.5.0)':
     dependencies:
       '@joplin/turndown-plugin-gfm': 1.0.68
       '@pierre/diffs': 1.3.6(@shikijs/themes@4.5.0)
