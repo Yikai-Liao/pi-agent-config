@@ -26,7 +26,7 @@ after `pnpm install --frozen-lockfile`.
 - `skills/`
 - Pi package metadata
 - npm dependencies for these Pi packages:
-  - `@howaboua/pi-codex-conversion`
+  - `billion-context-pi`
   - `pi-web-access`
   - `@juicesharp/rpiv-ask-user-question`
   - `@plannotator/pi-extension`
