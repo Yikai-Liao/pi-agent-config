@@ -42,8 +42,8 @@ importers:
         specifier: 0.42.0
         version: 0.42.0
       pi-zentui:
-        specifier: 0.31.1
-        version: 0.31.1
+        specifier: 0.31.2
+        version: 0.31.2
 
 packages:
 
@@ -1107,8 +1107,8 @@ packages:
       '@earendil-works/pi-tui':
         optional: true
 
-  pi-zentui@0.31.1:
-    resolution: {integrity: sha512-/ek4Rd3xChiwUM3JYDIVm1AhhGtxiNK0TrPDyYZHcrKUh9hp0/JWcp3yvT12QlXU3/KTAp5rcL/JYbZwIn4r8g==}
+  pi-zentui@0.31.2:
+    resolution: {integrity: sha512-fzDoqJBt/0Nn2mxHdATr9CsESEX756TOAQ5cvLtzalZHKjPxvK7LW+XIIxEjq9A0Nj/zveGg0DaHOkKy8zQJlg==}
     peerDependencies:
       '@earendil-works/pi-ai': '>=1.0.0'
       '@earendil-works/pi-coding-agent': '>=1.0.0'
@@ -2569,7 +2569,7 @@ snapshots:
       - canvas
       - supports-color
 
-  pi-zentui@0.31.1: {}
+  pi-zentui@0.31.2: {}
 
   pkce-challenge@5.0.1: {}
 
