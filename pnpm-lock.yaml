@@ -12,8 +12,8 @@ importers:
         specifier: 0.11.0
         version: 0.11.0
       '@juicesharp/rpiv-ask-user-question':
-        specifier: 2.13.9
-        version: 2.13.9
+        specifier: 2.14.1
+        version: 2.14.1
       '@narumitw/pi-btw':
         specifier: 0.62.0
         version: 0.62.0
@@ -21,11 +21,11 @@ importers:
         specifier: 0.54.13
         version: 0.54.13
       '@narumitw/pi-usage':
-        specifier: 0.67.0
-        version: 0.67.0
+        specifier: 0.68.0
+        version: 0.68.0
       '@plannotator/pi-extension':
-        specifier: 0.28.24
-        version: 0.28.24(@shikijs/themes@4.5.0)
+        specifier: 0.28.29
+        version: 0.28.29(@shikijs/themes@4.5.0)
       billion-context-pi:
         specifier: 0.1.83
         version: 0.1.83
@@ -33,19 +33,22 @@ importers:
         specifier: 0.1.2
         version: 0.1.2
       pi-effort:
-        specifier: 0.0.8
-        version: 0.0.8
+        specifier: 0.1.0
+        version: 0.1.0
       pi-subagents:
-        specifier: 0.79.2
-        version: 0.79.2
+        specifier: 0.81.0
+        version: 0.81.0
       pi-web-access:
-        specifier: 0.43.0
-        version: 0.43.0
+        specifier: 0.44.0
+        version: 0.44.0
       pi-zentui:
         specifier: 0.32.0
         version: 0.32.0
 
 packages:
+
+  '@acemir/cssom@0.9.32':
+    resolution: {integrity: sha512-OijrAUu7rrJhSIoHNg6LMPS5e344nwUHA+1EFYYjrh64D+GmytUsfBQjci45TjT+rd5Spsp8B5xsZDT+TgyXXQ==}
 
   '@ff-labs/fff-bin-android-arm64@0.11.0':
     resolution: {integrity: sha512-7CmURAtJg1xCETKE8d46CUpeql9tpdsdbyoNCrNRkH+t608jMy+mLQxmyw7cBDOI0ljg5BaffxGZfOS2E6kasA==}
@@ -128,8 +131,8 @@ packages:
     resolution: {integrity: sha512-hloP58zRVCRSpgDxmqCWJNlizAlUgJFqG2ypq79DCvyv9tHjRYMDOcPFjzfl/A1/YxDvRCZz8wvZvmapQnKwFQ==}
     engines: {node: '>=12'}
 
-  '@juicesharp/rpiv-ask-user-question@2.13.9':
-    resolution: {integrity: sha512-vx9CIkRHbzavPr7DFYUjorfaYErAVwurZOs2tKC5kQFv5y05CShlxf3qQ7k67lqvODdz8j/sbMIaj6szgLyCEg==}
+  '@juicesharp/rpiv-ask-user-question@2.14.1':
+    resolution: {integrity: sha512-cBOhU8FqJn2A/CI8JGQIBWCQ29V/EJbJ9Y0Ec6xScDFZqJwcpkNFqs31YUkHJnMJl6MbDmEKix+49p5xTVW3VQ==}
     peerDependencies:
       '@earendil-works/pi-coding-agent': '*'
       '@earendil-works/pi-tui': '*'
@@ -139,8 +142,8 @@ packages:
       '@juicesharp/rpiv-i18n':
         optional: true
 
-  '@juicesharp/rpiv-config@2.13.9':
-    resolution: {integrity: sha512-wCy7w4PNi+9pVD5gsbsIxq6ysdoFKXGPIQfOICyITW/+Jg6OGlFZa/tG99J9OZvTHDM8ZwUvqXNrFRsU6Z8NTQ==}
+  '@juicesharp/rpiv-config@2.14.1':
+    resolution: {integrity: sha512-ATKwoDAZGCu4aK3P1F11++Wkp0kRj7hl8YgGUIX/ByxgwcrKnnBXRe75m46pQ8P0+rAfCyKwYXDHwgNG7nL8JA==}
     peerDependencies:
       typebox: '*'
 
@@ -193,8 +196,8 @@ packages:
       '@earendil-works/pi-coding-agent': '*'
       '@earendil-works/pi-tui': '*'
 
-  '@narumitw/pi-usage@0.67.0':
-    resolution: {integrity: sha512-2yImIprqY4oWmE4x2jO5NQCkJMYnrQb8nkM9dZTBFyenmZPoUIF7+butOcBbMaHRK7LVI+WFVwdUPuUqTPSPaw==}
+  '@narumitw/pi-usage@0.68.0':
+    resolution: {integrity: sha512-Sg1MKHVzkU+4aHZpgx6wwwPuxUK+JPf/dy/68FOG45SXtD4NFGM6ff9hWHbTYxH//+xmF0UiH1Ls51OMQGqWyQ==}
     peerDependencies:
       '@earendil-works/pi-ai': '*'
       '@earendil-works/pi-coding-agent': '*'
@@ -230,8 +233,8 @@ packages:
       shiki:
         optional: true
 
-  '@plannotator/pi-extension@0.28.24':
-    resolution: {integrity: sha512-pOggLkHCCmNUCzuEnSNe8J7NO995OVVGubL09aOWwnmq19VOobVXq0AtIzy00i6BffHiS7QE3VkVkyH0UpR/+g==}
+  '@plannotator/pi-extension@0.28.29':
+    resolution: {integrity: sha512-E/drgC2R++ZJO40osQpNr7cBp/obwIBe+4f3A2bbm1UGgV8y2bJMAk42qyISJYHodoh1KOz764MxCLp6w7cS/g==}
     peerDependencies:
       '@earendil-works/pi-coding-agent': '>=0.79.1'
 
@@ -424,8 +427,8 @@ packages:
       '@earendil-works/pi-coding-agent': '*'
       typebox: '*'
 
-  body-parser@2.3.0:
-    resolution: {integrity: sha512-2cGmJupaNgg+QUwVLAucDuWuoMZ6EX9iHDRswZ5lsNYEmwPaRknMPCLZz07yTzVq/83p4o/wzbDZbBrTvGGTIw==}
+  body-parser@2.4.0:
+    resolution: {integrity: sha512-Ifk1KcLrxaGt1occQagQNFNNOqRt1LFuehEnHHzB8Z6cRgIxRU1TBaiIsUiCdA+gy5PL7Y1IX31DNKkRmxtXjQ==}
     engines: {node: '>=18'}
 
   boolbase@1.0.0:
@@ -929,8 +932,8 @@ packages:
   linkedom@0.16.11:
     resolution: {integrity: sha512-WgaTVbj7itjyXTsCvgerpneERXShcnNJF5VIV+/4SLtyRLN+HppPre/WDHRofAr2IpEuujSNgJbCBd5lMl6lRw==}
 
-  linkedom@0.18.13:
-    resolution: {integrity: sha512-ES/o9qotMpzpN2MHs+Iq/JcVoOj8Fa5wiQYrTdFpvAnwXL0g66XHHUc9WUMk6nAlBtGsFQ24ne+SYnvnaQ2FSw==}
+  linkedom@0.18.14:
+    resolution: {integrity: sha512-BRUnkOm4YR5vo+qI3j0EbungB0vZPSCue5AdnTQRaxAGSbsOZiBFRO0rh4zlo8qXUhli8pxvnpEXDklMnlq2Rg==}
     engines: {node: '>=16'}
     peerDependencies:
       canvas: '>= 2'
@@ -1023,8 +1026,8 @@ packages:
     resolution: {integrity: sha512-nK28WOo+QIjBkDduTINE4JkF/UJJKyf2EJxvJKfblDpyg0Q+pkOHNTL0Qwy6NP6FhE/EnzV73BxxqcJaXY9anw==}
     engines: {node: '>= 0.4'}
 
-  on-finished@2.4.1:
-    resolution: {integrity: sha512-oVlzkg3ENAhCk2zdv7IJwd/QUD4z2RxRwpkcGY8psCVcCYZNq4wYnVWALHM+brtuJjePWiYF/ClmuDr8Ch5+kg==}
+  on-finished@2.4.2:
+    resolution: {integrity: sha512-ATWUv387i+nLD49EiDoOft5scf32Vsdz3ktrQJG9bi7jRFmaXTssvyvj1EmeKVVgvesbqUtvQQvaS2TpTukAZQ==}
     engines: {node: '>= 0.8'}
 
   once@1.4.0:
@@ -1063,18 +1066,18 @@ packages:
     peerDependencies:
       '@earendil-works/pi-coding-agent': '>=0.84.1 <1.0.0'
 
-  pi-effort@0.0.8:
-    resolution: {integrity: sha512-wdjCMVIGRqLGNMAIOR+N9EkgLG2lDgIYqRkMj0t/G+LH1RMCOhh4Ct7YO00i7KLkvyipswrigKnl/qLVrzdq5w==}
+  pi-effort@0.1.0:
+    resolution: {integrity: sha512-99yEZfx7Jy0ZAFspC/egrjD7riSDm2JYBCYIvgUoMIdwVCUt1abtVmCHkRRg7H/PUJ8jNmg8sjbbbSyMFsXglA==}
     peerDependencies:
       '@earendil-works/pi-ai': '>=0.84.0 <1.0.0'
       '@earendil-works/pi-coding-agent': '>=0.84.0 <1.0.0'
 
-  pi-subagents@0.79.2:
-    resolution: {integrity: sha512-LRG7T7tbpkH0FpUd57Vg8DDHhSDu1tW/6jsXy49t0snJsv++6yPWSyt58AyHHS2qLhs0KgWSND4v0cUzOaB8sQ==}
+  pi-subagents@0.81.0:
+    resolution: {integrity: sha512-nS4otciP317cYBqIs+6IE8nsudWpPTbI0Lzx7BLgZHbawGs6KThjLc9429Z6eHBc5ip7rXCMRc9XhgZKyF+9Dg==}
     hasBin: true
     peerDependencies:
       '@earendil-works/pi-agent-core': '*'
-      '@earendil-works/pi-ai': '>=0.86.1'
+      '@earendil-works/pi-ai': '>=1.2.0'
       '@earendil-works/pi-coding-agent': '*'
       '@earendil-works/pi-tui': '*'
       typebox: '*'
@@ -1090,8 +1093,8 @@ packages:
       typebox:
         optional: true
 
-  pi-web-access@0.43.0:
-    resolution: {integrity: sha512-O3cyBI3JnZuNM7tjUbpmq/X5uxZsbFyoqv+KKc4LDx1SDNV4BuVD/OaB/NTLZgfOQMgptNF0CnOP2nigQJ9bSQ==}
+  pi-web-access@0.44.0:
+    resolution: {integrity: sha512-8YK2Nb0P7ezRL0FS7P1cPYu7gDUOuhXWA3FOBev0bKsuPtG2QrDVm2GriKBgZI1Sq7SC8QRsfVFYYP8huUEo8w==}
     engines: {node: '>=22.19.0'}
     hasBin: true
     peerDependencies:
@@ -1428,6 +1431,9 @@ packages:
 
 snapshots:
 
+  '@acemir/cssom@0.9.32':
+    optional: true
+
   '@ff-labs/fff-bin-android-arm64@0.11.0':
     optional: true
 
@@ -1496,11 +1502,11 @@ snapshots:
     dependencies:
       jsbi: 4.3.2
 
-  '@juicesharp/rpiv-ask-user-question@2.13.9':
+  '@juicesharp/rpiv-ask-user-question@2.14.1':
     dependencies:
-      '@juicesharp/rpiv-config': 2.13.9
+      '@juicesharp/rpiv-config': 2.14.1
 
-  '@juicesharp/rpiv-config@2.13.9': {}
+  '@juicesharp/rpiv-config@2.14.1': {}
 
   '@mixmark-io/domino@2.2.0': {}
 
@@ -1552,7 +1558,7 @@ snapshots:
       grok-mermaid: 0.2.3
       highlight.js: 11.12.0
 
-  '@narumitw/pi-usage@0.67.0':
+  '@narumitw/pi-usage@0.68.0':
     dependencies:
       '@narumitw/pi-tui-kit': 0.61.0
 
@@ -1576,7 +1582,7 @@ snapshots:
       '@shikijs/themes': 4.5.0
       shiki: 4.5.0
 
-  '@plannotator/pi-extension@0.28.24(@shikijs/themes@4.5.0)':
+  '@plannotator/pi-extension@0.28.29(@shikijs/themes@4.5.0)':
     dependencies:
       '@joplin/turndown-plugin-gfm': 1.0.68
       '@pierre/diffs': 1.3.6(@shikijs/themes@4.5.0)
@@ -1758,14 +1764,14 @@ snapshots:
 
   billion-context-pi@0.1.83: {}
 
-  body-parser@2.3.0:
+  body-parser@2.4.0:
     dependencies:
       bytes: 3.1.2
       content-type: 2.1.0
       debug: 4.4.3
       http-errors: 2.0.1
       iconv-lite: 0.7.3
-      on-finished: 2.4.1
+      on-finished: 2.4.2
       qs: 6.16.1
       raw-body: 3.0.2
       type-is: 2.1.0
@@ -1893,7 +1899,7 @@ snapshots:
     dependencies:
       commander: 12.1.0
     optionalDependencies:
-      linkedom: 0.18.13
+      linkedom: 0.18.14
       mathml-to-latex: 1.8.0
       temml: 0.13.5
       turndown: 7.2.4
@@ -2081,7 +2087,7 @@ snapshots:
   express@5.3.0:
     dependencies:
       accepts: 2.0.0
-      body-parser: 2.3.0
+      body-parser: 2.4.0
       content-disposition: 2.0.1
       content-type: 2.1.0
       cookie: 0.7.2
@@ -2096,7 +2102,7 @@ snapshots:
       http-errors: 2.0.1
       merge-descriptors: 2.0.0
       mime-types: 3.0.2
-      on-finished: 2.4.1
+      on-finished: 2.4.2
       once: 1.4.0
       parseurl: 1.3.3
       proxy-addr: 2.0.8
@@ -2134,7 +2140,7 @@ snapshots:
       debug: 4.4.3
       encodeurl: 2.0.0
       escape-html: 1.0.3
-      on-finished: 2.4.1
+      on-finished: 2.4.2
       parseurl: 1.3.3
       statuses: 2.0.2
     transitivePeerDependencies:
@@ -2408,10 +2414,10 @@ snapshots:
       htmlparser2: 9.1.0
       uhyphen: 0.2.0
 
-  linkedom@0.18.13:
+  linkedom@0.18.14:
     dependencies:
+      '@acemir/cssom': 0.9.32
       css-select: 7.0.0
-      cssom: 0.5.0
       html-escaper: 3.0.3
       htmlparser2: 10.1.0
       uhyphen: 0.2.0
@@ -2503,7 +2509,7 @@ snapshots:
       has-symbols: 1.1.0
       object-keys: 1.1.1
 
-  on-finished@2.4.1:
+  on-finished@2.4.2:
     dependencies:
       ee-first: 1.1.1
 
@@ -2542,9 +2548,9 @@ snapshots:
 
   pi-draft-history@0.1.2: {}
 
-  pi-effort@0.0.8: {}
+  pi-effort@0.1.0: {}
 
-  pi-subagents@0.79.2:
+  pi-subagents@0.81.0:
     dependencies:
       '@js-temporal/polyfill': 0.5.1
       acorn: 8.18.0
@@ -2552,7 +2558,7 @@ snapshots:
       undici: 8.10.2
       yaml: 2.8.3
 
-  pi-web-access@0.43.0:
+  pi-web-access@0.44.0:
     dependencies:
       '@modelcontextprotocol/sdk': 1.32.1
       '@mozilla/readability': 0.6.0
@@ -2679,7 +2685,7 @@ snapshots:
       http-errors: 2.0.1
       mime-types: 3.0.2
       ms: 2.1.3
-      on-finished: 2.4.1
+      on-finished: 2.4.2
       range-parser: 1.3.0
       statuses: 2.0.2
     transitivePeerDependencies:
