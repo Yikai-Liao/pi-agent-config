@@ -12,20 +12,20 @@ importers:
         specifier: 0.11.0
         version: 0.11.0
       '@juicesharp/rpiv-ask-user-question':
-        specifier: 2.14.1
-        version: 2.14.1
+        specifier: 2.15.0
+        version: 2.15.0
       '@narumitw/pi-btw':
-        specifier: 0.62.0
-        version: 0.62.0
+        specifier: 0.63.0
+        version: 0.63.0
       '@narumitw/pi-goal':
         specifier: 0.54.13
         version: 0.54.13
       '@narumitw/pi-usage':
-        specifier: 0.68.0
-        version: 0.68.0
+        specifier: 0.68.1
+        version: 0.68.1
       '@plannotator/pi-extension':
-        specifier: 0.28.29
-        version: 0.28.29(@shikijs/themes@4.5.0)
+        specifier: 0.28.30
+        version: 0.28.30(@shikijs/themes@4.5.0)
       billion-context-pi:
         specifier: 0.1.83
         version: 0.1.83
@@ -131,8 +131,8 @@ packages:
     resolution: {integrity: sha512-hloP58zRVCRSpgDxmqCWJNlizAlUgJFqG2ypq79DCvyv9tHjRYMDOcPFjzfl/A1/YxDvRCZz8wvZvmapQnKwFQ==}
     engines: {node: '>=12'}
 
-  '@juicesharp/rpiv-ask-user-question@2.14.1':
-    resolution: {integrity: sha512-cBOhU8FqJn2A/CI8JGQIBWCQ29V/EJbJ9Y0Ec6xScDFZqJwcpkNFqs31YUkHJnMJl6MbDmEKix+49p5xTVW3VQ==}
+  '@juicesharp/rpiv-ask-user-question@2.15.0':
+    resolution: {integrity: sha512-Gm6de5IZF52BaSeh9dnDqJBn821Z5XfJkCmhkCmqTzvNv3SCpSv1mA4Gj5VBcfrSe+xTtWSVQzJwIqJFQHH3Lg==}
     peerDependencies:
       '@earendil-works/pi-coding-agent': '*'
       '@earendil-works/pi-tui': '*'
@@ -142,8 +142,8 @@ packages:
       '@juicesharp/rpiv-i18n':
         optional: true
 
-  '@juicesharp/rpiv-config@2.14.1':
-    resolution: {integrity: sha512-ATKwoDAZGCu4aK3P1F11++Wkp0kRj7hl8YgGUIX/ByxgwcrKnnBXRe75m46pQ8P0+rAfCyKwYXDHwgNG7nL8JA==}
+  '@juicesharp/rpiv-config@2.15.0':
+    resolution: {integrity: sha512-S2BAGX4dJjQ2AyNYOEjC6ha04p9f6CdEfmtxpdxzSKrfDMwqIvOjjO9HiHc1IPY7jDY1q2Q8cGCtpIZWV6Y8NQ==}
     peerDependencies:
       typebox: '*'
 
@@ -163,8 +163,8 @@ packages:
     resolution: {integrity: sha512-juG5VWh4qAivzTAeMzvY9xs9HY5rAcr2E4I7tiSSCokRFi7XIZCAu92ZkSTsIj1OPceCifL3cpfteP3pDT9/QQ==}
     engines: {node: '>=14.0.0'}
 
-  '@narumitw/pi-btw@0.62.0':
-    resolution: {integrity: sha512-9bifAqcnQSeV7E0hBQ87h1CTmxbqVVTRVeB2QGIyKlPR7YbXoOG1z3gbAbogJLWY5ffOjSuHpTMYZ/5TPdr8AA==}
+  '@narumitw/pi-btw@0.63.0':
+    resolution: {integrity: sha512-OEAMv/DXtHb2eqp4fbWpPED2qjW8YBzHp5cnXQZVNP8t5neGfpXB2r47ihNrTHr3T1htTq6YRSnG+NkZyR04vg==}
     peerDependencies:
       '@earendil-works/pi-ai': '*'
       '@earendil-works/pi-coding-agent': '*'
@@ -184,20 +184,20 @@ packages:
       '@earendil-works/pi-coding-agent': '*'
       '@earendil-works/pi-tui': '*'
 
-  '@narumitw/pi-tui-kit@0.61.0':
-    resolution: {integrity: sha512-HrJLvAfcN7b9OG2DAWqbRjQ5g3ac1VyaQFUCupjzyUoRV/qI09CPLXGKHPBRW0ld1dNxy2y0KJtCZacfZnBnLQ==}
-    peerDependencies:
-      '@earendil-works/pi-coding-agent': '*'
-      '@earendil-works/pi-tui': '*'
-
   '@narumitw/pi-tui-kit@0.64.0':
     resolution: {integrity: sha512-VdFK3DyNzanfabeNP9DFX8Jj2LMKi6RV0q3Mf+xVwosG0bMWIIUwe6S9KDBYq5KfzEMzr4iFMSBweT95McwedQ==}
     peerDependencies:
       '@earendil-works/pi-coding-agent': '*'
       '@earendil-works/pi-tui': '*'
 
-  '@narumitw/pi-usage@0.68.0':
-    resolution: {integrity: sha512-Sg1MKHVzkU+4aHZpgx6wwwPuxUK+JPf/dy/68FOG45SXtD4NFGM6ff9hWHbTYxH//+xmF0UiH1Ls51OMQGqWyQ==}
+  '@narumitw/pi-tui-kit@0.66.0':
+    resolution: {integrity: sha512-LIOHvYth8ntps6DGxSlkSkvWb4U2j2lk2oifyqHrqPxyB9sim5qSj+ZqVa0EAC5QJbIpvV4s1JDlGJS0imudog==}
+    peerDependencies:
+      '@earendil-works/pi-coding-agent': '*'
+      '@earendil-works/pi-tui': '*'
+
+  '@narumitw/pi-usage@0.68.1':
+    resolution: {integrity: sha512-0p8AIPnOsT++LauqemcIuqPONFmEDH2RERb0R/C2WHxO4uBBjrbWMIitl/V3F2qpMTojG5HdV09X6s2MyTZs8g==}
     peerDependencies:
       '@earendil-works/pi-ai': '*'
       '@earendil-works/pi-coding-agent': '*'
@@ -233,8 +233,8 @@ packages:
       shiki:
         optional: true
 
-  '@plannotator/pi-extension@0.28.29':
-    resolution: {integrity: sha512-E/drgC2R++ZJO40osQpNr7cBp/obwIBe+4f3A2bbm1UGgV8y2bJMAk42qyISJYHodoh1KOz764MxCLp6w7cS/g==}
+  '@plannotator/pi-extension@0.28.30':
+    resolution: {integrity: sha512-smnaY4zBGMyQpq87YQ+orodqfeWf0KpeucY0W/4Pz6n4YsFuMMtSluzeXtLK0MlndWdC1/fjSThaxeIaNE6bSw==}
     peerDependencies:
       '@earendil-works/pi-coding-agent': '>=0.79.1'
 
@@ -1344,11 +1344,11 @@ packages:
   unist-util-stringify-position@4.0.0:
     resolution: {integrity: sha512-0ASV06AAoKCDkS2+xw5RXJywruurpbC4JZSm7nr7MOt1ojAzvyyaO+UxZf18j8FCF6kmzCZKcAgN/yu2gm2XgQ==}
 
-  unist-util-visit-parents@6.0.2:
-    resolution: {integrity: sha512-goh1s1TBrqSqukSc8wrjwWhL0hiJxgA8m4kFxGlQ+8FYQ3C/m11FcTs4YYem7V664AhHVvgoQLk890Ssdsr2IQ==}
+  unist-util-visit-parents@6.1.0:
+    resolution: {integrity: sha512-vKXxz6O38sKDj1mtx/k2cWvkkFBuYGx6uGrlzBkVeWCRF/F8sdI0j3Wbkz/5rVNRRuVc8UrgRdbCxNhmYXgP3w==}
 
-  unist-util-visit@5.1.0:
-    resolution: {integrity: sha512-m+vIdyeCOpdr/QeQCu2EzxX/ohgS8KbnPDgFni4dQsfSCtpz8UqDyY5GjRru8PDKuYn7Fq19j1CQ+nJSsGKOzg==}
+  unist-util-visit@5.2.0:
+    resolution: {integrity: sha512-fpsYs/VVoZxfGY9/j3FQpZmN8wdLJaV1Pt38AaJNZu9uKIHcFU3halCdBveEq1HGKO1OEfJY65w1zvoFV1b3qQ==}
 
   unpdf@1.9.1:
     resolution: {integrity: sha512-nO1npM2kNyd4hj1fKzUVU6bvnWjDSxI97eycM/DgzI83dYyW+pNRI9NeMQVEfef8fI3Q06i9lkMeE1HxrQqKoA==}
@@ -1502,11 +1502,11 @@ snapshots:
     dependencies:
       jsbi: 4.3.2
 
-  '@juicesharp/rpiv-ask-user-question@2.14.1':
+  '@juicesharp/rpiv-ask-user-question@2.15.0':
     dependencies:
-      '@juicesharp/rpiv-config': 2.14.1
+      '@juicesharp/rpiv-config': 2.15.0
 
-  '@juicesharp/rpiv-config@2.14.1': {}
+  '@juicesharp/rpiv-config@2.15.0': {}
 
   '@mixmark-io/domino@2.2.0': {}
 
@@ -1534,7 +1534,7 @@ snapshots:
 
   '@mozilla/readability@0.6.0': {}
 
-  '@narumitw/pi-btw@0.62.0':
+  '@narumitw/pi-btw@0.63.0':
     dependencies:
       '@narumitw/pi-tui-kit': 0.64.0
 
@@ -1547,20 +1547,21 @@ snapshots:
       grok-mermaid: 0.2.3
       highlight.js: 11.12.0
 
-  '@narumitw/pi-tui-kit@0.61.0':
-    dependencies:
-      grok-mermaid: 0.2.3
-      highlight.js: 11.12.0
-
   '@narumitw/pi-tui-kit@0.64.0':
     dependencies:
       diff: 9.0.0
       grok-mermaid: 0.2.3
       highlight.js: 11.12.0
 
-  '@narumitw/pi-usage@0.68.0':
+  '@narumitw/pi-tui-kit@0.66.0':
     dependencies:
-      '@narumitw/pi-tui-kit': 0.61.0
+      diff: 9.0.0
+      grok-mermaid: 0.2.3
+      highlight.js: 11.12.0
+
+  '@narumitw/pi-usage@0.68.1':
+    dependencies:
+      '@narumitw/pi-tui-kit': 0.66.0
 
   '@pierre/diffs@1.3.6(@shikijs/themes@4.5.0)':
     dependencies:
@@ -1582,7 +1583,7 @@ snapshots:
       '@shikijs/themes': 4.5.0
       shiki: 4.5.0
 
-  '@plannotator/pi-extension@0.28.29(@shikijs/themes@4.5.0)':
+  '@plannotator/pi-extension@0.28.30(@shikijs/themes@4.5.0)':
     dependencies:
       '@joplin/turndown-plugin-gfm': 1.0.68
       '@pierre/diffs': 1.3.6(@shikijs/themes@4.5.0)
@@ -2443,7 +2444,7 @@ snapshots:
       micromark-util-sanitize-uri: 2.0.1
       trim-lines: 3.0.1
       unist-util-position: 5.0.0
-      unist-util-visit: 5.1.0
+      unist-util-visit: 5.2.0
       vfile: 6.0.3
 
   media-typer@1.1.1: {}
@@ -2881,16 +2882,16 @@ snapshots:
     dependencies:
       '@types/unist': 3.0.3
 
-  unist-util-visit-parents@6.0.2:
+  unist-util-visit-parents@6.1.0:
     dependencies:
       '@types/unist': 3.0.3
       unist-util-is: 6.0.1
 
-  unist-util-visit@5.1.0:
+  unist-util-visit@5.2.0:
     dependencies:
       '@types/unist': 3.0.3
       unist-util-is: 6.0.1
-      unist-util-visit-parents: 6.0.2
+      unist-util-visit-parents: 6.1.0
 
   unpdf@1.9.1: {}
 
