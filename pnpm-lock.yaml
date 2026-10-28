@@ -36,8 +36,8 @@ importers:
         specifier: 0.1.0
         version: 0.1.0
       pi-subagents:
-        specifier: 0.81.0
-        version: 0.81.0
+        specifier: 0.82.1
+        version: 0.82.1
       pi-web-access:
         specifier: 0.44.0
         version: 0.44.0
@@ -1068,12 +1068,13 @@ packages:
 
   pi-effort@0.1.0:
     resolution: {integrity: sha512-99yEZfx7Jy0ZAFspC/egrjD7riSDm2JYBCYIvgUoMIdwVCUt1abtVmCHkRRg7H/PUJ8jNmg8sjbbbSyMFsXglA==}
+    deprecated: 'Moved to @machine-made/pi-effort. Install: pi install npm:@machine-made/pi-effort'
     peerDependencies:
       '@earendil-works/pi-ai': '>=0.84.0 <1.0.0'
       '@earendil-works/pi-coding-agent': '>=0.84.0 <1.0.0'
 
-  pi-subagents@0.81.0:
-    resolution: {integrity: sha512-nS4otciP317cYBqIs+6IE8nsudWpPTbI0Lzx7BLgZHbawGs6KThjLc9429Z6eHBc5ip7rXCMRc9XhgZKyF+9Dg==}
+  pi-subagents@0.82.1:
+    resolution: {integrity: sha512-CLDX/+iO0zpCyk2xL5tVtRPHrXObCC7jd0t0Axst6S5IFWTDHAVpcOogCzSudqOihCsadiZ8xhpYCpAG5E067A==}
     hasBin: true
     peerDependencies:
       '@earendil-works/pi-agent-core': '*'
@@ -1326,10 +1327,6 @@ packages:
   unbox-primitive@1.1.0:
     resolution: {integrity: sha512-nWJ91DjeOkej/TA8pXQ3myruKpKEYgqvpw9lz4OPHj/NWFNluYrjbz9j01CJ8yKQd2g4jFoOkINCTW2I5LEEyw==}
     engines: {node: '>= 0.4'}
-
-  undici@8.10.2:
-    resolution: {integrity: sha512-/y4/bH9YNU5hi9NIrpOuvGXFcxrj3CMrV+/AYpowAYTpHn8gX/XPFjNy766FPoYY0miQhdW977JFWKGNhBdwyQ==}
-    engines: {node: '>=22.19.0'}
 
   undici@8.12.3:
     resolution: {integrity: sha512-+fdndUTwBP86cVjihTp21hZHo7d6oj1c/47XPA3lL8mM0XHs+C4EkcjmgRsFnFk2f/UONGDy9ItBItmXsLOQHw==}
@@ -2551,12 +2548,12 @@ snapshots:
 
   pi-effort@0.1.0: {}
 
-  pi-subagents@0.81.0:
+  pi-subagents@0.82.1:
     dependencies:
       '@js-temporal/polyfill': 0.5.1
       acorn: 8.18.0
       jiti: 2.7.0
-      undici: 8.10.2
+      undici: 8.12.3
       yaml: 2.8.3
 
   pi-web-access@0.44.0:
@@ -2865,8 +2862,6 @@ snapshots:
       has-bigints: 1.1.0
       has-symbols: 1.1.0
       which-boxed-primitive: 1.1.1
-
-  undici@8.10.2: {}
 
   undici@8.12.3: {}
 
