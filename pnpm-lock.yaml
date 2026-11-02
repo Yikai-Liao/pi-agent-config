@@ -15,17 +15,17 @@ importers:
         specifier: 2.15.0
         version: 2.15.0
       '@narumitw/pi-btw':
-        specifier: 0.63.1
-        version: 0.63.1
+        specifier: 0.63.3
+        version: 0.63.3
       '@narumitw/pi-goal':
         specifier: 0.54.13
         version: 0.54.13
       '@narumitw/pi-usage':
-        specifier: 0.68.3
-        version: 0.68.3
+        specifier: 0.69.0
+        version: 0.69.0
       '@plannotator/pi-extension':
-        specifier: 0.28.33
-        version: 0.28.33(@shikijs/themes@4.5.0)
+        specifier: 0.28.40
+        version: 0.28.40(@shikijs/themes@4.5.0)
       billion-context-pi:
         specifier: 0.1.83
         version: 0.1.83
@@ -33,14 +33,14 @@ importers:
         specifier: 0.1.2
         version: 0.1.2
       pi-effort:
-        specifier: 0.1.0
-        version: 0.1.0
+        specifier: 0.1.1
+        version: 0.1.1
       pi-subagents:
-        specifier: 0.83.0
-        version: 0.83.0
+        specifier: 0.84.0
+        version: 0.84.0
       pi-web-access:
-        specifier: 0.45.0
-        version: 0.45.0
+        specifier: 0.46.0
+        version: 0.46.0
       pi-zentui:
         specifier: 0.33.0
         version: 0.33.0
@@ -163,8 +163,8 @@ packages:
     resolution: {integrity: sha512-juG5VWh4qAivzTAeMzvY9xs9HY5rAcr2E4I7tiSSCokRFi7XIZCAu92ZkSTsIj1OPceCifL3cpfteP3pDT9/QQ==}
     engines: {node: '>=14.0.0'}
 
-  '@narumitw/pi-btw@0.63.1':
-    resolution: {integrity: sha512-Og05FmvyKvxo6JGGOqAF/XOC0HnMq7zf1W3+zYAZVXhRUnNYCSN0Pd5EslxlCEr00dgfOLyDOiUppguPHWkowg==}
+  '@narumitw/pi-btw@0.63.3':
+    resolution: {integrity: sha512-X76CDY/Kmu8NHvO6XC2uXSs1NEf1JDsnEzVBDaCaevezpJEHeFgNMXCkaVN21VjUBQ9OUmZU+0/cn5Ji9Tldgw==}
     peerDependencies:
       '@earendil-works/pi-ai': '*'
       '@earendil-works/pi-coding-agent': '*'
@@ -184,14 +184,14 @@ packages:
       '@earendil-works/pi-coding-agent': '*'
       '@earendil-works/pi-tui': '*'
 
-  '@narumitw/pi-tui-kit@0.67.0':
-    resolution: {integrity: sha512-IFLOImxPqmxH+5zKGXDOd1CZEZo0S4n+Owx00zQ8kJoUDtEZ0I9K1P1NEQrekwmWiAdiJcOMwe2pRoismGAbsg==}
+  '@narumitw/pi-tui-kit@0.68.0':
+    resolution: {integrity: sha512-AIPMCkgLLUg5bZj0GeM0F5wIIz+x9f73OlScEkwzSph7UMJ4ngJH3p5Ca54ebHWAGWxpeaNHNOqB+mD6yvXhDA==}
     peerDependencies:
       '@earendil-works/pi-coding-agent': '*'
       '@earendil-works/pi-tui': '*'
 
-  '@narumitw/pi-usage@0.68.3':
-    resolution: {integrity: sha512-Y4ac8KPfSo3YQGYjIidxExh06dvobtDmM73hL7ISq8oI32eFskaXKMepZWPtw4KWyZgfcNs62/Sxt610wQZAYA==}
+  '@narumitw/pi-usage@0.69.0':
+    resolution: {integrity: sha512-T/egRr3KG1UnefQJoJRDNHw1SdCHWZkN2KZFy7zFXR514MhMGCONMBfml6cDhkMywFuAADmQCfCg6FeP/CBnLA==}
     peerDependencies:
       '@earendil-works/pi-ai': '*'
       '@earendil-works/pi-coding-agent': '*'
@@ -232,8 +232,8 @@ packages:
       shiki:
         optional: true
 
-  '@plannotator/pi-extension@0.28.33':
-    resolution: {integrity: sha512-MVUPC5FQ+xoFhJkY92NjIcl35T6I3K2d+vd6C6fSxEeqotIdetUYi6K5kLeafuJqiVzshl6n0/p/oywwY298BQ==}
+  '@plannotator/pi-extension@0.28.40':
+    resolution: {integrity: sha512-pnYDUXHjO/xnLMQE2Q7al0mJN2HaHPVvj7HcIkGOXf4Oalwh7y05zKx5NEY5VHvlVb/dFlmr21prC0LS9kPrdA==}
     peerDependencies:
       '@earendil-works/pi-coding-agent': '>=0.79.1'
 
@@ -607,8 +607,8 @@ packages:
   ee-first@1.1.1:
     resolution: {integrity: sha512-WMwm9LhRUo+WUaRN+vRuETqG89IgZphVSNkdFgeb6sS/E4OrDIN7t48CAewSHXc6C8lefD8KKfr5vY61brQlow==}
 
-  encodeurl@2.0.0:
-    resolution: {integrity: sha512-Q0n9HRi4m6JuGIV1eFlmvJB7ZEVxu93IrMyiMsGC0lrMJMWzRgx6WGquyfQgZVb31vhGgXnfmPNNXmxnOkRBrg==}
+  encodeurl@2.0.1:
+    resolution: {integrity: sha512-Ev/hIyePLZtpL98x562lvPtenrUfGr0lfaf44HFZ+hDEwso7ccV9QAZrEVLg0hxNAzygaAFxy2dYaAKKM0G06A==}
     engines: {node: '>= 0.8'}
 
   entities@4.5.0:
@@ -670,8 +670,8 @@ packages:
     resolution: {integrity: sha512-CRT1WTyuQoD771GW56XEZFQ/ZoSfWid1alKGDYMmkt2yl8UXrVR4pspqWNEcqKvVIzg6PAltWjxcSSPrboA4iA==}
     engines: {node: '>=18.0.0'}
 
-  express-rate-limit@8.7.1:
-    resolution: {integrity: sha512-2FXbqkygil3mZiXzEtM0IjE/UBmBNot0J1GEVrJT4JbrvwOSoEtqtO+wHbiMQELWe1eNvHoYRg2dkjOid+6JkA==}
+  express-rate-limit@8.7.2:
+    resolution: {integrity: sha512-U1ScocxDD9WI09LaBVypvNkOtNR5yWAmZLkuKJdAzIchA4YKFYF6GT5IKER7epG58oXtjvGlV0/6ii0F83EyZg==}
     engines: {node: '>= 16'}
     peerDependencies:
       express: '>= 4.11'
@@ -916,8 +916,8 @@ packages:
     resolution: {integrity: sha512-AC/7JofJvZGrrneWNaEnJeOLUx+JlGt7tNa0wZiRPT4MY1wmfKjt2+6O2p2uz2+skll8OZZmJMNqeke7kKbNgQ==}
     hasBin: true
 
-  jose@6.2.13:
-    resolution: {integrity: sha512-7TIg10ZE1x82YediN+lcrPNvGMKge9yFHQD+Qho/b8y2adfugU3AsvvHfxV0fzyFllT6l9xCjf4RWY9g/Z9PJQ==}
+  jose@6.2.14:
+    resolution: {integrity: sha512-3JasLuki1NRLQvY4wCoC37KZk4qxoBx2k2aFqLxT84IezqW0bkJKnNtxnZj/Fu1xsQivoc/lytxaRHJoGLjJ1A==}
 
   jsbi@4.3.2:
     resolution: {integrity: sha512-9fqMSQbhJykSeii05nxKl4m6Eqn2P6rOlYiS+C5Dr/HPIU/7yZxu5qzbs40tgaFORiw2Amd0mirjxatXYMkIew==}
@@ -1065,15 +1065,15 @@ packages:
     peerDependencies:
       '@earendil-works/pi-coding-agent': '>=0.84.1 <1.0.0'
 
-  pi-effort@0.1.0:
-    resolution: {integrity: sha512-99yEZfx7Jy0ZAFspC/egrjD7riSDm2JYBCYIvgUoMIdwVCUt1abtVmCHkRRg7H/PUJ8jNmg8sjbbbSyMFsXglA==}
+  pi-effort@0.1.1:
+    resolution: {integrity: sha512-Ed24k2ANMjPqYFBV0jsK3uTXsagyabRCL9nuMcWWFaxgbUjP/ILjyRGFSzm4YmcqRBqrJLPCb2Q8aTk+jTO8Ww==}
     deprecated: 'Moved to @machine-made/pi-effort. Install: pi install npm:@machine-made/pi-effort'
     peerDependencies:
       '@earendil-works/pi-ai': '>=0.84.0 <1.0.0'
       '@earendil-works/pi-coding-agent': '>=0.84.0 <1.0.0'
 
-  pi-subagents@0.83.0:
-    resolution: {integrity: sha512-MlmLLa8Cb2/RCkkhCgbRDdeigpFL8v0rKqa+HjWpa/3ylZb49Fg+XDsbMeNu+zQ6268dnxGt1sTDhXsAKxBzKg==}
+  pi-subagents@0.84.0:
+    resolution: {integrity: sha512-IagE1hcBxLi82jTxTmcy/pIWckBuqhMH1GfAOe6/aIMVfnopMybCbcTMUS5K0CNy4tqSwHGleaXabaDmJS1QOg==}
     hasBin: true
     peerDependencies:
       '@earendil-works/pi-agent-core': '*'
@@ -1093,8 +1093,8 @@ packages:
       typebox:
         optional: true
 
-  pi-web-access@0.45.0:
-    resolution: {integrity: sha512-AHgUKUas1vvBtdKbcv+7rWTPTIOl8xHR4E7s4dLBAz6soSGGPC4YNq1uVGuH5+bVrMx4X/fmPCm4rsOQIxexdQ==}
+  pi-web-access@0.46.0:
+    resolution: {integrity: sha512-UfeJKU0TPmQU/3hmfAC5Ot/e5Ib0uHkg2+VHM7Ae4kVilLZf7ocGqHFzBzOkYuGLZ87LobzkrhwTAq8lO/N7cQ==}
     engines: {node: '>=22.19.0'}
     hasBin: true
     peerDependencies:
@@ -1152,8 +1152,8 @@ packages:
     resolution: {integrity: sha512-5nnx0yGyVUcY6t9RnWcARWtwT9F1D8O9rt08htPvnd49W1IgZtmLkhu9WfMzQj1cFxjHIO6connUNVW5k7AVyQ==}
     engines: {node: '>= 0.10'}
 
-  qs@6.16.1:
-    resolution: {integrity: sha512-5Px6J7rfHBAGUhNQ3es4YzcOdBBw0SDcVtThJml4RdnKw4tKs2epA0kPZ+K8X+WiHktT93RHVcQ/3ym5aTCgtg==}
+  qs@6.17.1:
+    resolution: {integrity: sha512-jd3COkaKVgGUW+ZHyEHCG9bH7RoaaiWuMgzsIBjUMVjLAaWGWpoUAVwljVvBHxRu/2qEHnadLGZrkutYUBPQJA==}
     engines: {node: '>=0.6'}
 
   range-parser@1.3.0:
@@ -1517,9 +1517,9 @@ snapshots:
       eventsource: 3.0.7
       eventsource-parser: 3.1.1
       express: 5.3.0
-      express-rate-limit: 8.7.1(express@5.3.0)
+      express-rate-limit: 8.7.2(express@5.3.0)
       hono: 4.13.14
-      jose: 6.2.13
+      jose: 6.2.14
       json-schema-typed: 8.0.2
       pkce-challenge: 5.0.1
       raw-body: 3.0.2
@@ -1530,9 +1530,9 @@ snapshots:
 
   '@mozilla/readability@0.6.0': {}
 
-  '@narumitw/pi-btw@0.63.1':
+  '@narumitw/pi-btw@0.63.3':
     dependencies:
-      '@narumitw/pi-tui-kit': 0.67.0
+      '@narumitw/pi-tui-kit': 0.68.0
 
   '@narumitw/pi-goal@0.54.13':
     dependencies:
@@ -1543,15 +1543,15 @@ snapshots:
       grok-mermaid: 0.2.3
       highlight.js: 11.12.0
 
-  '@narumitw/pi-tui-kit@0.67.0':
+  '@narumitw/pi-tui-kit@0.68.0':
     dependencies:
       diff: 9.0.0
       grok-mermaid: 0.2.3
       highlight.js: 11.12.0
 
-  '@narumitw/pi-usage@0.68.3':
+  '@narumitw/pi-usage@0.69.0':
     dependencies:
-      '@narumitw/pi-tui-kit': 0.67.0
+      '@narumitw/pi-tui-kit': 0.68.0
 
   '@pierre/diffs@1.5.2(@shikijs/themes@4.5.0)':
     dependencies:
@@ -1573,7 +1573,7 @@ snapshots:
       '@shikijs/themes': 4.5.0
       shiki: 4.5.0
 
-  '@plannotator/pi-extension@0.28.33(@shikijs/themes@4.5.0)':
+  '@plannotator/pi-extension@0.28.40(@shikijs/themes@4.5.0)':
     dependencies:
       '@joplin/turndown-plugin-gfm': 1.0.68
       '@pierre/diffs': 1.5.2(@shikijs/themes@4.5.0)
@@ -1763,7 +1763,7 @@ snapshots:
       http-errors: 2.0.1
       iconv-lite: 0.7.3
       on-finished: 2.4.2
-      qs: 6.16.1
+      qs: 6.17.1
       raw-body: 3.0.2
       type-is: 2.1.0
     transitivePeerDependencies:
@@ -1957,7 +1957,7 @@ snapshots:
 
   ee-first@1.1.1: {}
 
-  encodeurl@2.0.0: {}
+  encodeurl@2.0.1: {}
 
   entities@4.5.0: {}
 
@@ -2067,7 +2067,7 @@ snapshots:
     dependencies:
       eventsource-parser: 3.1.1
 
-  express-rate-limit@8.7.1(express@5.3.0):
+  express-rate-limit@8.7.2(express@5.3.0):
     dependencies:
       debug: 4.4.3
       express: 5.3.0
@@ -2085,7 +2085,7 @@ snapshots:
       cookie-signature: 1.2.2
       debug: 4.4.3
       depd: 2.0.0
-      encodeurl: 2.0.0
+      encodeurl: 2.0.1
       escape-html: 1.0.3
       etag: 1.8.1
       finalhandler: 2.1.1
@@ -2097,7 +2097,7 @@ snapshots:
       once: 1.4.0
       parseurl: 1.3.3
       proxy-addr: 2.0.8
-      qs: 6.16.1
+      qs: 6.17.1
       range-parser: 1.3.0
       router: 2.2.0
       send: 1.2.1
@@ -2129,7 +2129,7 @@ snapshots:
   finalhandler@2.1.1:
     dependencies:
       debug: 4.4.3
-      encodeurl: 2.0.0
+      encodeurl: 2.0.1
       escape-html: 1.0.3
       on-finished: 2.4.2
       parseurl: 1.3.3
@@ -2389,7 +2389,7 @@ snapshots:
 
   jiti@2.7.0: {}
 
-  jose@6.2.13: {}
+  jose@6.2.14: {}
 
   jsbi@4.3.2: {}
 
@@ -2539,9 +2539,9 @@ snapshots:
 
   pi-draft-history@0.1.2: {}
 
-  pi-effort@0.1.0: {}
+  pi-effort@0.1.1: {}
 
-  pi-subagents@0.83.0:
+  pi-subagents@0.84.0:
     dependencies:
       '@js-temporal/polyfill': 0.5.1
       acorn: 8.18.0
@@ -2549,7 +2549,7 @@ snapshots:
       undici: 8.12.3
       yaml: 2.8.3
 
-  pi-web-access@0.45.0:
+  pi-web-access@0.46.0:
     dependencies:
       '@modelcontextprotocol/sdk': 1.32.1
       '@mozilla/readability': 0.6.0
@@ -2587,7 +2587,7 @@ snapshots:
       forwarded: 0.2.0
       ipaddr.js: 1.9.1
 
-  qs@6.16.1:
+  qs@6.17.1:
     dependencies:
       es-define-property: 1.0.1
       side-channel: 1.1.1
@@ -2669,7 +2669,7 @@ snapshots:
   send@1.2.1:
     dependencies:
       debug: 4.4.3
-      encodeurl: 2.0.0
+      encodeurl: 2.0.1
       escape-html: 1.0.3
       etag: 1.8.1
       fresh: 2.0.0
@@ -2684,7 +2684,7 @@ snapshots:
 
   serve-static@2.2.1:
     dependencies:
-      encodeurl: 2.0.0
+      encodeurl: 2.0.1
       escape-html: 1.0.3
       parseurl: 1.3.3
       send: 1.2.1
