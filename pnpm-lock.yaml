@@ -26,15 +26,15 @@ importers:
       '@plannotator/pi-extension':
         specifier: 0.28.40
         version: 0.28.40(@shikijs/themes@4.5.0)
-      billion-context-pi:
-        specifier: 0.1.83
-        version: 0.1.83
       pi-draft-history:
         specifier: 0.1.2
         version: 0.1.2
       pi-effort:
         specifier: 0.1.1
         version: 0.1.1
+      pi-fold:
+        specifier: 4.3.0
+        version: 4.3.0
       pi-subagents:
         specifier: 0.84.0
         version: 0.84.0
@@ -418,13 +418,6 @@ packages:
   available-typed-arrays@1.0.7:
     resolution: {integrity: sha512-wvUjBtSGN7+7SjNpq/9M2Tg350UZD3q62IFZLbRAR1bSMlCo1ZaeW+BJ+D090e4hIIZLBcTDWe4Mh4jvUDajzQ==}
     engines: {node: '>= 0.4'}
-
-  billion-context-pi@0.1.83:
-    resolution: {integrity: sha512-122CcPmZvC5Yqqbj75UMppOFlkdAN8kbzvJ4OugV6xBPW6wbiHbaZ9YDYWQwDy4hJ/Vc98eOREGkWLWKflbnZw==}
-    engines: {node: '>=20'}
-    peerDependencies:
-      '@earendil-works/pi-coding-agent': '*'
-      typebox: '*'
 
   body-parser@2.4.0:
     resolution: {integrity: sha512-Ifk1KcLrxaGt1occQagQNFNNOqRt1LFuehEnHHzB8Z6cRgIxRU1TBaiIsUiCdA+gy5PL7Y1IX31DNKkRmxtXjQ==}
@@ -1071,6 +1064,13 @@ packages:
     peerDependencies:
       '@earendil-works/pi-ai': '>=0.84.0 <1.0.0'
       '@earendil-works/pi-coding-agent': '>=0.84.0 <1.0.0'
+
+  pi-fold@4.3.0:
+    resolution: {integrity: sha512-ZNpyFriqiZeCglcMvsY7cBR5l/flMV+oWxRLQN/JP4TSPEvOAtI41B9jE7uhytmbvCffqA5pGQdfqL5FXITajw==}
+    engines: {node: '>=22'}
+    peerDependencies:
+      '@earendil-works/pi-coding-agent': '*'
+      '@earendil-works/pi-tui': '*'
 
   pi-subagents@0.84.0:
     resolution: {integrity: sha512-IagE1hcBxLi82jTxTmcy/pIWckBuqhMH1GfAOe6/aIMVfnopMybCbcTMUS5K0CNy4tqSwHGleaXabaDmJS1QOg==}
@@ -1752,8 +1752,6 @@ snapshots:
   available-typed-arrays@1.0.7:
     dependencies:
       possible-typed-array-names: 1.1.0
-
-  billion-context-pi@0.1.83: {}
 
   body-parser@2.4.0:
     dependencies:
@@ -2540,6 +2538,8 @@ snapshots:
   pi-draft-history@0.1.2: {}
 
   pi-effort@0.1.1: {}
+
+  pi-fold@4.3.0: {}
 
   pi-subagents@0.84.0:
     dependencies:

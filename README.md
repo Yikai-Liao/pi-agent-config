@@ -26,7 +26,7 @@ after `pnpm install --frozen-lockfile`.
 - `skills/`
 - Pi package metadata
 - npm dependencies for these Pi packages:
-  - `billion-context-pi`
+  - `pi-fold`
   - `pi-web-access`
   - `@juicesharp/rpiv-ask-user-question`
   - `@plannotator/pi-extension`
@@ -47,4 +47,5 @@ provides the `0.24.0` tarball, while the mirror returned
 - `~/.pi/agent/auth.json`
 - `~/.pi/agent/trust.json`
 - `~/.pi/agent/settings.json`
+- `~/.config/pi-fold/settings.json`
 - sessions, package caches, runtime model state
