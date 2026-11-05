@@ -54,6 +54,7 @@ for line in result.stdout.splitlines():
 if len(responses) != 1 or not responses[0].get("success"):
     sys.exit(f"Pi RPC command discovery failed: {responses}; stderr: {result.stderr}")
 commands = {item["name"] for item in responses[0]["data"]["commands"]}
-if "subagents" not in commands:
-    sys.exit("pi-subagents did not register /subagents")
-print("Pi resource paths and /subagents registration verified")
+for name in ("subagents", "pi-canon", "canon-settings"):
+    if name not in commands:
+        sys.exit(f"Pi package did not register /{name}")
+print("Pi resource paths and /subagents, /pi-canon, /canon-settings registration verified")

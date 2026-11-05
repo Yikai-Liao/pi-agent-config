@@ -17,7 +17,8 @@ extension loader and explicitly allows required dependency build scripts.
 The `Pi package CI / verify` job runs on pull requests and pushes to `main`.
 It installs the lockfile, checks every declared extension and skill path, then
 starts Pi with this package in an isolated agent directory to verify that
-`/subagents` registers. Dependabot auto-merge runs only after this job passes.
+`/subagents`, `/pi-canon`, and `/canon-settings` register.
+Dependabot auto-merge runs only after this job passes.
 Run the same smoke check locally with `python3 scripts/check-pi-package.py`
 after `pnpm install --frozen-lockfile`.
 
@@ -35,6 +36,7 @@ after `pnpm install --frozen-lockfile`.
   - `@narumitw/pi-goal`
   - `@narumitw/pi-usage`
   - `pi-subagents`
+  - `pi-canon`
   - `pi-draft-history`
 
 The local pnpm registry must be the public npm registry rather than the

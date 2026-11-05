@@ -26,6 +26,9 @@ importers:
       '@plannotator/pi-extension':
         specifier: 0.28.43
         version: 0.28.43(@shikijs/themes@4.5.0)
+      pi-canon:
+        specifier: 0.3.1
+        version: 0.3.1
       pi-draft-history:
         specifier: 0.1.2
         version: 0.1.2
@@ -1052,6 +1055,13 @@ packages:
 
   path-to-regexp@8.4.2:
     resolution: {integrity: sha512-qRcuIdP69NPm4qbACK+aDogI5CBDMi1jKe0ry5rSQJz8JVLsC7jV8XpiJjGRLLol3N+R5ihGYcrPLTno6pAdBA==}
+
+  pi-canon@0.3.1:
+    resolution: {integrity: sha512-AFihQALIzxtlncj32HBF4CWD0nPtMJOSLi958g5oF0ZQbSjynWUuY7Dba8q67pMMa7jmR5TfpzVx+ctBxABtWA==}
+    engines: {node: '>=22.18'}
+    peerDependencies:
+      '@earendil-works/pi-coding-agent': '>=0.83.0 <2'
+      '@earendil-works/pi-tui': '*'
 
   pi-draft-history@0.1.2:
     resolution: {integrity: sha512-JQim9ijOxbCYqIiCE+smSLg+4LVtxP4xtHtUnzhaQ9k+5gtD8gImkH0n1oXzgM0BBBecc8lWrk2rd8OKtMMMsw==}
@@ -2534,6 +2544,8 @@ snapshots:
   path-key@3.1.1: {}
 
   path-to-regexp@8.4.2: {}
+
+  pi-canon@0.3.1: {}
 
   pi-draft-history@0.1.2: {}
 
