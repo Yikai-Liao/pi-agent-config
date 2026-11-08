@@ -38,6 +38,7 @@ after `pnpm install --frozen-lockfile`.
   - `pi-subagents`
   - `pi-canon`
   - `pi-draft-history`
+  - `pi-dynamic-models`
 
 The local pnpm registry must be the public npm registry rather than the
 npmmirror mirror. This is important for `pi-zentui`: the public registry

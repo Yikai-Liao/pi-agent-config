@@ -32,6 +32,9 @@ importers:
       pi-draft-history:
         specifier: 0.1.2
         version: 0.1.2
+      pi-dynamic-models:
+        specifier: ^0.2.0
+        version: 0.2.0
       pi-effort:
         specifier: 0.1.1
         version: 0.1.1
@@ -1070,6 +1073,12 @@ packages:
     resolution: {integrity: sha512-JQim9ijOxbCYqIiCE+smSLg+4LVtxP4xtHtUnzhaQ9k+5gtD8gImkH0n1oXzgM0BBBecc8lWrk2rd8OKtMMMsw==}
     peerDependencies:
       '@earendil-works/pi-coding-agent': '>=0.84.1 <1.0.0'
+
+  pi-dynamic-models@0.2.0:
+    resolution: {integrity: sha512-QyF5YBZ+ywlSTth7777UO7wWZ0YXZjw8tILA5AUY90lgbBZRoh8MWC64JhYr1SgE4zQhyVPd7VY1w1lT2y2S4A==}
+    engines: {node: '>=22.19.0'}
+    peerDependencies:
+      '@earendil-works/pi-coding-agent': ^1.0.0
 
   pi-effort@0.1.1:
     resolution: {integrity: sha512-Ed24k2ANMjPqYFBV0jsK3uTXsagyabRCL9nuMcWWFaxgbUjP/ILjyRGFSzm4YmcqRBqrJLPCb2Q8aTk+jTO8Ww==}
@@ -2566,6 +2575,8 @@ snapshots:
   pi-canon@0.3.1: {}
 
   pi-draft-history@0.1.2: {}
+
+  pi-dynamic-models@0.2.0: {}
 
   pi-effort@0.1.1: {}
 
