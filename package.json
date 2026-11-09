@@ -9,17 +9,17 @@
   "dependencies": {
     "@ff-labs/pi-fff": "0.11.0",
     "@juicesharp/rpiv-ask-user-question": "2.15.0",
-    "@narumitw/pi-btw": "0.63.3",
-    "@narumitw/pi-goal": "0.54.14",
-    "@narumitw/pi-usage": "0.69.1",
-    "@plannotator/pi-extension": "0.28.48",
+    "@narumitw/pi-btw": "0.63.5",
+    "@narumitw/pi-goal": "0.54.17",
+    "@narumitw/pi-usage": "0.69.2",
+    "@plannotator/pi-extension": "0.28.51",
     "pi-canon": "0.3.1",
     "pi-draft-history": "0.1.2",
     "pi-dynamic-models": "^0.2.0",
     "pi-effort": "0.1.1",
     "pi-fold": "4.3.0",
-    "pi-subagents": "0.84.0",
-    "pi-web-access": "0.46.0",
+    "pi-subagents": "0.86.0",
+    "pi-web-access": "0.47.0",
     "pi-zentui": "0.34.0"
   },
   "bundledDependencies": [
