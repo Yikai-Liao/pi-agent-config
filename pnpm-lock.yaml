@@ -18,14 +18,14 @@ importers:
         specifier: 0.63.5
         version: 0.63.5
       '@narumitw/pi-goal':
-        specifier: 0.54.17
-        version: 0.54.17
+        specifier: 0.55.0
+        version: 0.55.0
       '@narumitw/pi-usage':
         specifier: 0.69.2
         version: 0.69.2
       '@plannotator/pi-extension':
-        specifier: 0.28.51
-        version: 0.28.51(@shikijs/themes@4.6.0)
+        specifier: 0.28.54
+        version: 0.28.54(@shikijs/themes@4.6.0)
       pi-canon:
         specifier: 0.3.1
         version: 0.3.1
@@ -173,8 +173,8 @@ packages:
       '@earendil-works/pi-coding-agent': '*'
       '@earendil-works/pi-tui': '*'
 
-  '@narumitw/pi-goal@0.54.17':
-    resolution: {integrity: sha512-OWZvXREsXjToPuBRSbGkr2YMUHc2TQPK+KxXMEgdA/M2XOnhbyJm1FIU/H78kdnRaaULe8xm6Di8A3SArx1+LA==}
+  '@narumitw/pi-goal@0.55.0':
+    resolution: {integrity: sha512-XNbiLmGQX1gx7evTh764Pdg+CB9YC4mQ0s5E9M0Ox+GcaUeZk8BWstJNMYIzL8/RgXAcYdei/vqu4frVOb/mWA==}
     peerDependencies:
       '@earendil-works/pi-ai': '*'
       '@earendil-works/pi-coding-agent': '*'
@@ -229,8 +229,8 @@ packages:
       shiki:
         optional: true
 
-  '@plannotator/pi-extension@0.28.51':
-    resolution: {integrity: sha512-3fjQcZT4sDzJU6BlRCJAhvtpNiXfzMqpIIPQDncuXTZqACAhvX6ReDfZFFoODRClh7zGIVmFC9It6lcNMGIhWQ==}
+  '@plannotator/pi-extension@0.28.54':
+    resolution: {integrity: sha512-tNDNZPantBib073y+bZFdsQj2rXvgxb5TcvWdogakY6qr2Nb0cR2XcHyfrguv1NBGlg4sMAM6xu9TzmGCjEgcQ==}
     peerDependencies:
       '@earendil-works/pi-coding-agent': '>=0.79.1'
 
@@ -1414,8 +1414,8 @@ packages:
   wrappy@1.0.2:
     resolution: {integrity: sha512-l4Sp/DRseor9wL6EvV2+TuQn63dMkPjZ/sp9XkghTEbV9KlPS1xUsZ3u7/IQO4wxtcFB4bgpQPRcR3QCvezPcQ==}
 
-  ws@8.22.1:
-    resolution: {integrity: sha512-oyL6OPYme/CmiFvNuGzeoxCJ4nOrZE2O1FwM9MWM1AsGri6nLXB2pg+lNA8aLeXMSav0J6eIVS1j6vUPzUtK9g==}
+  ws@8.22.2:
+    resolution: {integrity: sha512-/rEZ2ejown2N5gxVTHUu9bVVC7ttu0/Tgzf5hbTOixR3Fs7mbbXgn2DbdbcKgJOmpQMtrIUWivtYuVMnp/W/yA==}
     engines: {node: '>=10.0.0'}
     peerDependencies:
       bufferutil: ^4.0.1
@@ -1552,7 +1552,7 @@ snapshots:
     dependencies:
       '@narumitw/pi-tui-kit': 0.69.1
 
-  '@narumitw/pi-goal@0.54.17':
+  '@narumitw/pi-goal@0.55.0':
     dependencies:
       '@narumitw/pi-tui-kit': 0.69.1
 
@@ -1586,7 +1586,7 @@ snapshots:
       '@shikijs/themes': 4.6.0
       shiki: 4.6.0
 
-  '@plannotator/pi-extension@0.28.51(@shikijs/themes@4.6.0)':
+  '@plannotator/pi-extension@0.28.54(@shikijs/themes@4.6.0)':
     dependencies:
       '@joplin/turndown-plugin-gfm': 1.0.68
       '@pierre/diffs': 1.5.2(@shikijs/themes@4.6.0)
@@ -1611,7 +1611,7 @@ snapshots:
       '@xterm/xterm': 6.1.0-beta.216
       lucide-react: 0.577.0
       node-pty: 1.1.0
-      ws: 8.22.1
+      ws: 8.22.2
     transitivePeerDependencies:
       - bufferutil
       - utf-8-validate
@@ -2980,7 +2980,7 @@ snapshots:
 
   wrappy@1.0.2: {}
 
-  ws@8.22.1: {}
+  ws@8.22.2: {}
 
   yaml@2.8.3: {}
 
