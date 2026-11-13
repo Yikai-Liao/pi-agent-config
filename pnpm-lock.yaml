@@ -15,8 +15,8 @@ importers:
         specifier: 2.15.0
         version: 2.15.0
       '@narumitw/pi-btw':
-        specifier: 0.63.5
-        version: 0.63.5
+        specifier: 0.63.6
+        version: 0.63.6
       '@narumitw/pi-goal':
         specifier: 0.55.0
         version: 0.55.0
@@ -24,8 +24,8 @@ importers:
         specifier: 0.69.2
         version: 0.69.2
       '@plannotator/pi-extension':
-        specifier: 0.28.57
-        version: 0.28.57(@shikijs/themes@4.6.0)
+        specifier: 0.28.60
+        version: 0.28.60(@shikijs/themes@4.6.0)
       pi-canon:
         specifier: 0.3.1
         version: 0.3.1
@@ -42,8 +42,8 @@ importers:
         specifier: 4.3.0
         version: 4.3.0
       pi-subagents:
-        specifier: 0.87.0
-        version: 0.87.0
+        specifier: 0.88.0
+        version: 0.88.0
       pi-web-access:
         specifier: 0.47.0
         version: 0.47.0
@@ -166,8 +166,8 @@ packages:
     resolution: {integrity: sha512-juG5VWh4qAivzTAeMzvY9xs9HY5rAcr2E4I7tiSSCokRFi7XIZCAu92ZkSTsIj1OPceCifL3cpfteP3pDT9/QQ==}
     engines: {node: '>=14.0.0'}
 
-  '@narumitw/pi-btw@0.63.5':
-    resolution: {integrity: sha512-sH2q5rmUHJ6rF9N8VlsuMq/kDI8GJqR31huvgxojnl0/OR4wwR3PBKFIQrRYX/kxeR06JS8l8wcaX1EYbxS6qw==}
+  '@narumitw/pi-btw@0.63.6':
+    resolution: {integrity: sha512-Fl3VTiZ+6EqdrBsllcb5OUZHbrdN5c1KvN5QMScI7XMgHKgqQ2t3QMSAjtxSuXSSbE5WqajtatPFSGyfHhcjgQ==}
     peerDependencies:
       '@earendil-works/pi-ai': '*'
       '@earendil-works/pi-coding-agent': '*'
@@ -229,8 +229,8 @@ packages:
       shiki:
         optional: true
 
-  '@plannotator/pi-extension@0.28.57':
-    resolution: {integrity: sha512-H2ZYVAC5XYhNomzbwXOuFBGNgZ0TGo/XmvNWOiamqD7+7fZQvfdn13zdIIse6UGA3JqqrAzpSBSZhM7LPDbKog==}
+  '@plannotator/pi-extension@0.28.60':
+    resolution: {integrity: sha512-LbTS7YzHYCqs855bCpAg/AG2q21Y4j9Lv0m8VL9QZJR7z59osvENBH2zHfjRPOfaI8gC4nHr98hWqKzjnw/gow==}
     peerDependencies:
       '@earendil-works/pi-coding-agent': '>=0.79.1'
 
@@ -1089,8 +1089,8 @@ packages:
       '@earendil-works/pi-coding-agent': '*'
       '@earendil-works/pi-tui': '*'
 
-  pi-subagents@0.87.0:
-    resolution: {integrity: sha512-+XjSB0xEUqrvodRh3bSQGj5/DqCfI/bLlYb0PYfBPFR757S/oOGTWA6uAAOsg3SqAu2ZYyH04Up2Zbi6q4OPMA==}
+  pi-subagents@0.88.0:
+    resolution: {integrity: sha512-Hc7GT36HTU1IsT/MPQbxnqmA90G1tfWJMFrxZ6ISURadGaIx7uad/qzkwL4epgBYRUMB7KOB9r+8k8YhXKP1lw==}
     hasBin: true
     peerDependencies:
       '@earendil-works/pi-agent-core': '*'
@@ -1344,10 +1344,6 @@ packages:
     resolution: {integrity: sha512-nWJ91DjeOkej/TA8pXQ3myruKpKEYgqvpw9lz4OPHj/NWFNluYrjbz9j01CJ8yKQd2g4jFoOkINCTW2I5LEEyw==}
     engines: {node: '>= 0.4'}
 
-  undici@8.12.3:
-    resolution: {integrity: sha512-+fdndUTwBP86cVjihTp21hZHo7d6oj1c/47XPA3lL8mM0XHs+C4EkcjmgRsFnFk2f/UONGDy9ItBItmXsLOQHw==}
-    engines: {node: '>=22.19.0'}
-
   undici@8.12.4:
     resolution: {integrity: sha512-8Mx+uNKKER2bA4AdtedkqRbwUCIJFr2nJckXRe5yrDqzePqwLP7VNcctN8/XdmDSbF7mS+jJKIszlL+vbam1VA==}
     engines: {node: '>=22.19.0'}
@@ -1548,7 +1544,7 @@ snapshots:
 
   '@mozilla/readability@0.6.0': {}
 
-  '@narumitw/pi-btw@0.63.5':
+  '@narumitw/pi-btw@0.63.6':
     dependencies:
       '@narumitw/pi-tui-kit': 0.69.1
 
@@ -1586,7 +1582,7 @@ snapshots:
       '@shikijs/themes': 4.6.0
       shiki: 4.6.0
 
-  '@plannotator/pi-extension@0.28.57(@shikijs/themes@4.6.0)':
+  '@plannotator/pi-extension@0.28.60(@shikijs/themes@4.6.0)':
     dependencies:
       '@joplin/turndown-plugin-gfm': 1.0.68
       '@pierre/diffs': 1.5.2(@shikijs/themes@4.6.0)
@@ -2575,12 +2571,12 @@ snapshots:
 
   pi-fold@4.3.0: {}
 
-  pi-subagents@0.87.0:
+  pi-subagents@0.88.0:
     dependencies:
       '@js-temporal/polyfill': 0.5.1
       acorn: 8.18.0
       jiti: 2.7.0
-      undici: 8.12.3
+      undici: 8.12.4
       yaml: 2.8.3
 
   pi-web-access@0.47.0:
@@ -2889,8 +2885,6 @@ snapshots:
       has-bigints: 1.1.0
       has-symbols: 1.1.0
       which-boxed-primitive: 1.1.1
-
-  undici@8.12.3: {}
 
   undici@8.12.4: {}
 
