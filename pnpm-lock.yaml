@@ -39,8 +39,8 @@ importers:
         specifier: 0.1.1
         version: 0.1.1
       pi-fold:
-        specifier: 4.3.0
-        version: 4.3.0
+        specifier: 4.3.1
+        version: 4.3.1
       pi-subagents:
         specifier: 0.88.1
         version: 0.88.1
@@ -1081,8 +1081,8 @@ packages:
       '@earendil-works/pi-ai': '>=0.84.0 <1.0.0'
       '@earendil-works/pi-coding-agent': '>=0.84.0 <1.0.0'
 
-  pi-fold@4.3.0:
-    resolution: {integrity: sha512-ZNpyFriqiZeCglcMvsY7cBR5l/flMV+oWxRLQN/JP4TSPEvOAtI41B9jE7uhytmbvCffqA5pGQdfqL5FXITajw==}
+  pi-fold@4.3.1:
+    resolution: {integrity: sha512-pv7cVf2b731NcnaK5v2JAsH4FOdzvHab8MWWxnSrtapVeTFX1DOJiSAOdiOWWhhuMbIH3YG3CuTh0t7y/x36+w==}
     engines: {node: '>=22'}
     peerDependencies:
       '@earendil-works/pi-coding-agent': '*'
@@ -2565,7 +2565,7 @@ snapshots:
 
   pi-effort@0.1.1: {}
 
-  pi-fold@4.3.0: {}
+  pi-fold@4.3.1: {}
 
   pi-subagents@0.88.1:
     dependencies:
