@@ -24,8 +24,8 @@ importers:
         specifier: 0.69.3
         version: 0.69.3
       '@plannotator/pi-extension':
-        specifier: 0.28.65
-        version: 0.28.65(@shikijs/themes@4.6.0)
+        specifier: 0.28.66
+        version: 0.28.66(@shikijs/themes@4.6.0)
       pi-canon:
         specifier: 0.3.1
         version: 0.3.1
@@ -232,8 +232,8 @@ packages:
       shiki:
         optional: true
 
-  '@plannotator/pi-extension@0.28.65':
-    resolution: {integrity: sha512-dQxtiGkQlmleAMC7P2B3FxcmyeYscupSyBprWSXB9v0qSaNzcWxm62nWL9njx8JyNBLbZD2scE0dEABUb+eOfQ==}
+  '@plannotator/pi-extension@0.28.66':
+    resolution: {integrity: sha512-lnRof+bwQE2HvV916eDKsno/I6YSFujDl7al8co9ks52nLCPP1cCuh7WKrJwagStyWbxRAA3pWuNbRmeNxYnig==}
     peerDependencies:
       '@earendil-works/pi-coding-agent': '>=0.79.1'
 
@@ -1583,7 +1583,7 @@ snapshots:
       '@shikijs/themes': 4.6.0
       shiki: 4.6.0
 
-  '@plannotator/pi-extension@0.28.65(@shikijs/themes@4.6.0)':
+  '@plannotator/pi-extension@0.28.66(@shikijs/themes@4.6.0)':
     dependencies:
       '@joplin/turndown-plugin-gfm': 1.0.71
       '@pierre/diffs': 1.6.4(@shikijs/themes@4.6.0)
