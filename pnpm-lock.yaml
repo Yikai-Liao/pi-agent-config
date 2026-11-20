@@ -24,8 +24,8 @@ importers:
         specifier: 0.69.3
         version: 0.69.3
       '@plannotator/pi-extension':
-        specifier: 0.28.66
-        version: 0.28.66(@shikijs/themes@4.6.0)
+        specifier: 0.28.67
+        version: 0.28.67(@shikijs/themes@4.6.0)
       pi-canon:
         specifier: 0.3.1
         version: 0.3.1
@@ -42,8 +42,8 @@ importers:
         specifier: 4.3.1
         version: 4.3.1
       pi-subagents:
-        specifier: 0.88.1
-        version: 0.88.1
+        specifier: 0.89.0
+        version: 0.89.0
       pi-web-access:
         specifier: 0.48.0
         version: 0.48.0
@@ -232,8 +232,8 @@ packages:
       shiki:
         optional: true
 
-  '@plannotator/pi-extension@0.28.66':
-    resolution: {integrity: sha512-lnRof+bwQE2HvV916eDKsno/I6YSFujDl7al8co9ks52nLCPP1cCuh7WKrJwagStyWbxRAA3pWuNbRmeNxYnig==}
+  '@plannotator/pi-extension@0.28.67':
+    resolution: {integrity: sha512-Jc/iB9ONntaGF3SJeTd9oFlhhHXIQ+Aha5R69JgRWjp+sfgCyvvNr2ZTIlT+yGINPBtCjWnAgY3lR2PP3izoJA==}
     peerDependencies:
       '@earendil-works/pi-coding-agent': '>=0.79.1'
 
@@ -1088,8 +1088,8 @@ packages:
       '@earendil-works/pi-coding-agent': '*'
       '@earendil-works/pi-tui': '*'
 
-  pi-subagents@0.88.1:
-    resolution: {integrity: sha512-Yrt0kBT+ChgnmcVzBu2004lwuwmRTHdr1jGUdLd9X7+TAdpLaCILCRFHQhnM9u4fnyOPDLE8wASnedp0nuXc9g==}
+  pi-subagents@0.89.0:
+    resolution: {integrity: sha512-rYlYB993NuNpHru4ePvraR9dizlRSh6lhS895Amx8TSYaCnuBZgakxG+KpPhNwzEROHC4SnhtZuR4oNMEo1dtA==}
     hasBin: true
     peerDependencies:
       '@earendil-works/pi-agent-core': '*'
@@ -1583,7 +1583,7 @@ snapshots:
       '@shikijs/themes': 4.6.0
       shiki: 4.6.0
 
-  '@plannotator/pi-extension@0.28.66(@shikijs/themes@4.6.0)':
+  '@plannotator/pi-extension@0.28.67(@shikijs/themes@4.6.0)':
     dependencies:
       '@joplin/turndown-plugin-gfm': 1.0.71
       '@pierre/diffs': 1.6.4(@shikijs/themes@4.6.0)
@@ -2567,7 +2567,7 @@ snapshots:
 
   pi-fold@4.3.1: {}
 
-  pi-subagents@0.88.1:
+  pi-subagents@0.89.0:
     dependencies:
       '@js-temporal/polyfill': 0.5.1
       acorn: 8.18.0
