@@ -42,8 +42,8 @@ importers:
         specifier: 4.3.1
         version: 4.3.1
       pi-subagents:
-        specifier: 0.89.1
-        version: 0.89.1
+        specifier: 0.89.2
+        version: 0.89.2
       pi-web-access:
         specifier: 0.48.0
         version: 0.48.0
@@ -1091,8 +1091,8 @@ packages:
       '@earendil-works/pi-coding-agent': '*'
       '@earendil-works/pi-tui': '*'
 
-  pi-subagents@0.89.1:
-    resolution: {integrity: sha512-DLJZpQmXyoMcyOc+etnls3dthorn79YLEAW6CmzVmHYyG3hzMU9TENUE6h8aIBHBITZPZjGDrfapksiHLSqMpA==}
+  pi-subagents@0.89.2:
+    resolution: {integrity: sha512-fYJv5l1mfvVh/BPhbla0//FtNxrSSw2V3mOwbC5BJPWEWd/xHMFT4KnsaKWe33PmxfwsNjRo5wYl7XcgknKL9w==}
     hasBin: true
     peerDependencies:
       '@earendil-works/pi-agent-core': '*'
@@ -2573,7 +2573,7 @@ snapshots:
 
   pi-fold@4.3.1: {}
 
-  pi-subagents@0.89.1:
+  pi-subagents@0.89.2:
     dependencies:
       '@js-temporal/polyfill': 0.5.1
       acorn: 8.18.0
