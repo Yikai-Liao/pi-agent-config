@@ -15,17 +15,17 @@ importers:
         specifier: 2.15.0
         version: 2.15.0
       '@narumitw/pi-btw':
-        specifier: 0.63.8
-        version: 0.63.8
+        specifier: 0.63.9
+        version: 0.63.9
       '@narumitw/pi-goal':
-        specifier: 0.55.3
-        version: 0.55.3
+        specifier: 0.55.4
+        version: 0.55.4
       '@narumitw/pi-usage':
-        specifier: 0.69.3
-        version: 0.69.3
+        specifier: 0.69.4
+        version: 0.69.4
       '@plannotator/pi-extension':
-        specifier: 0.29.1
-        version: 0.29.1(@shikijs/themes@4.6.0)
+        specifier: 0.29.2
+        version: 0.29.2(@shikijs/themes@4.6.0)
       pi-canon:
         specifier: 0.3.1
         version: 0.3.1
@@ -166,29 +166,29 @@ packages:
     resolution: {integrity: sha512-juG5VWh4qAivzTAeMzvY9xs9HY5rAcr2E4I7tiSSCokRFi7XIZCAu92ZkSTsIj1OPceCifL3cpfteP3pDT9/QQ==}
     engines: {node: '>=14.0.0'}
 
-  '@narumitw/pi-btw@0.63.8':
-    resolution: {integrity: sha512-dskbX1uMMY03ZF2v+EvkIc94L7PM+dfAEu8AL3771TXEa94SwsjPnjN7/DUDDHglmyWA7l/w/7UWh4EcPZYxlQ==}
+  '@narumitw/pi-btw@0.63.9':
+    resolution: {integrity: sha512-FeaoOOm07OQ+LCcIUNKuhsDirV/UirDbgobkdUcqF4To4WtGsSyACQVljGiGKCekM5d7GKkPNuu+mMK5Hb9zfQ==}
     peerDependencies:
       '@earendil-works/pi-ai': '*'
       '@earendil-works/pi-coding-agent': '*'
       '@earendil-works/pi-tui': '*'
 
-  '@narumitw/pi-goal@0.55.3':
-    resolution: {integrity: sha512-3J6Ka8CRo/SIq/VEeGfAtMRfHeW5PxcCWw1FBb0FY3UrvMyY6aPtswYYmGonQtm4wpBkkud02vWUd0pf+SOL8g==}
+  '@narumitw/pi-goal@0.55.4':
+    resolution: {integrity: sha512-ZbqCnD74LjbIoXDgwwPEc04v5tgeJ1YdlAED6jyDiXqroRdjBjoN3zhiduOranngDtIHnscoiL1D9OW/VEcvqg==}
     peerDependencies:
       '@earendil-works/pi-ai': '*'
       '@earendil-works/pi-coding-agent': '*'
       '@earendil-works/pi-tui': '*'
       typebox: '*'
 
-  '@narumitw/pi-tui-kit@0.70.0':
-    resolution: {integrity: sha512-57spb4lO7mxmz0tCzn0M+EoCqMYnZUKQ3hiw7Y19xAHq88+BVZO831sE1TuyZ8ALuFcPs4lwIV4YUphpf1Farw==}
+  '@narumitw/pi-tui-kit@0.71.0':
+    resolution: {integrity: sha512-v8m2U86GmfgXe5NgwJRI5PpNkY+fyFu6xjUGxO5bzw/9dcdbLh5LRxMX+RixCmMRCeydNnpDJVz9ChUaIcb1KQ==}
     peerDependencies:
       '@earendil-works/pi-coding-agent': '*'
       '@earendil-works/pi-tui': '*'
 
-  '@narumitw/pi-usage@0.69.3':
-    resolution: {integrity: sha512-SzoQII24eiS7GTmn4yXgCvuLMMRUI/DcHoQOHYvhOcDK/RvbO+w/Rqv/nqS88hlO05MYEDEtMZcD9uXVwdbvAQ==}
+  '@narumitw/pi-usage@0.69.4':
+    resolution: {integrity: sha512-kHSf1+CrvmlJMhRA7lF1j2ZzIo5ewFjdrNNDrSG+TAlO7b97b3gts2cUu7VCQe1XXGWywdnUz28/aivUEKoIJw==}
     peerDependencies:
       '@earendil-works/pi-ai': '*'
       '@earendil-works/pi-coding-agent': '*'
@@ -235,8 +235,8 @@ packages:
       shiki:
         optional: true
 
-  '@plannotator/pi-extension@0.29.1':
-    resolution: {integrity: sha512-IMJR+IOF0dvW76xzQRk9wjV+AlR9Y1czTwtD9+WWmbx+bmhQlNkdv0PuzPUJfT/iktYZUFaPRwTx2pdU5zKhuA==}
+  '@plannotator/pi-extension@0.29.2':
+    resolution: {integrity: sha512-0c4fqc7UzZBa9fBRMFi3qdvqwA1fLBw8bKS7bGsQ4PiKdmwvS8eKkOfVQPaI9XymelF6G2tATAeWL4NOSnNb2g==}
     peerDependencies:
       '@earendil-works/pi-coding-agent': '>=0.79.1'
 
@@ -1152,6 +1152,10 @@ packages:
       '@oh-my-pi/pi-tui':
         optional: true
 
+  picomatch@4.0.7:
+    resolution: {integrity: sha512-qcJu88Q2IWqJsDD529JKMdwGm/dvInW4HvQnRwiH9JtihJvzGOscDtHE3x1pBKeUOTysQ8kVmLnJ2kJu7yhcGA==}
+    engines: {node: '>=12'}
+
   pkce-challenge@5.0.1:
     resolution: {integrity: sha512-wQ0b/W4Fr01qtpHlqSqspcj3EhBvimsdh0KlHhH8HRZnMsEa0ea2fTULOXOS9ccQr3om+GcGRk4e+isrZWV8qQ==}
     engines: {node: '>=16.20.0'}
@@ -1546,23 +1550,23 @@ snapshots:
 
   '@mozilla/readability@0.6.0': {}
 
-  '@narumitw/pi-btw@0.63.8':
+  '@narumitw/pi-btw@0.63.9':
     dependencies:
-      '@narumitw/pi-tui-kit': 0.70.0
+      '@narumitw/pi-tui-kit': 0.71.0
 
-  '@narumitw/pi-goal@0.55.3':
+  '@narumitw/pi-goal@0.55.4':
     dependencies:
-      '@narumitw/pi-tui-kit': 0.70.0
+      '@narumitw/pi-tui-kit': 0.71.0
 
-  '@narumitw/pi-tui-kit@0.70.0':
+  '@narumitw/pi-tui-kit@0.71.0':
     dependencies:
       diff: 9.0.0
       grok-mermaid: 0.2.3
       highlight.js: 11.12.0
 
-  '@narumitw/pi-usage@0.69.3':
+  '@narumitw/pi-usage@0.69.4':
     dependencies:
-      '@narumitw/pi-tui-kit': 0.70.0
+      '@narumitw/pi-tui-kit': 0.71.0
 
   '@pierre/diffs@1.7.0-beta.3(@shikijs/themes@4.6.0)':
     dependencies:
@@ -1589,7 +1593,7 @@ snapshots:
       '@shikijs/themes': 4.6.0
       shiki: 4.6.0
 
-  '@plannotator/pi-extension@0.29.1(@shikijs/themes@4.6.0)':
+  '@plannotator/pi-extension@0.29.2(@shikijs/themes@4.6.0)':
     dependencies:
       '@joplin/turndown-plugin-gfm': 1.0.71
       '@pierre/diffs': 1.7.0-beta.3(@shikijs/themes@4.6.0)
@@ -1597,6 +1601,7 @@ snapshots:
       chokidar: 5.0.0
       diff: 8.0.4
       parse5: 7.3.0
+      picomatch: 4.0.7
       turndown: 7.2.5
     transitivePeerDependencies:
       - '@shikijs/themes'
@@ -2599,6 +2604,8 @@ snapshots:
       - supports-color
 
   pi-zentui@0.34.0: {}
+
+  picomatch@4.0.7: {}
 
   pkce-challenge@5.0.1: {}
 
