@@ -21,11 +21,11 @@ importers:
         specifier: 0.55.4
         version: 0.55.4
       '@narumitw/pi-usage':
-        specifier: 0.69.4
-        version: 0.69.4
+        specifier: 0.70.0
+        version: 0.70.0
       '@plannotator/pi-extension':
-        specifier: 0.29.2
-        version: 0.29.2(@shikijs/themes@4.6.0)
+        specifier: 0.29.3
+        version: 0.29.3(@shikijs/themes@4.6.0)
       pi-canon:
         specifier: 0.3.1
         version: 0.3.1
@@ -42,8 +42,8 @@ importers:
         specifier: 4.3.1
         version: 4.3.1
       pi-subagents:
-        specifier: 0.89.2
-        version: 0.89.2
+        specifier: 0.90.0
+        version: 0.90.0
       pi-web-access:
         specifier: 0.48.0
         version: 0.48.0
@@ -187,8 +187,8 @@ packages:
       '@earendil-works/pi-coding-agent': '*'
       '@earendil-works/pi-tui': '*'
 
-  '@narumitw/pi-usage@0.69.4':
-    resolution: {integrity: sha512-kHSf1+CrvmlJMhRA7lF1j2ZzIo5ewFjdrNNDrSG+TAlO7b97b3gts2cUu7VCQe1XXGWywdnUz28/aivUEKoIJw==}
+  '@narumitw/pi-usage@0.70.0':
+    resolution: {integrity: sha512-2eH2IXcfd+9NmvzmXNodIrG02iW7CjXALin3fIW5akIh//KfA2FRLA9//p1k0ZQlM6zz+klKzuWD8RiZZPCAYA==}
     peerDependencies:
       '@earendil-works/pi-ai': '*'
       '@earendil-works/pi-coding-agent': '*'
@@ -235,8 +235,8 @@ packages:
       shiki:
         optional: true
 
-  '@plannotator/pi-extension@0.29.2':
-    resolution: {integrity: sha512-0c4fqc7UzZBa9fBRMFi3qdvqwA1fLBw8bKS7bGsQ4PiKdmwvS8eKkOfVQPaI9XymelF6G2tATAeWL4NOSnNb2g==}
+  '@plannotator/pi-extension@0.29.3':
+    resolution: {integrity: sha512-hiZXsILPHqNNUXqBkeNLX7iH7khrtD2mmgXj+dfZhcqNrAlJcnhdgpk3aZ9VYkqw45nEbfqBF23dwmQ8I/VFVQ==}
     peerDependencies:
       '@earendil-works/pi-coding-agent': '>=0.79.1'
 
@@ -1091,8 +1091,8 @@ packages:
       '@earendil-works/pi-coding-agent': '*'
       '@earendil-works/pi-tui': '*'
 
-  pi-subagents@0.89.2:
-    resolution: {integrity: sha512-fYJv5l1mfvVh/BPhbla0//FtNxrSSw2V3mOwbC5BJPWEWd/xHMFT4KnsaKWe33PmxfwsNjRo5wYl7XcgknKL9w==}
+  pi-subagents@0.90.0:
+    resolution: {integrity: sha512-C8fc4uXluFCiE9GhTlepSeYPOCZ44v4DfUMa8KTy7DS/6YKGay+ap96d7BzenlkUlM17dnlLUtbB5DlDJOMJ5Q==}
     hasBin: true
     peerDependencies:
       '@earendil-works/pi-agent-core': '*'
@@ -1564,7 +1564,7 @@ snapshots:
       grok-mermaid: 0.2.3
       highlight.js: 11.12.0
 
-  '@narumitw/pi-usage@0.69.4':
+  '@narumitw/pi-usage@0.70.0':
     dependencies:
       '@narumitw/pi-tui-kit': 0.71.0
 
@@ -1593,7 +1593,7 @@ snapshots:
       '@shikijs/themes': 4.6.0
       shiki: 4.6.0
 
-  '@plannotator/pi-extension@0.29.2(@shikijs/themes@4.6.0)':
+  '@plannotator/pi-extension@0.29.3(@shikijs/themes@4.6.0)':
     dependencies:
       '@joplin/turndown-plugin-gfm': 1.0.71
       '@pierre/diffs': 1.7.0-beta.3(@shikijs/themes@4.6.0)
@@ -2578,7 +2578,7 @@ snapshots:
 
   pi-fold@4.3.1: {}
 
-  pi-subagents@0.89.2:
+  pi-subagents@0.90.0:
     dependencies:
       '@js-temporal/polyfill': 0.5.1
       acorn: 8.18.0
